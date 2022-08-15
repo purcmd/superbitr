@@ -26,7 +26,7 @@
       "Query History": ["Sorgu geçmişi"],
       "Upload a CSV": ["CSV yükleme"],
       "Upload Excel": ["Excel Yükleme"],
-      "Action Log": ["Açıklama Logu"],
+      "Action Log": ["Olay Günlüğü"],
       "Dashboard Emails": ["Pano e-postaları"],
       "Chart Email Schedules": ["Grafik E-Posta Takvimi"],
       "Alerts": ["Uyarılar"],
@@ -40,7 +40,7 @@
       "Issue 1001 - The database is under an unusual load.": ["1001 Hatası- Veri Tabanı Aşırı Yük Altında"],
       "Issue 1002 - The database returned an unexpected error.": ["1002 Hatası- Veritabanı Beklenmedik Hata Döndürdü"],
       "Issue 1003 - There is a syntax error in the SQL query. Perhaps there was a misspelling or a typo.": [
-        "1003 Hatası- SQL sorgusunda bir sözdizimi hatası vardır. Belki bir yazım hatası veya yazım hatası olmuş olabilir. "
+        "1003 Hatası- SQL sorgusunda bir sözdizimi hatası vardır. Belki bir yazım hatası olmuş olabilir. "
       ],
       "Issue 1004 - The column was deleted or renamed in the database.": ["1004 Hatası- Sütun Database'den Silindi Veya Adı Değiştirildi."],
       "Issue 1005 - The table was deleted or renamed in the database.": ["1005 Hatası- Tablo Database'den Silindi Veya Adı Değiştirildi."],
