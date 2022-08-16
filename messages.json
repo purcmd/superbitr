@@ -59,80 +59,80 @@
       "CVAS (create view as select) can only be run with a query with a single SELECT statement. Please make sure your query has only a SELECT statement. Then, try running your query again.": [
         "SGO (Seçerek Görünüm Oluştur) yalnızca tek bir SELECT ifadesi içeren bir sorgu ile çalıştırılabilir. Lütfen sorgunuzun yalnızca bir SELECT ifadesi olduğundan emin olun. Ardından, sorgunuzu yeniden çalıştırmayı deneyin."
       ],
-      "Viz is missing a datasource": [""],
+      "Viz is missing a datasource": ["Görselde bir veri kaynağı eksik"],
       "Applied rolling window did not return any data. Please make sure the source query satisfies the minimum periods defined in the rolling window.": [
-        ""
+        "Dönen pencere herhangi bir veri döndürmedi. Lütfen kaynak sorgunun dönen pencerede tanımlanan minimum süreleri karşıladığından emin olun."
       ],
-      "From date cannot be larger than to date": [""],
-      "Cached value not found": [""],
-      "Columns missing in datasource: %(invalid_columns)s": [""],
-      "Table View": [""],
+      "From date cannot be larger than to date": ["Başlangıç tarihi, tarihten büyük olamaz."],
+      "Cached value not found": ["Önbelleğe alınmış değer bulunamadı."],
+      "Columns missing in datasource: %(invalid_columns)s": ["Veri kaynağında eksik sütunlar: %(invalid_columns)s"],
+      "Table View": ["Tablo görünümü"],
       "You cannot use [Columns] in combination with [Group By]/[Metrics]/[Percentage Metrics]. Please choose one or the other.": [
-        ""
+        "[Sütunlar]ı [Gruplama ölçütü]/[Ölçü birimleri]/[Yüzde metrikleri] ile birlikte kullanamazsınız. Lütfen birini veya diğerini seçin."
       ],
-      "Pick a granularity in the Time section or uncheck 'Include Time'": [""],
-      "Time Table View": [""],
-      "Pick at least one metric": [""],
-      "When using 'Group By' you are limited to use a single metric": [""],
-      "Pivot Table": [""],
-      "Please choose at least one 'Group by' field ": [""],
-      "Please choose at least one metric": [""],
-      "Group By' and 'Columns' can't overlap": [""],
+      "Pick a granularity in the Time section or uncheck 'Include Time'": ["Zaman bölümünde bir ayrıntı düzeyi seçin veya 'Zamanı Dahil Et' seçeneğinin işaretini kaldırın"],
+      "Time Table View": ["Zaman tablosu görünümü"],
+      "Pick at least one metric": ["En az bir ölçü birimi seçin"],
+      "When using 'Group By' you are limited to use a single metric": ["'Gruplama Ölçütü' kullanırken tek bir ölçü birimi kullanmakla sınırlandırılırsınız"],
+      "Pivot Table": ["Pivot tablosu"],
+      "Please choose at least one 'Group by' field ": ["Lütfen en az bir 'Gruplama ölçütü' alanı seçin"],
+      "Please choose at least one metric": ["Lütfen en az bir ölçü birimi seçin"],
+      "Group By' and 'Columns' can't overlap": ["'Gruplama Ölçütü' ve 'Sütunlar' çakışamaz"],
       "Treemap": [""],
-      "Calendar Heatmap": [""],
-      "Bubble Chart": [""],
-      "Please use 3 different metric labels": [""],
-      "Pick a metric for x, y and size": [""],
-      "Bullet Chart": [""],
-      "Pick a metric to display": [""],
-      "Big Number with Trendline": [""],
-      "Pick a metric!": [""],
-      "Big Number": [""],
-      "Time Series - Line Chart": [""],
-      "Pick a time granularity for your time series": [""],
+      "Calendar Heatmap": ["Zamansal sıcaklık haritası"],
+      "Bubble Chart": ["Kabarcık grafiği"],
+      "Please use 3 different metric labels": ["Lütfen 3 farklı ölçü birimi etiketi kullanın"],
+      "Pick a metric for x, y and size": ["x,y ve boyut için bir ölçü birimi seçin"],
+      "Bullet Chart": ["Madde işareti grafiği"],
+      "Pick a metric to display": ["Görüntülenecek bir ölçü birimi seçin"],
+      "Big Number with Trendline": ["Trendline ile büyük sayı"],
+      "Pick a metric!": ["Bir ölçü birimi seçin"],
+      "Big Number": ["Büyük sayı"],
+      "Time Series - Line Chart": ["Zaman Serileri- Çizgi Grafiği"],
+      "Pick a time granularity for your time series": ["Zaman seriniz için bir zaman ayrıntı düzeyi seçin"],
       "An enclosed time range (both start and end) must be specified when using a Time Comparison.": [
-        ""
+        "Zaman karşılaştırması kullanılırken kapalı bir zaman aralığı (hem başlangıç hem bitiş) belirtilmelidir"
       ],
-      "Time Series - Multiple Line Charts": [""],
-      "Time Series - Dual Axis Line Chart": [""],
-      "Pick a metric for left axis!": [""],
-      "Pick a metric for right axis!": [""],
-      "Please choose different metrics on left and right axis": [""],
-      "Time Series - Bar Chart": [""],
-      "Time Series - Period Pivot": [""],
-      "Time Series - Percent Change": [""],
-      "Time Series - Stacked": [""],
+      "Time Series - Multiple Line Charts": ["Zaman Serileri - Çoklu Çizgi Grafikleri"],
+      "Time Series - Dual Axis Line Chart": ["Zaman Serileri - Çift Eksen Çizgi Grafiği"],
+      "Pick a metric for left axis!": ["Sol eksen için bir ölçü birimi seçin!"],
+      "Pick a metric for right axis!": ["Sağ eksen için bir ölçü birimi seçin!"],
+      "Please choose different metrics on left and right axis": ["Lütfen sol ve sağ eksende farklı ölçü birimleri seçin"],
+      "Time Series - Bar Chart": ["Zaman Serileri - Çubuk Grafik"],
+      "Time Series - Period Pivot": ["Zaman Serileri - Dönem Özeti"],
+      "Time Series - Percent Change": ["Zaman Serileri - Yüzde Değişimi"],
+      "Time Series - Stacked": ["Zaman Serileri - Yığılmış"],
       "Histogram": [""],
-      "Must have at least one numeric column specified": [""],
-      "Distribution - Bar Chart": [""],
-      "Can't have overlap between Series and Breakdowns": [""],
-      "Pick at least one field for [Series]": [""],
+      "Must have at least one numeric column specified": ["En az bir sayısal sütun belirtilmiş olmalıdır"],
+      "Distribution - Bar Chart": ["Dağıtım - Çubuk Grafik"],
+      "Can't have overlap between Series and Breakdowns": ["Seriler ve Kırılımlar arasında çakışma olamaz"],
+      "Pick at least one field for [Series]": ["[Seri] için en az bir alan seçin"],
       "Sunburst": [""],
       "Sankey": [""],
-      "Pick exactly 2 columns as [Source / Target]": [""],
+      "Pick exactly 2 columns as [Source / Target]": ["[Kaynak/Hedef] olarak 2 sütun seçin"],
       "There's a loop in your Sankey, please provide a tree. Here's a faulty link: {}": [
-        ""
+        "Sankey'inizde bir döngü var, lütfen bir ağaç sağlayın. İşte hatalı bir bağlantı: {}"
       ],
-      "Directed Force Layout": [""],
-      "Pick exactly 2 columns to 'Group By'": [""],
-      "Country Map": [""],
-      "World Map": [""],
-      "Filters": [""],
-      "Invalid filter configuration, please select a column": [""],
-      "Parallel Coordinates": [""],
-      "Heatmap": [""],
-      "Horizon Charts": [""],
+      "Directed Force Layout": ["Yönlendirilmiş Kuvvet Düzeni"],
+      "Pick exactly 2 columns to 'Group By'": ["Gruplandırmak için 2 Sütun Seçin"],
+      "Country Map": ["Ülke Haritası"],
+      "World Map": ["Dünya Haritası"],
+      "Filters": ["Filtreler"],
+      "Invalid filter configuration, please select a column": ["Geçersiz Filtre Yapılandırması, Lütfen Bir Sütun Seçin"],
+      "Parallel Coordinates": ["Paralel Koordinatlar"],
+      "Heatmap": ["Sıcaklık Haritası"],
+      "Horizon Charts": ["Ufuk Çizgileri"],
       "Mapbox": [""],
-      "[Longitude] and [Latitude] must be set": [""],
-      "Must have a [Group By] column to have 'count' as the [Label]": [""],
-      "Choice of [Label] must be present in [Group By]": [""],
-      "Choice of [Point Radius] must be present in [Group By]": [""],
-      "[Longitude] and [Latitude] columns must be present in [Group By]": [""],
+      "[Longitude] and [Latitude] must be set": ["[Enlem] ve [Boylam] Girilmelidir"],
+      "Must have a [Group By] column to have 'count' as the [Label]": ["'count' ile [Label] Etiketlenebilmesi İçin [Group By] Gruplama Ölçütü Sütunu Olmalıdır "],
+      "Choice of [Label] must be present in [Group By]": ["[Label] Etiket Seçimi [Group By] Gruplama Ölçütünün İçinde Bulunmalıdır"],
+      "Choice of [Point Radius] must be present in [Group By]": ["[Group By] Gruplama Ölçütünde [Point Radius] Nokta Yarıçapı Seçimi Mevcut Olmalıdır "],
+      "[Longitude] and [Latitude] columns must be present in [Group By]": ["[Enlem] ve [Boylam] Sütunları [Group By] Gruplandırma Ölçütünde Bulunmalıdır"],
       "Deck.gl - Multiple Layers": [""],
-      "Bad spatial key": [""],
-      "Invalid spatial point encountered: %s": [""],
+      "Bad spatial key": ["Kötü Uzamsal Anahtar"],
+      "Invalid spatial point encountered: %s": ["Geçersiz Uzamsal Noktayla Karşılaşıldı %s "],
       "Encountered invalid NULL spatial entry,                                        please consider filtering those out": [
-        ""
+        "Geçersiz Boş Girişle Karşılaşıldı, Lütfen Bunları Filtreleyiniz "
       ],
       "Deck.gl - Scatter plot": [""],
       "Deck.gl - Screen Grid": [""],
@@ -142,28 +142,28 @@
       "Deck.gl - 3D HEX": [""],
       "Deck.gl - GeoJSON": [""],
       "Deck.gl - Arc": [""],
-      "Event flow": [""],
-      "Time Series - Paired t-test": [""],
-      "Time Series - Nightingale Rose Chart": [""],
-      "Partition Diagram": [""],
+      "Event flow": ["Olay Akışı"],
+      "Time Series - Paired t-test": ["Zaman Serileri - Eşleştirilmiş t-testi"],
+      "Time Series - Nightingale Rose Chart": ["Zaman Serileri - Nightingale Rose Tablosu "],
+      "Partition Diagram": ["Bölme Şeması"],
       "Choose either fields to [Group By] and [Metrics] and/or [Percentage Metrics], or [Columns], not both": [
-        ""
+        "[Group By] Gruplama Ölçütü ve [Metrics] Ölçütü ve/veya [Percentage Metrics] Yüzde Ölçütleri veya [Columns] Sütunlar Alanından Birini Seçin, İkisini Birden Seçmeyiniz "
       ],
-      "Box Plot": [""],
-      "Distribution - NVD3 - Pie Chart": [""],
+      "Box Plot": ["Box Plot"],
+      "Distribution - NVD3 - Pie Chart": ["Dağılım - NVD3 Pasta Grafiği"],
       "iFrame": [""],
       "Deleted %(num)d annotation layer": [
-        "",
-        "Deleted %(num)d annotation layers"
+        "Açıklama Katmanının %(num)d Silindi",
+        "Deleted %(num)d annotation layers" 
       ],
-      "All Text": [""],
+      "All Text": ["Metinin Tümü"],
       "Deleted %(num)d annotation": ["", "Deleted %(num)d annotations"],
-      "End date must be after start date": [""],
-      "Short description must be unique for this layer": [""],
-      "Annotations could not be deleted.": [""],
-      "Annotation not found.": [""],
-      "Annotation parameters are invalid.": [""],
-      "Annotation could not be created.": [""],
+      "End date must be after start date": ["Bitiş Tarihi, Başlangıç Tarihinden Sonra Olmalıdır"],
+      "Short description must be unique for this layer": ["Kısa Açıklama Bu Katman İçin Benzersiz Olmalıdır"],
+      "Annotations could not be deleted.": ["Ek Açıklama Silinemez"],
+      "Annotation not found.": ["Ek Açıklama Bulunamadı"],
+      "Annotation parameters are invalid.": ["Ek Açıklama Parametreleri Geçersiz"],
+      "Annotation could not be created.": ["Ek Açıklama Oluşturulamadı"],
       "Annotation could not be updated.": ["Ek Açıklama Güncellenemedi."],
       "Annotation delete failed.": ["Ek açıklama silme başarısız."],
       "Annotation layer parameters are invalid.": ["Ek açıklama parametresi geçersiz."],
@@ -207,60 +207,60 @@
       "Refreshing datasource [{}]": [""],
       "Metric(s) {} must be aggregations.": [""],
       "Unsupported extraction function: ": [""],
-      "Columns": [""],
-      "Show Druid Column": [""],
-      "Add Druid Column": [""],
-      "Edit Druid Column": [""],
-      "Column": [""],
+      "Columns": ["Sütunlar"],
+      "Show Druid Column": ["Sütun Gösterme Sihirbazı"],
+      "Add Druid Column": ["Sütun Ekleme Sihirbazı"],
+      "Edit Druid Column": ["Sütun Düzenleme Sihirbazı"],
+      "Column": ["Sütun"],
       "Type": [""],
-      "Datasource": [""],
-      "Groupable": [""],
-      "Filterable": [""],
+      "Datasource": ["Veri Kaynağı"],
+      "Groupable": ["Gruplanabilir"],
+      "Filterable": ["Filtrenebilir"],
       "Whether this column is exposed in the `Filters` section of the explore view.": [
-        ""
+        "Bu Sütunun, Keşif Görünümünün 'Filtreler' Bölümünde Gösterilip Gösterilemeyeceği "
       ],
-      "Metrics": [""],
-      "Show Druid Metric": [""],
-      "Add Druid Metric": [""],
-      "Edit Druid Metric": [""],
-      "Metric": [""],
-      "Description": [""],
-      "Verbose Name": [""],
+      "Metrics": ["Ölçütler"],
+      "Show Druid Metric": ["Druid Ölçütü Göster"],
+      "Add Druid Metric": ["Druid Ölçütü Ekle"],
+      "Edit Druid Metric": ["Druid Ölçütü Düzenle"],
+      "Metric": ["Ölçüt"],
+      "Description": ["Tanım"],
+      "Verbose Name": ["Ayrıntılı Ad"],
       "JSON": [""],
-      "Druid Datasource": [""],
-      "Warning Message": [""],
-      "Show Druid Cluster": [""],
-      "Add Druid Cluster": [""],
-      "Edit Druid Cluster": [""],
-      "Cluster Name": [""],
-      "Broker Host": [""],
-      "Broker Port": [""],
-      "Broker Username": [""],
-      "Broker Password": [""],
+      "Druid Datasource": ["Druid Veri Kaynağı"],
+      "Warning Message": ["Uyarı Mesajı"],
+      "Show Druid Cluster": ["Druid Kümesini Göster"],
+      "Add Druid Cluster": ["Druid Kümesi Ekle"],
+      "Edit Druid Cluster": ["Druid Kümesi Düzenle"],
+      "Cluster Name": ["Küme Adı"],
+      "Broker Host": ["Aracı Sunucu"],
+      "Broker Port": ["Aracı Girişi"],
+      "Broker Username": ["Aracı Kullanıcı Adı"],
+      "Broker Password": ["Aracı Şifresi"],
       "Broker Endpoint": [""],
-      "Cache Timeout": [""],
-      "Metadata Last Refreshed": [""],
+      "Cache Timeout": ["Önbellek Zaman Aşımı"],
+      "Metadata Last Refreshed": ["Son Yenilenen Meta Verileri"],
       "Duration (in seconds) of the caching timeout for this cluster. A timeout of 0 indicates that the cache never expires. Note this defaults to the global timeout if undefined.": [
-        ""
+        "Bu küme için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak global zaman aşımına uğradığını unutmayın."
       ],
       "Druid supports basic authentication. See [auth](http://druid.io/docs/latest/design/auth.html) and druid-basic-security extension": [
         ""
       ],
-      "Show Druid Datasource": [""],
-      "Add Druid Datasource": [""],
-      "Edit Druid Datasource": [""],
+      "Show Druid Datasource": ["Veri Kaynağı Sihirbazını Göster"],
+      "Add Druid Datasource": ["Veri Kaynağı Sihirbazını Ekle"],
+      "Edit Druid Datasource": ["Veri Kaynağı Sihirbazını Düzenle"],
       "The list of charts associated with this table. By altering this datasource, you may change how these associated charts behave. Also note that charts need to point to a datasource, so this form will fail at saving if removing charts from a datasource. If you want to change the datasource for a chart, overwrite the chart from the 'explore view'": [
-        ""
+        "Bu tabloyla ilişkili grafiklerin listesi. Bu veri kaynağını değiştirerek, bu ilişkili çizelgelerin nasıl davranacağını değiştirebilirsiniz. Ayrıca, grafiklerin bir veri kaynağına işaret etmesi gerektiğini unutmayın; bu nedenle, bir veri kaynağından grafikler kaldırılırsa bu form kaydetmede başarısız olur. Bir grafiğin veri kaynağını değiştirmek istiyorsanız, 'keşif görünümünden grafiğin üzerine yazın."
       ],
-      "Timezone offset (in hours) for this datasource": [""],
+      "Timezone offset (in hours) for this datasource": ["Bu Veri Kaynağı İçin Saat Dilimi Ofseti (Saat Olarak)"],
       "Time expression to use as a predicate when retrieving distinct values to populate the filter component. Only applies when `Enable Filter Select` is on. If you enter `7 days ago`, the distinct list of values in the filter will be populated based on the distinct value over the past week": [
-        ""
+        "Filtre bileşenini doldurmak için farklı değerler alınırken yüklem olarak kullanılacak zaman ifadesi. Yalnızca 'Filtre Seçimini Etkinleştir' açık olduğunda geçerlidir. '7 gün önce' girerseniz, filtredeki farklı değerler listesi, geçen haftadaki farklı değere göre doldurulur"
       ],
-      "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [
-        ""
+      "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [ 
+        "Keşif görünümünün filtre bölümündeki filtrenin açılır menüsünün, arka uçtan anında alınan farklı değerlerin bir listesiyle doldurulup doldurulmayacağı"
       ],
       "Redirects to this endpoint when clicking on the datasource from the datasource list": [
-        ""
+        "Veri kaynağı listesinden veri kaynağına tıklandığında bu uç noktaya yönlendirilir"
       ],
       "Duration (in seconds) of the caching timeout for this datasource. A timeout of 0 indicates that the cache never expires. Note this defaults to the cluster timeout if undefined.": [
         ""
@@ -307,61 +307,61 @@
       "Is temporal": [""],
       "Datetime Format": [""],
       "Invalid date/timestamp format": [""],
-      "Show Metric": [""],
-      "Add Metric": [""],
-      "Edit Metric": [""],
-      "SQL Expression": [""],
+      "Show Metric": ["Ölçüt Göster"],
+      "Add Metric": ["Ölçüt Ekle"],
+      "Edit Metric": ["Ölçüt Düzenle"],
+      "SQL Expression": ["SQL İfadesi"],
       "D3 Format": [""],
-      "Extra": [""],
-      "Row level security filter": [""],
-      "Show Row level security filter": [""],
-      "Add Row level security filter": [""],
-      "Edit Row level security filter": [""],
+      "Extra": ["Ekstra"],
+      "Row level security filter": ["Satır Düzeyinde Güvenlik Filtresi"],
+      "Show Row level security filter": ["Satır Düzeyinde Güvenlik Filtresini Göster"],
+      "Add Row level security filter": ["Satır Düzeyi Güvenlik Filtresi Ekleme"],
+      "Edit Row level security filter": ["Satır Düzeyi Güvenlik Filtresi Düzenleme"],
       "Regular filters add where clauses to queries if a user belongs to a role referenced in the filter. Base filters apply filters to all queries except the roles defined in the filter, and can be used to define what users can see if no RLS filters within a filter group apply to them.": [
-        ""
+        "Normal filtreler, bir kullanıcı filtrede başvurulan bir role aitse sorgulara where yan tümceleri ekler. Temel filtreler, filtrede tanımlanan roller dışındaki tüm sorgulara filtreler uygular ve bir filtre grubu içindeki hiçbir RLS filtresi kendilerine uygulanmadığında kullanıcıların görebileceklerini tanımlamak için kullanılabilir."
       ],
-      "These are the tables this filter will be applied to.": [""],
+      "These are the tables this filter will be applied to.": ["Bunlar, bu filtrenin uygulanacağı tablolardır."],
       "For regular filters, these are the roles this filter will be applied to. For base filters, these are the roles that the filter DOES NOT apply to, e.g. Admin if admin should see all data.": [
-        ""
+        "Normal filtreler için bunlar, bu filtrenin uygulanacağı rollerdir. Temel filtreler için bunlar, filtrenin UYGULANMADIĞI rollerdir, ör. Yöneticinin tüm verileri görmesi gerekiyorsa yönetici"
       ],
       "Filters with the same group key will be ORed together within the group, while different filter groups will be ANDed together. Undefined group keys are treated as unique groups, i.e. are not grouped together. For example, if a table has three filters, of which two are for departments Finance and Marketing (group key = 'department'), and one refers to the region Europe (group key = 'region'), the filter clause would apply the filter (department = 'Finance' OR department = 'Marketing') AND (region = 'Europe').": [
-        ""
+        "Aynı grup anahtarına sahip filtreler grup içinde birlikte VEYA'lanırken, farklı filtre grupları birlikte VE'lenir. Tanımsız grup anahtarları benzersiz gruplar olarak kabul edilir, yani birlikte gruplandırılmaz. Örneğin, bir tabloda ikisi Finans ve Pazarlama departmanları için olan (grup anahtarı = 'departman') ve biri Avrupa bölgesine atıfta bulunan (grup anahtarı = 'bölge') olmak üzere üç filtre varsa, filtre yan tümcesi filtre (departman = 'Finans' VEYA departman = 'Pazarlama') VE (bölge = 'Avrupa')"
       ],
       "This is the condition that will be added to the WHERE clause. For example, to only return rows for a particular client, you might define a regular filter with the clause `client_id = 9`. To display no rows unless a user belongs to a RLS filter role, a base filter can be created with the clause `1 = 0` (always false).": [
-        ""
+        "WHERE yan tümcesine eklenecek koşul budur. Örneğin, yalnızca belirli bir istemci için satırları döndürmek için, 'client_id = 9' yan tümcesiyle normal bir filtre tanımlayabilirsiniz. Bir kullanıcı bir RLS filtre rolüne ait olmadığı sürece hiçbir satır görüntülemek için, '1 = 0' (her zaman yanlış) yan tümcesiyle bir temel filtre oluşturulabilir."
       ],
-      "Tables": [""],
-      "Roles": [""],
-      "Clause": [""],
-      "Creator": [""],
-      "Show Table": [""],
-      "Import a table definition": [""],
-      "Edit Table": [""],
-      "Name of the table that exists in the source database": [""],
+      "Tables": ["Tablolar"],
+      "Roles": ["Roller"],
+      "Clause": ["Madde"],
+      "Creator": ["Yaratıcı"],
+      "Show Table": ["Tabloyu Göster"],
+      "Import a table definition": ["Tablo Tanımını İçe Aktar"],
+      "Edit Table": ["Tablo Düzenleme"],
+      "Name of the table that exists in the source database": ["Kaynak veritabanında bulunan tablonun adı"],
       "Schema, as used only in some databases like Postgres, Redshift and DB2": [
-        ""
+        "Yalnızca Postgres, Redshift ve DB2 gibi bazı veritabanlarında kullanılan şema"
       ],
       "This fields acts a Superset view, meaning that Superset will run a query against this string as a subquery.": [
-        ""
+        "Bu alanlar bir Süper Küme görünümü işlevi görür, yani Süper Küme bu dizeye karşı bir alt sorgu olarak bir sorgu çalıştırır."
       ],
       "Predicate applied when fetching distinct value to populate the filter control component. Supports jinja template syntax. Applies only when `Enable Filter Select` is on.": [
-        ""
+        "Filtre kontrol bileşenini doldurmak için farklı değer alınırken uygulanan yüklem. Jinja şablon sözdizimini destekler. Yalnızca 'Filtre Seçimini Etkinleştir' açıkken geçerlidir"
       ],
       "Redirects to this endpoint when clicking on the table from the table list": [
-        ""
+        "Tablo listesinden tabloya tıklandığında bu uç noktaya yönlendirilir"
       ],
       "Whether the table was generated by the 'Visualize' flow in SQL Lab": [
-        ""
+        "Tablonun SQL Lab'deki 'Görselleştirme' akışı tarafından oluşturulup oluşturulmadığı"
       ],
       "A set of parameters that become available in the query using Jinja templating syntax": [
-        ""
+        "Jinja şablonlama sözdizimi kullanılarak sorguda kullanılabilir hale gelen bir dizi parametre"
       ],
       "Duration (in seconds) of the caching timeout for this table. A timeout of 0 indicates that the cache never expires. Note this defaults to the database timeout if undefined.": [
-        ""
+        "Bu tablo için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak veritabanı zaman aşımına uğradığını unutmayın."
       ],
-      "Database": [""],
-      "Last Changed": [""],
-      "Schema": [""],
+      "Database": ["Veritabanı"],
+      "Last Changed": ["Son Değişiklik"],
+      "Schema": ["Şema"],
       "Offset": [""],
       "Table Name": [""],
       "Fetch Values Predicate": [""],
