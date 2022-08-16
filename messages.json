@@ -122,12 +122,12 @@
       "Parallel Coordinates": ["Paralel Koordinatlar"],
       "Heatmap": ["Sıcaklık Haritası"],
       "Horizon Charts": ["Ufuk Çizgileri"],
-      "Mapbox": ["Mapbox"],
+      "Mapbox": [""],
       "[Longitude] and [Latitude] must be set": ["[Enlem] ve [Boylam] Girilmelidir"],
       "Must have a [Group By] column to have 'count' as the [Label]": ["'count' ile [Label] Etiketlenebilmesi İçin [Group By] Gruplama Ölçütü Sütunu Olmalıdır "],
       "Choice of [Label] must be present in [Group By]": ["[Label] Etiket Seçimi [Group By] Gruplama Ölçütünün İçinde Bulunmalıdır"],
       "Choice of [Point Radius] must be present in [Group By]": ["[Group By] Gruplama Ölçütünde [Point Radius] Nokta Yarıçapı Seçimi Mevcut Olmalıdır "],
-      "[Longitude] and [Latitude] columns must be present in [Group By]": ["[Boylam] ve [Enlem] Sütunları [Group By] Gruplandırma Ölçütünde Bulunmalıdır"],
+      "[Longitude] and [Latitude] columns must be present in [Group By]": ["[Enlem] ve [Boylam] Sütunları [Group By] Gruplandırma Ölçütünde Bulunmalıdır"],
       "Deck.gl - Multiple Layers": [""],
       "Bad spatial key": ["Kötü Uzamsal Anahtar"],
       "Invalid spatial point encountered: %s": ["Geçersiz Uzamsal Noktayla Karşılaşıldı %s "],
@@ -151,9 +151,9 @@
       ],
       "Box Plot": ["Box Plot"],
       "Distribution - NVD3 - Pie Chart": ["Dağılım - NVD3 Pasta Grafiği"],
-      "iFrame": ["iFrame"],
+      "iFrame": [""],
       "Deleted %(num)d annotation layer": [
-        "Açıklama Katmanının %(Sayısal Değer) Silindi",
+        "Açıklama Katmanının %(num)d Silindi",
         "Deleted %(num)d annotation layers" 
       ],
       "All Text": ["Metinin Tümü"],
@@ -211,7 +211,7 @@
       "Show Druid Column": ["Sütun Gösterme Sihirbazı"],
       "Add Druid Column": ["Sütun Ekleme Sihirbazı"],
       "Edit Druid Column": ["Sütun Düzenleme Sihirbazı"],
-      "Column": ["Kolon"],
+      "Column": ["Sütun"],
       "Type": [""],
       "Datasource": ["Veri Kaynağı"],
       "Groupable": ["Gruplanabilir"],
@@ -220,18 +220,18 @@
         "Bu Sütunun, Keşif Görünümünün 'Filtreler' Bölümünde Gösterilip Gösterilemeyeceği "
       ],
       "Metrics": ["Ölçütler"],
-      "Show Druid Metric": ["Ölçüt Sihirbazlarını Göster"],
-      "Add Druid Metric": ["Ölçüt Sihirbazlarını Ekle"],
-      "Edit Druid Metric": ["Ölçüt Sihirbazlarını Düzenle"],
+      "Show Druid Metric": ["Druid Ölçütü Göster"],
+      "Add Druid Metric": ["Druid Ölçütü Ekle"],
+      "Edit Druid Metric": ["Druid Ölçütü Düzenle"],
       "Metric": ["Ölçüt"],
       "Description": ["Tanım"],
       "Verbose Name": ["Ayrıntılı Ad"],
       "JSON": [""],
-      "Druid Datasource": ["Veri Kaynağı Sihirbazı"],
+      "Druid Datasource": ["Druid Veri Kaynağı"],
       "Warning Message": ["Uyarı Mesajı"],
-      "Show Druid Cluster": ["Küme Gösterme Sihirbazı"],
-      "Add Druid Cluster": ["Küme Ekleme Sihirbazı"],
-      "Edit Druid Cluster": ["Küme Düzenleme Sihirbazı"],
+      "Show Druid Cluster": ["Druid Kümesini Göster"],
+      "Add Druid Cluster": ["Druid Kümesi Ekle"],
+      "Edit Druid Cluster": ["Druid Kümesi Düzenle"],
       "Cluster Name": ["Küme Adı"],
       "Broker Host": ["Aracı Sunucu"],
       "Broker Port": ["Aracı Girişi"],
@@ -307,9 +307,9 @@
       "Is temporal": [""],
       "Datetime Format": [""],
       "Invalid date/timestamp format": [""],
-      "Show Metric": ["Ölçüt Göstermek"],
-      "Add Metric": ["Ölçüt Eklemek"],
-      "Edit Metric": ["Ölçüt Düzenlemek"],
+      "Show Metric": ["Ölçüt Göster"],
+      "Add Metric": ["Ölçüt Ekle"],
+      "Edit Metric": ["Ölçüt Düzenle"],
       "SQL Expression": ["SQL İfadesi"],
       "D3 Format": [""],
       "Extra": ["Ekstra"],
@@ -320,9 +320,7 @@
       "Regular filters add where clauses to queries if a user belongs to a role referenced in the filter. Base filters apply filters to all queries except the roles defined in the filter, and can be used to define what users can see if no RLS filters within a filter group apply to them.": [
         "Normal filtreler, bir kullanıcı filtrede başvurulan bir role aitse sorgulara where yan tümceleri ekler. Temel filtreler, filtrede tanımlanan roller dışındaki tüm sorgulara filtreler uygular ve bir filtre grubu içindeki hiçbir RLS filtresi kendilerine uygulanmadığında kullanıcıların görebileceklerini tanımlamak için kullanılabilir."
       ],
-      "These are the tables this filter will be applied to.": [
-        "Bunlar, bu filtrenin uygulanacağı tablolardır."
-      ],
+      "These are the tables this filter will be applied to.": ["Bunlar, bu filtrenin uygulanacağı tablolardır."],
       "For regular filters, these are the roles this filter will be applied to. For base filters, these are the roles that the filter DOES NOT apply to, e.g. Admin if admin should see all data.": [
         "Normal filtreler için bunlar, bu filtrenin uygulanacağı rollerdir. Temel filtreler için bunlar, filtrenin UYGULANMADIĞI rollerdir, ör. Yöneticinin tüm verileri görmesi gerekiyorsa yönetici"
       ],
@@ -340,7 +338,9 @@
       "Import a table definition": ["Tablo Tanımını İçe Aktar"],
       "Edit Table": ["Tablo Düzenleme"],
       "Name of the table that exists in the source database": ["Kaynak veritabanında bulunan tablonun adı"],
-      "Schema, as used only in some databases like Postgres, Redshift and DB2": ["Yalnızca Postgres, Redshift ve DB2 gibi bazı veritabanlarında kullanılan şema"],
+      "Schema, as used only in some databases like Postgres, Redshift and DB2": [
+        "Yalnızca Postgres, Redshift ve DB2 gibi bazı veritabanlarında kullanılan şema"
+      ],
       "This fields acts a Superset view, meaning that Superset will run a query against this string as a subquery.": [
         "Bu alanlar bir Süper Küme görünümü işlevi görür, yani Süper Küme bu dizeye karşı bir alt sorgu olarak bir sorgu çalıştırır."
       ],
