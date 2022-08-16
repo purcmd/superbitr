@@ -558,56 +558,56 @@
       "Database URL": ["Veritabanı URL'si"],
       "Roles to grant": ["Verilecek Roller"],
       "Created On": ["Tarihinde oluşturuldu"],
-      "List Observations": [""],
-      "Show Observation": [""],
-      "Error Message": [""],
-      "Log Retentions (days)": [""],
-      "A semicolon ';' delimited list of email addresses": [""],
-      "How long to keep the logs around for this alert": [""],
+      "List Observations": ["Gözlemleri Listele"],
+      "Show Observation": ["Gözlemi Göster"],
+      "Error Message": ["Hata mesajı"],
+      "Log Retentions (days)": ["Kayıt Sayısı (günler)"],
+      "A semicolon ';' delimited list of email addresses": ["Noktalı virgül ';' ile ayrılmış e-posta adresleri listesi"],
+      "How long to keep the logs around for this alert": ["Günlüklerin ne kadar süre ile saklanacağı için uyarı"],
       "Once an alert is triggered, how long, in seconds, before Superset nags you again.": [
-        ""
+        "Bir uyarı tetiklendiğinde, Superset sizi tekrar uyarmadan önce, kaç saniye bekler?"
       ],
       "A SQL statement that defines whether the alert should get triggered or not. The query is expected to return either NULL or a number value.": [
-        ""
+        "Uyarının tetiklenip tetiklenmeyeceğini tanımlayan bir SQL ifadesi. Sorgunun NULL veya bir sayı değeri döndürmesi bekleniyor"
       ],
-      "annotation start time or end time is required.": [""],
-      "Annotation end time must be no earlier than start time.": [""],
-      "Annotations": [""],
-      "Show Annotation": [""],
-      "Add Annotation": [""],
-      "Edit Annotation": [""],
-      "Layer": [""],
-      "Label": [""],
-      "Start": [""],
-      "End": [""],
-      "JSON Metadata": [""],
-      "Show Annotation Layer": [""],
-      "Add Annotation Layer": [""],
-      "Edit Annotation Layer": [""],
-      "Name": [""],
-      "Dataset %(name)s already exists": [""],
+      "annotation start time or end time is required.": ["Ek açıklama için başlangıç zamanı veya bitiş zamanı gerekli"],
+      "Annotation end time must be no earlier than start time.": ["Ek açıklamaNIN bitiş zamanı, başlangıç zamanından önce olmamalıdır"],
+      "Annotations": ["Ek açıklamalar"],
+      "Show Annotation": ["Açıklamayı Göster"],
+      "Add Annotation": ["Açıklama Ekle"],
+      "Edit Annotation": ["Açıklamayı Düzenle"],
+      "Layer": ["Katman"],
+      "Label": ["Etiket"],
+      "Start": ["Başla"],
+      "End": ["Son"],
+      "JSON Metadata": ["JSON üst veri"],
+      "Show Annotation Layer": ["Açıklama Katmanını Göster"],
+      "Add Annotation Layer": ["Açıklama Katmanı Ekle"],
+      "Edit Annotation Layer": ["Açıklama Katmanını Düzenle"],
+      "Name": ["İsim"],
+      "Dataset %(name)s already exists": ["%(name)s veri kümesi zaten var"],
       "Table [%{table}s] could not be found, please double check your database connection, schema, and table name, error: {}": [
-        ""
+        "Tablo [%{table}s] bulunamadı, lütfen veritabanı bağlantınızı, şemanızı ve tablo adınızı tekrar kontrol edin, hata: {}"
       ],
-      "json isn't valid": [""],
-      "Export to YAML": [""],
-      "Export to YAML?": [""],
-      "Delete": [""],
-      "Delete all Really?": [""],
-      "Is favorite": [""],
-      "The data source seems to have been deleted": [""],
-      "The user seems to have been deleted": [""],
-      "Access was requested": [""],
-      "The access requests seem to have been deleted": [""],
+      "json isn't valid": ["json geçerli değil"],
+      "Export to YAML": ["YAML'e aktar"],
+      "Export to YAML?": ["YAML'ye aktarılsın mı?"],
+      "Delete": ["sil"],
+      "Delete all Really?": ["Tümü Silinsin mi?"],
+      "Is favorite": ["favori"],
+      "The data source seems to have been deleted": ["Veri kaynağı silinmiş görünüyor"],
+      "The user seems to have been deleted": ["Kullanıcı silinmiş görünüyor"],
+      "Access was requested": ["Erişim istendi"],
+      "The access requests seem to have been deleted": ["Erişim istekleri silinmiş görünüyor"],
       "%(user)s was granted the role %(role)s that gives access to the %(datasource)s": [
-        ""
+        "%(user)s'e %(datasource)s'a erişim sağlayan %(role)s rolü verildi"
       ],
       "Role %(r)s was extended to provide the access to the datasource %(ds)s": [
-        ""
+        "%(r)s rolü, %(ds)s veri kaynağına erişim sağlamak için genişletildi"
       ],
-      "You have no permission to approve this request": [""],
+      "You have no permission to approve this request": ["Bu isteği onaylama izniniz yok"],
       "Cannot import dashboard: %(db_error)s.\nMake sure to create the database before importing the dashboard.": [
-        ""
+        "Gösterge tablosu içe aktarılamıyor: %(db_error)s.\nGösterge tablosunu içe aktarmadan önce veritabanını oluşturduğunuzdan emin olun"
       ],
       "An unknown error occurred. Please contact your Superset administrator": [
         ""
