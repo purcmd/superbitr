@@ -217,47 +217,46 @@
       "Groupable": ["Gruplanabilir"],
       "Filterable": ["Filtrenebilir"],
       "Whether this column is exposed in the `Filters` section of the explore view.": [
-        ""
+        "Bu Sütunun, Keşif Görünümünün 'Filtreler' Bölümünde Gösterilip Gösterilemeyeceği "
       ],
-      "Metrics": [""],
-      "Show Druid Metric": [""],
-      "Add Druid Metric": [""],
-      "Edit Druid Metric": [""],
-      "Metric": [""],
-      "Description": [""],
-      "Verbose Name": [""],
+      "Metrics": ["Ölçütler"],
+      "Show Druid Metric": ["Ölçüt Sihirbazlarını Göster"],
+      "Add Druid Metric": ["Ölçüt Sihirbazlarını Ekle"],
+      "Edit Druid Metric": ["Ölçüt Sihirbazlarını Düzenle"],
+      "Metric": ["Ölçüt"],
+      "Description": ["Tanım"],
+      "Verbose Name": ["Ayrıntılı Ad"],
       "JSON": [""],
-      "Druid Datasource": [""],
-      "Warning Message": [""],
-      "Show Druid Cluster": [""],
-      "Add Druid Cluster": [""],
-      "Edit Druid Cluster": [""],
-      "Cluster Name": [""],
-      "Broker Host": [""],
-      "Broker Port": [""],
-      "Broker Username": [""],
-      "Broker Password": [""],
+      "Druid Datasource": ["Veri Kaynağı Sihirbazı"],
+      "Warning Message": ["Uyarı Mesajı"],
+      "Show Druid Cluster": ["Küme Gösterme Sihirbazı"],
+      "Add Druid Cluster": ["Küme Ekleme Sihirbazı"],
+      "Edit Druid Cluster": ["Küme Düzenleme Sihirbazı"],
+      "Cluster Name": ["Küme Adı"],
+      "Broker Host": ["Aracı Sunucu"],
+      "Broker Port": ["Aracı Girişi"],
+      "Broker Username": ["Aracı Kullanıcı Adı"],
+      "Broker Password": ["Aracı Şifresi"],
       "Broker Endpoint": [""],
-      "Cache Timeout": [""],
-      "Metadata Last Refreshed": [""],
+      "Cache Timeout": ["Önbellek Zaman Aşımı"],
+      "Metadata Last Refreshed": ["Son Yenilenen Meta Verileri"],
       "Duration (in seconds) of the caching timeout for this cluster. A timeout of 0 indicates that the cache never expires. Note this defaults to the global timeout if undefined.": [
-        ""
+        "Bu küme için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak global zaman aşımına uğradığını unutmayın."
       ],
       "Druid supports basic authentication. See [auth](http://druid.io/docs/latest/design/auth.html) and druid-basic-security extension": [
         ""
       ],
-      "Show Druid Datasource": [""],
-      "Add Druid Datasource": [""],
-      "Edit Druid Datasource": [""],
+      "Show Druid Datasource": ["Veri Kaynağı Sihirbazını Göster"],
+      "Add Druid Datasource": ["Veri Kaynağı Sihirbazını Ekle"],
+      "Edit Druid Datasource": ["Veri Kaynağı Sihirbazını Düzenle"],
       "The list of charts associated with this table. By altering this datasource, you may change how these associated charts behave. Also note that charts need to point to a datasource, so this form will fail at saving if removing charts from a datasource. If you want to change the datasource for a chart, overwrite the chart from the 'explore view'": [
-        ""
+        "Bu tabloyla ilişkili grafiklerin listesi. Bu veri kaynağını değiştirerek, bu ilişkili çizelgelerin nasıl davranacağını değiştirebilirsiniz. Ayrıca, grafiklerin bir veri kaynağına işaret etmesi gerektiğini unutmayın; bu nedenle, bir veri kaynağından grafikler kaldırılırsa bu form kaydetmede başarısız olur. Bir grafiğin veri kaynağını değiştirmek istiyorsanız, 'keşif görünümünden grafiğin üzerine yazın."
       ],
-      "Timezone offset (in hours) for this datasource": [""],
+      "Timezone offset (in hours) for this datasource": ["Bu Veri Kaynağı İçin Saat Dilimi Ofseti (Saat Olarak)"],
       "Time expression to use as a predicate when retrieving distinct values to populate the filter component. Only applies when `Enable Filter Select` is on. If you enter `7 days ago`, the distinct list of values in the filter will be populated based on the distinct value over the past week": [
-        ""
+        "Filtre bileşenini doldurmak için farklı değerler alınırken yüklem olarak kullanılacak zaman ifadesi. Yalnızca 'Filtre Seçimini Etkinleştir' açık olduğunda geçerlidir. '7 gün önce' girerseniz, filtredeki farklı değerler listesi, geçen haftadaki farklı değere göre doldurulur"
       ],
-      "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [
-        ""
+      "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [ "Keşif görünümünün filtre bölümündeki filtrenin açılır menüsünün, arka uçtan anında alınan farklı değerlerin bir listesiyle doldurulup doldurulmayacağı"
       ],
       "Redirects to this endpoint when clicking on the datasource from the datasource list": [
         ""
@@ -307,61 +306,57 @@
       "Is temporal": [""],
       "Datetime Format": [""],
       "Invalid date/timestamp format": [""],
-      "Show Metric": [""],
-      "Add Metric": [""],
-      "Edit Metric": [""],
-      "SQL Expression": [""],
+      "Show Metric": ["Ölçüt Göstermek"],
+      "Add Metric": ["Ölçüt Eklemek"],
+      "Edit Metric": ["Ölçüt Düzenlemek"],
+      "SQL Expression": ["SQL İfadesi"],
       "D3 Format": [""],
-      "Extra": [""],
-      "Row level security filter": [""],
-      "Show Row level security filter": [""],
-      "Add Row level security filter": [""],
-      "Edit Row level security filter": [""],
+      "Extra": ["Ekstra"],
+      "Row level security filter": ["Satır Düzeyinde Güvenlik Filtresi"],
+      "Show Row level security filter": ["Satır Düzeyinde Güvenlik Filtresini Göster"],
+      "Add Row level security filter": ["Satır Düzeyi Güvenlik Filtresi Ekleme"],
+      "Edit Row level security filter": ["Satır Düzeyi Güvenlik Filtresi Düzenleme"],
       "Regular filters add where clauses to queries if a user belongs to a role referenced in the filter. Base filters apply filters to all queries except the roles defined in the filter, and can be used to define what users can see if no RLS filters within a filter group apply to them.": [
-        ""
+        "Normal filtreler, bir kullanıcı filtrede başvurulan bir role aitse sorgulara where yan tümceleri ekler. Temel filtreler, filtrede tanımlanan roller dışındaki tüm sorgulara filtreler uygular ve bir filtre grubu içindeki hiçbir RLS filtresi kendilerine uygulanmadığında kullanıcıların görebileceklerini tanımlamak için kullanılabilir."
       ],
-      "These are the tables this filter will be applied to.": [""],
+      "These are the tables this filter will be applied to.": ["Bunlar, bu filtrenin uygulanacağı tablolardır."],
       "For regular filters, these are the roles this filter will be applied to. For base filters, these are the roles that the filter DOES NOT apply to, e.g. Admin if admin should see all data.": [
-        ""
+        "Normal filtreler için bunlar, bu filtrenin uygulanacağı rollerdir. Temel filtreler için bunlar, filtrenin UYGULANMADIĞI rollerdir, ör. Yöneticinin tüm verileri görmesi gerekiyorsa yönetici"
       ],
       "Filters with the same group key will be ORed together within the group, while different filter groups will be ANDed together. Undefined group keys are treated as unique groups, i.e. are not grouped together. For example, if a table has three filters, of which two are for departments Finance and Marketing (group key = 'department'), and one refers to the region Europe (group key = 'region'), the filter clause would apply the filter (department = 'Finance' OR department = 'Marketing') AND (region = 'Europe').": [
-        ""
+        "Aynı grup anahtarına sahip filtreler grup içinde birlikte VEYA'lanırken, farklı filtre grupları birlikte VE'lenir. Tanımsız grup anahtarları benzersiz gruplar olarak kabul edilir, yani birlikte gruplandırılmaz. Örneğin, bir tabloda ikisi Finans ve Pazarlama departmanları için olan (grup anahtarı = 'departman') ve biri Avrupa bölgesine atıfta bulunan (grup anahtarı = 'bölge') olmak üzere üç filtre varsa, filtre yan tümcesi filtre (departman = 'Finans' VEYA departman = 'Pazarlama') VE (bölge = 'Avrupa')"
       ],
       "This is the condition that will be added to the WHERE clause. For example, to only return rows for a particular client, you might define a regular filter with the clause `client_id = 9`. To display no rows unless a user belongs to a RLS filter role, a base filter can be created with the clause `1 = 0` (always false).": [
-        ""
+        "WHERE yan tümcesine eklenecek koşul budur. Örneğin, yalnızca belirli bir istemci için satırları döndürmek için, 'client_id = 9' yan tümcesiyle normal bir filtre tanımlayabilirsiniz. Bir kullanıcı bir RLS filtre rolüne ait olmadığı sürece hiçbir satır görüntülemek için, '1 = 0' (her zaman yanlış) yan tümcesiyle bir temel filtre oluşturulabilir."
       ],
-      "Tables": [""],
-      "Roles": [""],
-      "Clause": [""],
-      "Creator": [""],
-      "Show Table": [""],
-      "Import a table definition": [""],
-      "Edit Table": [""],
-      "Name of the table that exists in the source database": [""],
-      "Schema, as used only in some databases like Postgres, Redshift and DB2": [
-        ""
-      ],
-      "This fields acts a Superset view, meaning that Superset will run a query against this string as a subquery.": [
-        ""
-      ],
+      "Tables": ["Tablolar"],
+      "Roles": ["Roller"],
+      "Clause": ["Madde"],
+      "Creator": ["Yaratıcı"],
+      "Show Table": ["Tabloyu Göster"],
+      "Import a table definition": ["Tablo Tanımını İçe Aktar"],
+      "Edit Table": ["Tablo Düzenleme"],
+      "Name of the table that exists in the source database": ["Kaynak veritabanında bulunan tablonun adı"],
+      "Schema, as used only in some databases like Postgres, Redshift and DB2": ["Yalnızca Postgres, Redshift ve DB2 gibi bazı veritabanlarında kullanılan şema"],
+      "This fields acts a Superset view, meaning that Superset will run a query against this string as a subquery.": ["Bu alanlar bir Süper Küme görünümü işlevi görür, yani Süper Küme bu dizeye karşı bir alt sorgu olarak bir sorgu çalıştırır."],
       "Predicate applied when fetching distinct value to populate the filter control component. Supports jinja template syntax. Applies only when `Enable Filter Select` is on.": [
-        ""
+        "Filtre kontrol bileşenini doldurmak için farklı değer alınırken uygulanan yüklem. Jinja şablon sözdizimini destekler. Yalnızca 'Filtre Seçimini Etkinleştir' açıkken geçerlidir"
       ],
       "Redirects to this endpoint when clicking on the table from the table list": [
-        ""
+        "Tablo listesinden tabloya tıklandığında bu uç noktaya yönlendirilir"
       ],
       "Whether the table was generated by the 'Visualize' flow in SQL Lab": [
-        ""
+        "Tablonun SQL Lab'deki 'Görselleştirme' akışı tarafından oluşturulup oluşturulmadığı"
       ],
       "A set of parameters that become available in the query using Jinja templating syntax": [
-        ""
+        "Jinja şablonlama sözdizimi kullanılarak sorguda kullanılabilir hale gelen bir dizi parametre"
       ],
       "Duration (in seconds) of the caching timeout for this table. A timeout of 0 indicates that the cache never expires. Note this defaults to the database timeout if undefined.": [
-        ""
+        "Bu tablo için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak veritabanı zaman aşımına uğradığını unutmayın."
       ],
-      "Database": [""],
-      "Last Changed": [""],
-      "Schema": [""],
+      "Database": ["veritabanı"],
+      "Last Changed": ["Son Değişiklik"],
+      "Schema": ["Şema"],
       "Offset": [""],
       "Table Name": [""],
       "Fetch Values Predicate": [""],
