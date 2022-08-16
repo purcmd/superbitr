@@ -59,59 +59,59 @@
       "CVAS (create view as select) can only be run with a query with a single SELECT statement. Please make sure your query has only a SELECT statement. Then, try running your query again.": [
         "SGO (Seçerek Görünüm Oluştur) yalnızca tek bir SELECT ifadesi içeren bir sorgu ile çalıştırılabilir. Lütfen sorgunuzun yalnızca bir SELECT ifadesi olduğundan emin olun. Ardından, sorgunuzu yeniden çalıştırmayı deneyin."
       ],
-      "Viz is missing a datasource": [""],
+      "Viz is missing a datasource": ["Görselde bir veri kaynağı eksik"],
       "Applied rolling window did not return any data. Please make sure the source query satisfies the minimum periods defined in the rolling window.": [
-        ""
+        "Dönen pencere herhangi bir veri döndürmedi. Lütfen kaynak sorgunun dönen pencerede tanımlanan minimum süreleri karşıladığından emin olun."
       ],
-      "From date cannot be larger than to date": [""],
-      "Cached value not found": [""],
-      "Columns missing in datasource: %(invalid_columns)s": [""],
-      "Table View": [""],
+      "From date cannot be larger than to date": ["Başlangıç tarihi, tarihten büyük olamaz."],
+      "Cached value not found": ["Önbelleğe alınmış değer bulunamadı."],
+      "Columns missing in datasource: %(invalid_columns)s": ["Veri kaynağında eksik sütunlar: %(invalid_columns)s"],
+      "Table View": ["Tablo görünümü"],
       "You cannot use [Columns] in combination with [Group By]/[Metrics]/[Percentage Metrics]. Please choose one or the other.": [
-        ""
+        "[Sütunlar]ı [Gruplama ölçütü]/[Ölçü birimleri]/[Yüzde metrikleri] ile birlikte kullanamazsınız. Lütfen birini veya diğerini seçin."
       ],
-      "Pick a granularity in the Time section or uncheck 'Include Time'": [""],
-      "Time Table View": [""],
-      "Pick at least one metric": [""],
-      "When using 'Group By' you are limited to use a single metric": [""],
-      "Pivot Table": [""],
-      "Please choose at least one 'Group by' field ": [""],
-      "Please choose at least one metric": [""],
-      "Group By' and 'Columns' can't overlap": [""],
+      "Pick a granularity in the Time section or uncheck 'Include Time'": ["Zaman bölümünde bir ayrıntı düzeyi seçin veya 'Zamanı Dahil Et' seçeneğinin işaretini kaldırın"],
+      "Time Table View": ["Zaman tablosu görünümü"],
+      "Pick at least one metric": ["En az bir ölçü birimi seçin"],
+      "When using 'Group By' you are limited to use a single metric": ["'Gruplama Ölçütü' kullanırken tek bir ölçü birimi kullanmakla sınırlandırılırsınız"],
+      "Pivot Table": ["Pivot tablosu"],
+      "Please choose at least one 'Group by' field ": ["Lütfen en az bir 'Gruplama ölçütü' alanı seçin"],
+      "Please choose at least one metric": ["Lütfen en az bir ölçü birimi seçin"],
+      "Group By' and 'Columns' can't overlap": ["'Gruplama Ölçütü' ve 'Sütunlar' çakışamaz"],
       "Treemap": [""],
-      "Calendar Heatmap": [""],
-      "Bubble Chart": [""],
-      "Please use 3 different metric labels": [""],
-      "Pick a metric for x, y and size": [""],
-      "Bullet Chart": [""],
-      "Pick a metric to display": [""],
-      "Big Number with Trendline": [""],
-      "Pick a metric!": [""],
-      "Big Number": [""],
-      "Time Series - Line Chart": [""],
-      "Pick a time granularity for your time series": [""],
+      "Calendar Heatmap": ["Zamansal sıcaklık haritası"],
+      "Bubble Chart": ["Kabarcık grafiği"],
+      "Please use 3 different metric labels": ["Lütfen 3 farklı ölçü birimi etiketi kullanın"],
+      "Pick a metric for x, y and size": ["x,y ve boyut için bir ölçü birimi seçin"],
+      "Bullet Chart": ["Madde işareti grafiği"],
+      "Pick a metric to display": ["Görüntülenecek bir ölçü birimi seçin"],
+      "Big Number with Trendline": ["Trendline ile büyük sayı"],
+      "Pick a metric!": ["Bir ölçü birimi seçin"],
+      "Big Number": ["Büyük sayı"],
+      "Time Series - Line Chart": ["Zaman Serileri- Çizgi Grafiği"],
+      "Pick a time granularity for your time series": ["Zaman seriniz için bir zaman ayrıntı düzeyi seçin"],
       "An enclosed time range (both start and end) must be specified when using a Time Comparison.": [
-        ""
+        "Zaman karşılaştırması kullanılırken kapalı bir zaman aralığı (hem başlangıç hem bitiş) belirtilmelidir"
       ],
-      "Time Series - Multiple Line Charts": [""],
-      "Time Series - Dual Axis Line Chart": [""],
-      "Pick a metric for left axis!": [""],
-      "Pick a metric for right axis!": [""],
-      "Please choose different metrics on left and right axis": [""],
-      "Time Series - Bar Chart": [""],
-      "Time Series - Period Pivot": [""],
-      "Time Series - Percent Change": [""],
-      "Time Series - Stacked": [""],
+      "Time Series - Multiple Line Charts": ["Zaman Serileri - Çoklu Çizgi Grafikleri"],
+      "Time Series - Dual Axis Line Chart": ["Zaman Serileri - Çift Eksen Çizgi Grafiği"],
+      "Pick a metric for left axis!": ["Sol eksen için bir ölçü birimi seçin!"],
+      "Pick a metric for right axis!": ["Sağ eksen için bir ölçü birimi seçin!"],
+      "Please choose different metrics on left and right axis": ["Lütfen sol ve sağ eksende farklı ölçü birimleri seçin"],
+      "Time Series - Bar Chart": ["Zaman Serileri - Çubuk Grafik"],
+      "Time Series - Period Pivot": ["Zaman Serileri - Dönem Özeti"],
+      "Time Series - Percent Change": ["Zaman Serileri - Yüzde Değişimi"],
+      "Time Series - Stacked": ["Zaman Serileri - Yığılmış"],
       "Histogram": [""],
-      "Must have at least one numeric column specified": [""],
-      "Distribution - Bar Chart": [""],
-      "Can't have overlap between Series and Breakdowns": [""],
-      "Pick at least one field for [Series]": [""],
+      "Must have at least one numeric column specified": ["En az bir sayısal sütun belirtilmiş olmalıdır"],
+      "Distribution - Bar Chart": ["Dağıtım - Çubuk Grafik"],
+      "Can't have overlap between Series and Breakdowns": ["Seriler ve Kırılımlar arasında çakışma olamaz"],
+      "Pick at least one field for [Series]": ["[Seri] için en az bir alan seçin"],
       "Sunburst": [""],
       "Sankey": [""],
-      "Pick exactly 2 columns as [Source / Target]": [""],
+      "Pick exactly 2 columns as [Source / Target]": ["[Kaynak/Hedef] olarak 2 sütun seçin"],
       "There's a loop in your Sankey, please provide a tree. Here's a faulty link: {}": [
-        ""
+        "Sankey'inizde bir döngü var, lütfen bir ağaç sağlayın. İşte hatalı bir bağlantı: {}"
       ],
       "Directed Force Layout": [""],
       "Pick exactly 2 columns to 'Group By'": [""],
@@ -260,7 +260,7 @@
         ""
       ],
       "Redirects to this endpoint when clicking on the datasource from the datasource list": [
-        ""
+        "Veri kaynağı listesinden veri kaynağına tıklandığında bu uç noktaya yönlendirilir"
       ],
       "Duration (in seconds) of the caching timeout for this datasource. A timeout of 0 indicates that the cache never expires. Note this defaults to the cluster timeout if undefined.": [
         ""
