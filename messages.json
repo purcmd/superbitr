@@ -610,53 +610,53 @@
         "Gösterge tablosu içe aktarılamıyor: %(db_error)s.\nGösterge tablosunu içe aktarmadan önce veritabanını oluşturduğunuzdan emin olun"
       ],
       "An unknown error occurred. Please contact your Superset administrator": [
-        ""
+        "Bilinmeyen bir hata oluştu. Lütfen Superset yöneticinizle iletişime geçin"
       ],
-      "Error occurred when opening the chart: %(error)s": [""],
-      "You don't have the rights to ": [""],
-      "alter this ": [""],
-      "chart": [""],
-      "create a ": [""],
-      "Explore - %(table)s": [""],
-      "Chart [{}] has been saved": [""],
-      "Chart [{}] has been overwritten": [""],
-      "dashboard": [""],
-      "Chart [{}] was added to dashboard [{}]": [""],
-      "Dashboard [{}] just got created and chart [{}] was added to it": [""],
+      "Error occurred when opening the chart: %(error)s": ["Grafik açılırken hata oluştu: %(error)s"],
+      "You don't have the rights to ": ["Bu haklara sahip değilsin"],
+      "alter this ": ["Bunu değiştir"],
+      "chart": ["Grafik"],
+      "create a ": ["oluştur"],
+      "Explore - %(table)s": ["Keşfet - %(table)s"],
+      "Chart [{}] has been saved": ["Grafik [{}] kaydedildi"],
+      "Chart [{}] has been overwritten": ["[{}] grafiğinin üzerine yazıldı"],
+      "dashboard": ["Gösterge Paneli"],
+      "Chart [{}] was added to dashboard [{}]": ["Grafik [{}], gösterge paneline [{}] eklendi"],
+      "Dashboard [{}] just got created and chart [{}] was added to it": ["Gösterge tablosu [{}] az önce oluşturuldu ve buna [{}] grafiği eklendi"],
       "This dashboard was changed recently. Please reload dashboard to get latest version.": [
-        ""
+        "Bu gösterge paneli yakın zamanda değiştirildi. En son sürümü almak için lütfen gösterge panelini yeniden yükleyin"
       ],
-      "Could not load database driver: %(driver_name)s": [""],
+      "Could not load database driver: %(driver_name)s": ["Veritabanı sürücüsü yüklenemedi: %(driver_name)s"],
       "Invalid connection string, a valid string usually follows:\n'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'": [
-        ""
+        "Geçersiz bağlantı dizesi,genellikle aşağıdaki dizeyi takip eder:\n'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'"
       ],
       "Malformed request. slice_id or table_name and db_name arguments are expected": [
-        ""
+        "Yanlış biçimlendirilmiş istek. slice_id veya table_name ve db_name bağımsız değişkenleri bekleniyor"
       ],
-      "Chart %(id)s not found": [""],
-      "Table %(table)s wasn't found in the database %(db)s": [""],
-      "Can't find User '%(name)s', please ask your admin to create one.": [""],
-      "Can't find DruidCluster with cluster_name = '%(name)s'": [""],
-      "Data could not be deserialized. You may want to re-run the query.": [""],
+      "Chart %(id)s not found": ["%(id)s grafiği bulunamadı"],
+      "Table %(table)s wasn't found in the database %(db)s": ["%(table)s tablosu %(db)s veritabanında bulunamadı"],
+      "Can't find User '%(name)s', please ask your admin to create one.": ["Kullanıcı '%(name)s' bulunamıyor, lütfen yöneticinizden bir tane oluşturmasını isteyin."],
+      "Can't find DruidCluster with cluster_name = '%(name)s'": ["cluster_name = '%(name)s' ile DruidCluster bulunamıyor"],
+      "Data could not be deserialized. You may want to re-run the query.": ["Veriler seri durumdan çıkarılamadı. Sorguyu yeniden çalıştırmak isteyebilirsiniz"],
       "%(validator)s was unable to check your query.\nPlease recheck your query.\nException: %(ex)s": [
-        ""
+        "%(validator)s sorgunuzu kontrol edemedi.\nLütfen sorgunuzu tekrar kontrol edin.\nİstisna: %(ex)s"
       ],
       "Failed to start remote query on a worker. Tell your administrator to verify the availability of the message queue.": [
-        ""
+        "Bir çalışan üzerinde uzaktan sorgu başlatılamadı. Yöneticinize mesaj kuyruğunun kullanılabilirliğini doğrulamasını söyleyin"
       ],
-      "Query record was not created as expected.": [""],
+      "Query record was not created as expected.": ["Sorgu kaydı beklendiği gibi oluşturulmadı"],
       "The parameter %(parameters)s in your query is undefined.": [
-        "",
+        "Sorgunuzdaki %(parameters)s parametresi tanımsız",
         "The following parameters in your query are undefined: %(parameters)s."
       ],
-      "%(user)s's profile": [""],
-      "Show CSS Template": [""],
-      "Add CSS Template": [""],
-      "Edit CSS Template": [""],
-      "Template Name": [""],
-      "A human-friendly name": [""],
+      "%(user)s's profile": ["%(user)s'nin profili"],
+      "Show CSS Template": ["CSS Şablonunu Göster"],
+      "Add CSS Template": ["CSS Şablonu ekle"],
+      "Edit CSS Template": ["CSS Şablonunu düzenle"],
+      "Template Name": ["Şablon Adı"],
+      "A human-friendly name": ["İnsan dostu bir isim"],
       "Used internally to identify the plugin. Should be set to the package name from the pluginʼs package.json": [
-        ""
+        "Eklentiyi tanımlamak için dahili olarak kullanılır. Eklenti package.json'daki paket adına ayarlanmalıdır"
       ],
       "A full URL pointing to the location of the built plugin (could be hosted on a CDN for example)": [
         ""
