@@ -811,19 +811,19 @@
       "Allow DML": [""],
       "CTAS Schema": [""],
       "SQLAlchemy URI": [""],
-      "Chart Cache Timeout": [""],
-      "Secure Extra": [""],
-      "Root certificate": [""],
-      "Async Execution": [""],
-      "Impersonate the logged on user": [""],
-      "Allow Csv Upload": [""],
-      "Allow Multi Schema Metadata Fetch": [""],
+      "Chart Cache Timeout": ["Grafik Önbelleği Zaman Aşımı"],
+      "Secure Extra": ["Güvenli Ekstra"],
+      "Root certificate": ["Kök Sertifika"],
+      "Async Execution": ["Zaman Uyumsuz Yürütme "],
+      "Impersonate the logged on user": ["Oturum açmış kullanıcının kimliğine bürün"],
+      "Allow Csv Upload": ["Csv Yüklemeye İzin Ver"],
+      "Allow Multi Schema Metadata Fetch": ["Çoklu Şema Meta Verilerinin Getirilmesine İzin Ver"],
       "Backend": [""],
-      "Extra field cannot be decoded by JSON. %(msg)s": [""],
+      "Extra field cannot be decoded by JSON. %(msg)s": ["Ekstra alanın kodu JSON tarafından çözülemez. %(msg)s"],
       "Invalid connection string, a valid string usually follows:'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'<p>Example:'postgresql://user:password@your-postgres-db/database'</p>": [
         ""
       ],
-      "CSV to Database configuration": [""],
+      "CSV to Database configuration": ["CSV'den Veritabanına yapılandırma"],
       "Database \"%(database_name)s\" schema \"%(schema_name)s\" is not allowed for csv uploads. Please contact your Superset Admin.": [
         ""
       ],
@@ -856,7 +856,7 @@
       "Action": [""],
       "dttm": [""],
       "Add item": [""],
-      "The query couldn't be loaded": [""],
+      "The query couldn't be loaded": ["Sorgu yüklenemedi"],
       "Your query has been scheduled. To see details of your query, navigate to Saved queries": [
         ""
       ],
