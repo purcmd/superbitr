@@ -13,7 +13,7 @@
       "Databases": ["Veri Kaynakları"],
       "Data": ["Veri"],
       "Datasets": ["Veri Toplulukları"],
-      "Charts": ["Grafikler"],
+      "Charts": ["Görseller"],
       "Dashboards": ["Paneller"],
       "Plugins": ["Eklentiler"],
       "CSS Templates": ["CSS Şablonları"],
@@ -28,7 +28,7 @@
       "Upload Excel": ["Excel Yükleme"],
       "Action Log": ["Olay Günlüğü"],
       "Dashboard Emails": ["Pano e-postaları"],
-      "Chart Email Schedules": ["Grafik E-Posta Takvimi"],
+      "Chart Email Schedules": ["Görsel E-Posta Takvimi"],
       "Alerts": ["Uyarılar"],
       "Alerts & Reports": ["Uyarılar ve Raporlar"],
       "Access requests": ["Erişim Talepleri"],
@@ -59,80 +59,80 @@
       "CVAS (create view as select) can only be run with a query with a single SELECT statement. Please make sure your query has only a SELECT statement. Then, try running your query again.": [
         "SGO (Seçerek Görünüm Oluştur) yalnızca tek bir SELECT ifadesi içeren bir sorgu ile çalıştırılabilir. Lütfen sorgunuzun yalnızca bir SELECT ifadesi olduğundan emin olun. Ardından, sorgunuzu yeniden çalıştırmayı deneyin."
       ],
-      "Viz is missing a datasource": [""],
+      "Viz is missing a datasource": ["Görselde bir veri kaynağı eksik"],
       "Applied rolling window did not return any data. Please make sure the source query satisfies the minimum periods defined in the rolling window.": [
-        ""
+        "Dönen pencere herhangi bir veri döndürmedi. Lütfen kaynak sorgunun dönen pencerede tanımlanan minimum süreleri karşıladığından emin olun."
       ],
-      "From date cannot be larger than to date": [""],
-      "Cached value not found": [""],
-      "Columns missing in datasource: %(invalid_columns)s": [""],
-      "Table View": [""],
+      "From date cannot be larger than to date": ["Başlangıç tarihi, tarihten büyük olamaz."],
+      "Cached value not found": ["Önbelleğe alınmış değer bulunamadı."],
+      "Columns missing in datasource: %(invalid_columns)s": ["Veri kaynağında eksik sütunlar: %(invalid_columns)s"],
+      "Table View": ["Tablo görünümü"],
       "You cannot use [Columns] in combination with [Group By]/[Metrics]/[Percentage Metrics]. Please choose one or the other.": [
-        ""
+        "[Sütunlar]ı [Gruplama ölçütü]/[Ölçü birimleri]/[Yüzde metrikleri] ile birlikte kullanamazsınız. Lütfen birini veya diğerini seçin."
       ],
-      "Pick a granularity in the Time section or uncheck 'Include Time'": [""],
-      "Time Table View": [""],
-      "Pick at least one metric": [""],
-      "When using 'Group By' you are limited to use a single metric": [""],
-      "Pivot Table": [""],
-      "Please choose at least one 'Group by' field ": [""],
-      "Please choose at least one metric": [""],
-      "Group By' and 'Columns' can't overlap": [""],
+      "Pick a granularity in the Time section or uncheck 'Include Time'": ["Zaman bölümünde bir ayrıntı düzeyi seçin veya 'Zamanı Dahil Et' seçeneğinin işaretini kaldırın"],
+      "Time Table View": ["Zaman tablosu görünümü"],
+      "Pick at least one metric": ["En az bir ölçü birimi seçin"],
+      "When using 'Group By' you are limited to use a single metric": ["'Gruplama Ölçütü' kullanırken tek bir ölçü birimi kullanmakla sınırlandırılırsınız"],
+      "Pivot Table": ["Pivot tablosu"],
+      "Please choose at least one 'Group by' field ": ["Lütfen en az bir 'Gruplama ölçütü' alanı seçin"],
+      "Please choose at least one metric": ["Lütfen en az bir ölçü birimi seçin"],
+      "Group By' and 'Columns' can't overlap": ["'Gruplama Ölçütü' ve 'Sütunlar' çakışamaz"],
       "Treemap": [""],
-      "Calendar Heatmap": [""],
-      "Bubble Chart": [""],
-      "Please use 3 different metric labels": [""],
-      "Pick a metric for x, y and size": [""],
-      "Bullet Chart": [""],
-      "Pick a metric to display": [""],
-      "Big Number with Trendline": [""],
-      "Pick a metric!": [""],
-      "Big Number": [""],
-      "Time Series - Line Chart": [""],
-      "Pick a time granularity for your time series": [""],
+      "Calendar Heatmap": ["Zamansal sıcaklık haritası"],
+      "Bubble Chart": ["Kabarcık grafiği"],
+      "Please use 3 different metric labels": ["Lütfen 3 farklı ölçü birimi etiketi kullanın"],
+      "Pick a metric for x, y and size": ["x,y ve boyut için bir ölçü birimi seçin"],
+      "Bullet Chart": ["Madde işareti grafiği"],
+      "Pick a metric to display": ["Görüntülenecek bir ölçü birimi seçin"],
+      "Big Number with Trendline": ["Trendline ile büyük sayı"],
+      "Pick a metric!": ["Bir ölçü birimi seçin"],
+      "Big Number": ["Büyük sayı"],
+      "Time Series - Line Chart": ["Zaman Serileri- Çizgi Grafiği"],
+      "Pick a time granularity for your time series": ["Zaman seriniz için bir zaman ayrıntı düzeyi seçin"],
       "An enclosed time range (both start and end) must be specified when using a Time Comparison.": [
-        ""
+        "Zaman karşılaştırması kullanılırken kapalı bir zaman aralığı (hem başlangıç hem bitiş) belirtilmelidir"
       ],
-      "Time Series - Multiple Line Charts": [""],
-      "Time Series - Dual Axis Line Chart": [""],
-      "Pick a metric for left axis!": [""],
-      "Pick a metric for right axis!": [""],
-      "Please choose different metrics on left and right axis": [""],
-      "Time Series - Bar Chart": [""],
-      "Time Series - Period Pivot": [""],
-      "Time Series - Percent Change": [""],
-      "Time Series - Stacked": [""],
+      "Time Series - Multiple Line Charts": ["Zaman Serileri - Çoklu Çizgi Grafikleri"],
+      "Time Series - Dual Axis Line Chart": ["Zaman Serileri - Çift Eksen Çizgi Grafiği"],
+      "Pick a metric for left axis!": ["Sol eksen için bir ölçü birimi seçin!"],
+      "Pick a metric for right axis!": ["Sağ eksen için bir ölçü birimi seçin!"],
+      "Please choose different metrics on left and right axis": ["Lütfen sol ve sağ eksende farklı ölçü birimleri seçin"],
+      "Time Series - Bar Chart": ["Zaman Serileri - Çubuk Grafik"],
+      "Time Series - Period Pivot": ["Zaman Serileri - Dönem Özeti"],
+      "Time Series - Percent Change": ["Zaman Serileri - Yüzde Değişimi"],
+      "Time Series - Stacked": ["Zaman Serileri - Yığılmış"],
       "Histogram": [""],
-      "Must have at least one numeric column specified": [""],
-      "Distribution - Bar Chart": [""],
-      "Can't have overlap between Series and Breakdowns": [""],
-      "Pick at least one field for [Series]": [""],
+      "Must have at least one numeric column specified": ["En az bir sayısal sütun belirtilmiş olmalıdır"],
+      "Distribution - Bar Chart": ["Dağıtım - Çubuk Grafik"],
+      "Can't have overlap between Series and Breakdowns": ["Seriler ve Kırılımlar arasında çakışma olamaz"],
+      "Pick at least one field for [Series]": ["[Seri] için en az bir alan seçin"],
       "Sunburst": [""],
       "Sankey": [""],
-      "Pick exactly 2 columns as [Source / Target]": [""],
+      "Pick exactly 2 columns as [Source / Target]": ["[Kaynak/Hedef] olarak 2 sütun seçin"],
       "There's a loop in your Sankey, please provide a tree. Here's a faulty link: {}": [
-        ""
+        "Sankey'inizde bir döngü var, lütfen bir ağaç sağlayın. İşte hatalı bir bağlantı: {}"
       ],
-      "Directed Force Layout": [""],
-      "Pick exactly 2 columns to 'Group By'": [""],
-      "Country Map": [""],
-      "World Map": [""],
-      "Filters": [""],
-      "Invalid filter configuration, please select a column": [""],
-      "Parallel Coordinates": [""],
-      "Heatmap": [""],
-      "Horizon Charts": [""],
+      "Directed Force Layout": ["Yönlendirilmiş Kuvvet Düzeni"],
+      "Pick exactly 2 columns to 'Group By'": ["Gruplandırmak için 2 Sütun Seçin"],
+      "Country Map": ["Ülke Haritası"],
+      "World Map": ["Dünya Haritası"],
+      "Filters": ["Filtreler"],
+      "Invalid filter configuration, please select a column": ["Geçersiz Filtre Yapılandırması, Lütfen Bir Sütun Seçin"],
+      "Parallel Coordinates": ["Paralel Koordinatlar"],
+      "Heatmap": ["Sıcaklık Haritası"],
+      "Horizon Charts": ["Ufuk Çizgileri"],
       "Mapbox": [""],
-      "[Longitude] and [Latitude] must be set": [""],
-      "Must have a [Group By] column to have 'count' as the [Label]": [""],
-      "Choice of [Label] must be present in [Group By]": [""],
-      "Choice of [Point Radius] must be present in [Group By]": [""],
-      "[Longitude] and [Latitude] columns must be present in [Group By]": [""],
+      "[Longitude] and [Latitude] must be set": ["[Enlem] ve [Boylam] Girilmelidir"],
+      "Must have a [Group By] column to have 'count' as the [Label]": ["'count' ile [Label] Etiketlenebilmesi İçin [Group By] Gruplama Ölçütü Sütunu Olmalıdır "],
+      "Choice of [Label] must be present in [Group By]": ["[Label] Etiket Seçimi [Group By] Gruplama Ölçütünün İçinde Bulunmalıdır"],
+      "Choice of [Point Radius] must be present in [Group By]": ["[Group By] Gruplama Ölçütünde [Point Radius] Nokta Yarıçapı Seçimi Mevcut Olmalıdır "],
+      "[Longitude] and [Latitude] columns must be present in [Group By]": ["[Enlem] ve [Boylam] Sütunları [Group By] Gruplandırma Ölçütünde Bulunmalıdır"],
       "Deck.gl - Multiple Layers": [""],
-      "Bad spatial key": [""],
-      "Invalid spatial point encountered: %s": [""],
+      "Bad spatial key": ["Kötü Uzamsal Anahtar"],
+      "Invalid spatial point encountered: %s": ["Geçersiz Uzamsal Noktayla Karşılaşıldı %s "],
       "Encountered invalid NULL spatial entry,                                        please consider filtering those out": [
-        ""
+        "Geçersiz Boş Girişle Karşılaşıldı, Lütfen Bunları Filtreleyiniz "
       ],
       "Deck.gl - Scatter plot": [""],
       "Deck.gl - Screen Grid": [""],
@@ -142,28 +142,28 @@
       "Deck.gl - 3D HEX": [""],
       "Deck.gl - GeoJSON": [""],
       "Deck.gl - Arc": [""],
-      "Event flow": [""],
-      "Time Series - Paired t-test": [""],
-      "Time Series - Nightingale Rose Chart": [""],
-      "Partition Diagram": [""],
+      "Event flow": ["Olay Akışı"],
+      "Time Series - Paired t-test": ["Zaman Serileri - Eşleştirilmiş t-testi"],
+      "Time Series - Nightingale Rose Chart": ["Zaman Serileri - Nightingale Rose Tablosu "],
+      "Partition Diagram": ["Bölme Şeması"],
       "Choose either fields to [Group By] and [Metrics] and/or [Percentage Metrics], or [Columns], not both": [
-        ""
+        "[Group By] Gruplama Ölçütü ve [Metrics] Ölçütü ve/veya [Percentage Metrics] Yüzde Ölçütleri veya [Columns] Sütunlar Alanından Birini Seçin, İkisini Birden Seçmeyiniz "
       ],
-      "Box Plot": [""],
-      "Distribution - NVD3 - Pie Chart": [""],
+      "Box Plot": ["Box Plot"],
+      "Distribution - NVD3 - Pie Chart": ["Dağılım - NVD3 Pasta Grafiği"],
       "iFrame": [""],
       "Deleted %(num)d annotation layer": [
-        "",
+        "Açıklama Katmanının %(num)d Silindi",
         "Deleted %(num)d annotation layers"
       ],
-      "All Text": [""],
+      "All Text": ["Metinin Tümü"],
       "Deleted %(num)d annotation": ["", "Deleted %(num)d annotations"],
-      "End date must be after start date": [""],
-      "Short description must be unique for this layer": [""],
-      "Annotations could not be deleted.": [""],
-      "Annotation not found.": [""],
-      "Annotation parameters are invalid.": [""],
-      "Annotation could not be created.": [""],
+      "End date must be after start date": ["Bitiş Tarihi, Başlangıç Tarihinden Sonra Olmalıdır"],
+      "Short description must be unique for this layer": ["Kısa Açıklama Bu Katman İçin Benzersiz Olmalıdır"],
+      "Annotations could not be deleted.": ["Ek Açıklama Silinemez"],
+      "Annotation not found.": ["Ek Açıklama Bulunamadı"],
+      "Annotation parameters are invalid.": ["Ek Açıklama Parametreleri Geçersiz"],
+      "Annotation could not be created.": ["Ek Açıklama Oluşturulamadı"],
       "Annotation could not be updated.": ["Ek Açıklama Güncellenemedi."],
       "Annotation delete failed.": ["Ek açıklama silme başarısız."],
       "Annotation layer parameters are invalid.": ["Ek açıklama parametresi geçersiz."],
@@ -182,6 +182,7 @@
         "alt yüzdelik dilim 0'dan büyük ve 100'den küçük olmalıdır. Üst yüzdelik dilimden düşük olmalıdır"
       ],
       "upper percentile must be greater than 0 and less than 100. Must be higher than lower percentile.": [
+
         "üst yüzdelik dilim 0'dan büyük ve 100'den küçük olmalıdır. Alt yüzdelik dilimden yüksek olmalıdır."
       ],
       "`width` must be greater or equal to 0": ["genişlik' 0'dan büyük veya 0'a eşit olmalıdır"],
@@ -214,53 +215,89 @@
       "Column": ["Sütun"],
       "Type": ["Tip"],
       "Datasource": ["Veri kaynağı"],
-      "Groupable": ["gruplanabilir"],
+      "Groupable": ["Gruplanabilir"],
       "Filterable": ["Filtrelenebilir"],
-      "Whether this column is exposed in the `Filters` section of the explore view.": [
+
         ""
       ],
-      "Metrics": [""],
-      "Show Druid Metric": [""],
-      "Add Druid Metric": [""],
-      "Edit Druid Metric": [""],
-      "Metric": [""],
-      "Description": [""],
-      "Verbose Name": [""],
+      "`width` must be greater or equal to 0": [""],
+      "`row_limit` must be greater than or equal to 1": [""],
+      "`row_offset` must be greater than or equal to 0": [""],
+      "There are associated alerts or reports: %s,": [""],
+      "Database does not exist": [""],
+      "Dashboards do not exist": [""],
+      "Datasource type is required when datasource_id is given": [""],
+      "Chart parameters are invalid.": [""],
+      "Chart could not be created.": [""],
+      "Chart could not be updated.": [""],
+      "Chart could not be deleted.": [""],
+      "There are associated alerts or reports": [""],
+      "Changing this chart is forbidden": [""],
+      "Charts could not be deleted.": [""],
+      "Import chart failed for an unknown reason": [""],
+      "Owners are invalid": [""],
+      "Dataset does not exist": [""],
+      "`operation` property of post processing object undefined": [""],
+      "Unsupported post processing operation: %(operation)s": [""],
+      "Adding new datasource [{}]": [""],
+      "Refreshing datasource [{}]": [""],
+      "Metric(s) {} must be aggregations.": [""],
+      "Unsupported extraction function: ": [""],
+      "Columns": ["Sütunlar"],
+      "Show Druid Column": ["Sütun Gösterme Sihirbazı"],
+      "Add Druid Column": ["Sütun Ekleme Sihirbazı"],
+      "Edit Druid Column": ["Sütun Düzenleme Sihirbazı"],
+      "Column": ["Sütun"],
+      "Type": [""],
+      "Datasource": ["Veri Kaynağı"],
+      "Groupable": ["Gruplanabilir"],
+      "Filterable": ["Filtrenebilir"],
+
+      "Whether this column is exposed in the `Filters` section of the explore view.": [
+        "Bu Sütunun, Keşif Görünümünün 'Filtreler' Bölümünde Gösterilip Gösterilemeyeceği "
+      ],
+      "Metrics": ["Ölçütler"],
+      "Show Druid Metric": ["Druid Ölçütü Göster"],
+      "Add Druid Metric": ["Druid Ölçütü Ekle"],
+      "Edit Druid Metric": ["Druid Ölçütü Düzenle"],
+      "Metric": ["Ölçüt"],
+      "Description": ["Tanım"],
+      "Verbose Name": ["Ayrıntılı Ad"],
       "JSON": [""],
-      "Druid Datasource": [""],
-      "Warning Message": [""],
-      "Show Druid Cluster": [""],
-      "Add Druid Cluster": [""],
-      "Edit Druid Cluster": [""],
-      "Cluster Name": [""],
-      "Broker Host": [""],
-      "Broker Port": [""],
-      "Broker Username": [""],
-      "Broker Password": [""],
+      "Druid Datasource": ["Druid Veri Kaynağı"],
+      "Warning Message": ["Uyarı Mesajı"],
+      "Show Druid Cluster": ["Druid Kümesini Göster"],
+      "Add Druid Cluster": ["Druid Kümesi Ekle"],
+      "Edit Druid Cluster": ["Druid Kümesi Düzenle"],
+      "Cluster Name": ["Küme Adı"],
+      "Broker Host": ["Aracı Sunucu"],
+      "Broker Port": ["Aracı Girişi"],
+      "Broker Username": ["Aracı Kullanıcı Adı"],
+      "Broker Password": ["Aracı Şifresi"],
       "Broker Endpoint": [""],
-      "Cache Timeout": [""],
-      "Metadata Last Refreshed": [""],
+      "Cache Timeout": ["Önbellek Zaman Aşımı"],
+      "Metadata Last Refreshed": ["Son Yenilenen Meta Verileri"],
       "Duration (in seconds) of the caching timeout for this cluster. A timeout of 0 indicates that the cache never expires. Note this defaults to the global timeout if undefined.": [
-        ""
+        "Bu küme için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak global zaman aşımına uğradığını unutmayın."
       ],
       "Druid supports basic authentication. See [auth](http://druid.io/docs/latest/design/auth.html) and druid-basic-security extension": [
         ""
       ],
-      "Show Druid Datasource": [""],
-      "Add Druid Datasource": [""],
-      "Edit Druid Datasource": [""],
+      "Show Druid Datasource": ["Veri Kaynağı Sihirbazını Göster"],
+      "Add Druid Datasource": ["Veri Kaynağı Sihirbazını Ekle"],
+      "Edit Druid Datasource": ["Veri Kaynağı Sihirbazını Düzenle"],
       "The list of charts associated with this table. By altering this datasource, you may change how these associated charts behave. Also note that charts need to point to a datasource, so this form will fail at saving if removing charts from a datasource. If you want to change the datasource for a chart, overwrite the chart from the 'explore view'": [
-        ""
+        "Bu tabloyla ilişkili grafiklerin listesi. Bu veri kaynağını değiştirerek, bu ilişkili çizelgelerin nasıl davranacağını değiştirebilirsiniz. Ayrıca, grafiklerin bir veri kaynağına işaret etmesi gerektiğini unutmayın; bu nedenle, bir veri kaynağından görseller kaldırılırsa bu form kaydetmede başarısız olur. Bir grafiğin veri kaynağını değiştirmek istiyorsanız, 'keşif görünümünden grafiğin üzerine yazın."
       ],
-      "Timezone offset (in hours) for this datasource": [""],
+      "Timezone offset (in hours) for this datasource": ["Bu Veri Kaynağı İçin Saat Dilimi Ofseti (Saat Olarak)"],
       "Time expression to use as a predicate when retrieving distinct values to populate the filter component. Only applies when `Enable Filter Select` is on. If you enter `7 days ago`, the distinct list of values in the filter will be populated based on the distinct value over the past week": [
-        ""
+        "Filtre bileşenini doldurmak için farklı değerler alınırken yüklem olarak kullanılacak zaman ifadesi. Yalnızca 'Filtre Seçimini Etkinleştir' açık olduğunda geçerlidir. '7 gün önce' girerseniz, filtredeki farklı değerler listesi, geçen haftadaki farklı değere göre doldurulur"
       ],
       "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [
-        ""
+        "Keşif görünümünün filtre bölümündeki filtrenin açılır menüsünün, arka uçtan anında alınan farklı değerlerin bir listesiyle doldurulup doldurulmayacağı"
       ],
       "Redirects to this endpoint when clicking on the datasource from the datasource list": [
-        ""
+        "Veri kaynağı listesinden veri kaynağına tıklandığında bu uç noktaya yönlendirilir"
       ],
       "Duration (in seconds) of the caching timeout for this datasource. A timeout of 0 indicates that the cache never expires. Note this defaults to the cluster timeout if undefined.": [
         ""
@@ -307,59 +344,60 @@
       "Is temporal": [""],
       "Datetime Format": [""],
       "Invalid date/timestamp format": [""],
-      "Show Metric": [""],
-      "Add Metric": [""],
-      "Edit Metric": [""],
-      "SQL Expression": [""],
+      "Show Metric": ["Ölçüt Göster"],
+      "Add Metric": ["Ölçüt Ekle"],
+      "Edit Metric": ["Ölçüt Düzenle"],
+      "SQL Expression": ["SQL İfadesi"],
       "D3 Format": [""],
-      "Extra": [""],
-      "Row level security filter": [""],
-      "Show Row level security filter": [""],
-      "Add Row level security filter": [""],
-      "Edit Row level security filter": [""],
+      "Extra": ["Ekstra"],
+      "Row level security filter": ["Satır Düzeyinde Güvenlik Filtresi"],
+      "Show Row level security filter": ["Satır Düzeyinde Güvenlik Filtresini Göster"],
+      "Add Row level security filter": ["Satır Düzeyi Güvenlik Filtresi Ekleme"],
+      "Edit Row level security filter": ["Satır Düzeyi Güvenlik Filtresi Düzenleme"],
       "Regular filters add where clauses to queries if a user belongs to a role referenced in the filter. Base filters apply filters to all queries except the roles defined in the filter, and can be used to define what users can see if no RLS filters within a filter group apply to them.": [
-        ""
+        "Normal filtreler, bir kullanıcı filtrede başvurulan bir role aitse sorgulara where yan tümceleri ekler. Temel filtreler, filtrede tanımlanan roller dışındaki tüm sorgulara filtreler uygular ve bir filtre grubu içindeki hiçbir RLS filtresi kendilerine uygulanmadığında kullanıcıların görebileceklerini tanımlamak için kullanılabilir."
       ],
-      "These are the tables this filter will be applied to.": [""],
+      "These are the tables this filter will be applied to.": ["Bunlar, bu filtrenin uygulanacağı tablolardır."],
       "For regular filters, these are the roles this filter will be applied to. For base filters, these are the roles that the filter DOES NOT apply to, e.g. Admin if admin should see all data.": [
-        ""
+        "Normal filtreler için bunlar, bu filtrenin uygulanacağı rollerdir. Temel filtreler için bunlar, filtrenin UYGULANMADIĞI rollerdir, ör. Yöneticinin tüm verileri görmesi gerekiyorsa yönetici"
       ],
       "Filters with the same group key will be ORed together within the group, while different filter groups will be ANDed together. Undefined group keys are treated as unique groups, i.e. are not grouped together. For example, if a table has three filters, of which two are for departments Finance and Marketing (group key = 'department'), and one refers to the region Europe (group key = 'region'), the filter clause would apply the filter (department = 'Finance' OR department = 'Marketing') AND (region = 'Europe').": [
-        ""
+        "Aynı grup anahtarına sahip filtreler grup içinde birlikte VEYA'lanırken, farklı filtre grupları birlikte VE'lenir. Tanımsız grup anahtarları benzersiz gruplar olarak kabul edilir, yani birlikte gruplandırılmaz. Örneğin, bir tabloda ikisi Finans ve Pazarlama departmanları için olan (grup anahtarı = 'departman') ve biri Avrupa bölgesine atıfta bulunan (grup anahtarı = 'bölge') olmak üzere üç filtre varsa, filtre yan tümcesi filtre (departman = 'Finans' VEYA departman = 'Pazarlama') VE (bölge = 'Avrupa')"
       ],
       "This is the condition that will be added to the WHERE clause. For example, to only return rows for a particular client, you might define a regular filter with the clause `client_id = 9`. To display no rows unless a user belongs to a RLS filter role, a base filter can be created with the clause `1 = 0` (always false).": [
-        ""
+        "WHERE yan tümcesine eklenecek koşul budur. Örneğin, yalnızca belirli bir istemci için satırları döndürmek için, 'client_id = 9' yan tümcesiyle normal bir filtre tanımlayabilirsiniz. Bir kullanıcı bir RLS filtre rolüne ait olmadığı sürece hiçbir satır görüntülemek için, '1 = 0' (her zaman yanlış) yan tümcesiyle bir temel filtre oluşturulabilir."
       ],
-      "Tables": [""],
-      "Roles": [""],
-      "Clause": [""],
-      "Creator": [""],
-      "Show Table": [""],
-      "Import a table definition": [""],
-      "Edit Table": [""],
-      "Name of the table that exists in the source database": [""],
+      "Tables": ["Tablolar"],
+      "Roles": ["Roller"],
+      "Clause": ["Madde"],
+      "Creator": ["Yaratıcı"],
+      "Show Table": ["Tabloyu Göster"],
+      "Import a table definition": ["Tablo Tanımını İçe Aktar"],
+      "Edit Table": ["Tablo Düzenleme"],
+      "Name of the table that exists in the source database": ["Kaynak veritabanında bulunan tablonun adı"],
       "Schema, as used only in some databases like Postgres, Redshift and DB2": [
-        ""
+        "Yalnızca Postgres, Redshift ve DB2 gibi bazı veritabanlarında kullanılan şema"
       ],
       "This fields acts a Superset view, meaning that Superset will run a query against this string as a subquery.": [
-        ""
+        "Bu alanlar bir Süper Küme görünümü işlevi görür, yani Süper Küme bu dizeye karşı bir alt sorgu olarak bir sorgu çalıştırır."
       ],
       "Predicate applied when fetching distinct value to populate the filter control component. Supports jinja template syntax. Applies only when `Enable Filter Select` is on.": [
-        ""
+        "Filtre kontrol bileşenini doldurmak için farklı değer alınırken uygulanan yüklem. Jinja şablon sözdizimini destekler. Yalnızca 'Filtre Seçimini Etkinleştir' açıkken geçerlidir"
       ],
       "Redirects to this endpoint when clicking on the table from the table list": [
-        ""
+        "Tablo listesinden tabloya tıklandığında bu uç noktaya yönlendirilir"
       ],
       "Whether the table was generated by the 'Visualize' flow in SQL Lab": [
-        ""
+        "Tablonun SQL Lab'deki 'Görselleştirme' akışı tarafından oluşturulup oluşturulmadığı"
       ],
       "A set of parameters that become available in the query using Jinja templating syntax": [
-        ""
+        "Jinja şablonlama sözdizimi kullanılarak sorguda kullanılabilir hale gelen bir dizi parametre"
       ],
       "Duration (in seconds) of the caching timeout for this table. A timeout of 0 indicates that the cache never expires. Note this defaults to the database timeout if undefined.": [
-        ""
+        "Bu tablo için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak veritabanı zaman aşımına uğradığını unutmayın."
       ],
-      "Database": ["Veri tabanı"],
+
+      "Database": ["Veri Tabanı"],
       "Last Changed": ["Son Değişiklik"],
       "Schema": ["Şema"],
       "Offset": ["Girinti"],
@@ -368,6 +406,17 @@
       "Main Datetime Column": ["Ana Tarih Saat Sütunu"],
       "SQL Lab View": ["SQL Laboratuvar Görünümü"],
       "Template parameters": ["Şablon parametreleri"],
+=======
+      "Database": ["Veri Tabanı"],
+      "Last Changed": ["Son Değişiklik"],
+      "Schema": ["Şema"],
+      "Offset": [""],
+      "Table Name": [""],
+      "Fetch Values Predicate": [""],
+      "Main Datetime Column": [""],
+      "SQL Lab View": [""],
+      "Template parameters": [""],
+
       "The table was created. As part of this two-phase configuration process, you should now click the edit button by the new table to configure it.": [
         "Tablo oluşturuldu. Bu iki aşamalı yapılandırma sürecinin bir parçası olarak, şimdi yapılandırmak için yeni tablonun yanındaki düzenle düğmesine tıklamalısınız."
       ],
@@ -507,156 +556,156 @@
       "Chart": [""],
       "Dashboard": [""],
       "Profile": [""],
-      "Info": [""],
-      "Logout": [""],
-      "Login": [""],
-      "Record Count": [""],
-      "No records found": [""],
-      "Filter List": [""],
-      "Search": [""],
-      "Refresh": [""],
-      "Import dashboards": [""],
-      "Import Dashboard(s)": [""],
-      "File": [""],
-      "Choose File": [""],
-      "Upload": [""],
-      "No Access!": [""],
+      "Info": ["Bilgi"],
+      "Logout": ["Çıkış yap"],
+      "Login": ["Giriş yap"],
+      "Record Count": ["Kayıt Sayısı"],
+      "No records found": ["Kayıt Bulunamadı"],
+      "Filter List": ["Filtre Listesi"],
+      "Search": ["Arama"],
+      "Refresh": ["Yenile"],
+      "Import dashboards": ["Gösterge Paneli Ekleme"],
+      "Import Dashboard(s)": ["Gösterge Paneli Ekleme"],
+      "File": ["Dosya"],
+      "Choose File": ["Dosya Seçin"],
+      "Upload": ["Yükle"],
+      "No Access!": ["Erişim yok!"],
       "You do not have permissions to access the datasource(s): %(name)s.": [
-        ""
+        "Bu veri kaynağına erişiminiz için yetkiniz yok: %(name)s."
       ],
-      "Request Permissions": [""],
-      "Cancel": [""],
-      "Use the edit buttom to change this field": [""],
-      "Test Connection": [""],
-      "[Superset] Access to the datasource %(name)s was granted": [""],
-      "Unable to find such a holiday: [{}]": [""],
-      "Referenced columns not available in DataFrame.": [""],
-      "Column referenced by aggregate is undefined: %(column)s": [""],
-      "Operator undefined for aggregator: %(name)s": [""],
-      "Invalid numpy function: %(operator)s": [""],
-      "Pivot operation requires at least one index": [""],
-      "Pivot operation must include at least one aggregate": [""],
-      "Undefined window for rolling operation": [""],
-      "Invalid rolling_type: %(type)s": [""],
-      "Invalid options for %(rolling_type)s: %(options)s": [""],
-      "Invalid cumulative operator: %(operator)s": [""],
-      "Invalid geohash string": [""],
-      "Invalid longitude/latitude": [""],
-      "Invalid geodetic string": [""],
-      "`fbprophet` package not installed": [""],
-      "Time grain missing": [""],
-      "Unsupported time grain: %(time_grain)s": [""],
-      "Periods must be a positive integer value": [""],
-      "Confidence interval must be between 0 and 1 (exclusive)": [""],
-      "DataFrame must include temporal column": [""],
-      "DataFrame include at least one series": [""],
+      "Request Permissions": ["İzin iste"],
+      "Cancel": ["İptal Et"],
+      "Use the edit buttom to change this field": ["Bu alanı değiştirmek için düzenle düğmesini kullanın"],
+      "Test Connection": ["Test bağlantısı"],
+      "[Superset] Access to the datasource %(name)s was granted": ["[Superset] Verikaynağına %(name)s erişim verildi"],
+      "Unable to find such a holiday: [{}]": ["Böyle bir tatil bulunamadı: [{}]:"],
+      "Referenced columns not available in DataFrame.": ["Başvurulan sütunlar Veriçerçevesinde mevcut değil"],
+      "Column referenced by aggregate is undefined: %(column)s": ["Toplama tarafından başvurulan sütun tanımsız: %(column)s"],
+      "Operator undefined for aggregator: %(name)s": ["Toplayıcı için operatör tanımsız: %(name)s"],
+      "Invalid numpy function: %(operator)s": ["Geçersiz dizi işlemi: %(operator)s"],
+      "Pivot operation requires at least one index": ["Pivot işlemi en az bir dizin gerektirir"],
+      "Pivot operation must include at least one aggregate": ["Pivot işlemi en az bir toplama içermelidir"],
+      "Undefined window for rolling operation": ["Yuvarlanma işlemi için tanımsız pencere"],
+      "Invalid rolling_type: %(type)s": ["Geçersiz yuvarlanma_tipi: %(type)s"],
+      "Invalid options for %(rolling_type)s: %(options)s": ["%(rolling_type)s: %(options)s için geçersiz seçenekler"],
+      "Invalid cumulative operator: %(operator)s": ["Geçersiz kümülatif operatör: %(operator)s"],
+      "Invalid geohash string": ["Geçersiz coğrafi veri özeti"],
+      "Invalid longitude/latitude": ["Geçersiz boylam/enlem"],
+      "Invalid geodetic string": ["Geçersiz coğrafi veri"],
+      "`fbprophet` package not installed": ["`fbprophet` paketi kurulu değil"],
+      "Time grain missing": ["Zaman birimi eksik"],
+      "Unsupported time grain: %(time_grain)s": ["Desteklenmeyen zaman birimi: %(time_grain)s"],
+      "Periods must be a positive integer value": ["Periyotlar pozitif bir tamsayı değeri olmalıdır"],
+      "Confidence interval must be between 0 and 1 (exclusive)": ["Güven aralığı 0 ile 1 arasında olmalıdır (özel)"],
+      "DataFrame must include temporal column": ["Veri çerçevesi geçici sütun içermelidir"],
+      "DataFrame include at least one series": ["Veri çerçevesine en az bir dizi dahil"],
       "percentiles must be a list or tuple with two numeric values, of which the first is lower than the second value": [
-        ""
+        "Yüzdelikler, birincisi ikinci değerden küçük olan iki sayısal değere sahip bir liste veya demet olmalıdır"
       ],
-      "User": [""],
-      "User Roles": [""],
-      "Database URL": [""],
-      "Roles to grant": [""],
-      "Created On": [""],
-      "List Observations": [""],
-      "Show Observation": [""],
-      "Error Message": [""],
-      "Log Retentions (days)": [""],
-      "A semicolon ';' delimited list of email addresses": [""],
-      "How long to keep the logs around for this alert": [""],
+      "User": ["Kullanıcı"],
+      "User Roles": ["Kullanıcı Rolleri"],
+      "Database URL": ["Veritabanı URL'si"],
+      "Roles to grant": ["Verilecek Roller"],
+      "Created On": ["Tarihinde oluşturuldu"],
+      "List Observations": ["Gözlemleri Listele"],
+      "Show Observation": ["Gözlemi Göster"],
+      "Error Message": ["Hata mesajı"],
+      "Log Retentions (days)": ["Kayıt Sayısı (günler)"],
+      "A semicolon ';' delimited list of email addresses": ["Noktalı virgül ';' ile ayrılmış e-posta adresleri listesi"],
+      "How long to keep the logs around for this alert": ["Günlüklerin ne kadar süre ile saklanacağı için uyarı"],
       "Once an alert is triggered, how long, in seconds, before Superset nags you again.": [
-        ""
+        "Bir uyarı tetiklendiğinde, Superset sizi tekrar uyarmadan önce, kaç saniye bekler?"
       ],
       "A SQL statement that defines whether the alert should get triggered or not. The query is expected to return either NULL or a number value.": [
-        ""
+        "Uyarının tetiklenip tetiklenmeyeceğini tanımlayan bir SQL ifadesi. Sorgunun NULL veya bir sayı değeri döndürmesi bekleniyor"
       ],
-      "annotation start time or end time is required.": [""],
-      "Annotation end time must be no earlier than start time.": [""],
-      "Annotations": [""],
-      "Show Annotation": [""],
-      "Add Annotation": [""],
-      "Edit Annotation": [""],
-      "Layer": [""],
-      "Label": [""],
-      "Start": [""],
-      "End": [""],
-      "JSON Metadata": [""],
-      "Show Annotation Layer": [""],
-      "Add Annotation Layer": [""],
-      "Edit Annotation Layer": [""],
-      "Name": [""],
-      "Dataset %(name)s already exists": [""],
+      "annotation start time or end time is required.": ["Ek açıklama için başlangıç zamanı veya bitiş zamanı gerekli"],
+      "Annotation end time must be no earlier than start time.": ["Ek açıklamaNIN bitiş zamanı, başlangıç zamanından önce olmamalıdır"],
+      "Annotations": ["Ek açıklamalar"],
+      "Show Annotation": ["Açıklamayı Göster"],
+      "Add Annotation": ["Açıklama Ekle"],
+      "Edit Annotation": ["Açıklamayı Düzenle"],
+      "Layer": ["Katman"],
+      "Label": ["Etiket"],
+      "Start": ["Başla"],
+      "End": ["Son"],
+      "JSON Metadata": ["JSON üst veri"],
+      "Show Annotation Layer": ["Açıklama Katmanını Göster"],
+      "Add Annotation Layer": ["Açıklama Katmanı Ekle"],
+      "Edit Annotation Layer": ["Açıklama Katmanını Düzenle"],
+      "Name": ["İsim"],
+      "Dataset %(name)s already exists": ["%(name)s veri kümesi zaten var"],
       "Table [%{table}s] could not be found, please double check your database connection, schema, and table name, error: {}": [
-        ""
+        "Tablo [%{table}s] bulunamadı, lütfen veritabanı bağlantınızı, şemanızı ve tablo adınızı tekrar kontrol edin, hata: {}"
       ],
-      "json isn't valid": [""],
-      "Export to YAML": [""],
-      "Export to YAML?": [""],
-      "Delete": [""],
-      "Delete all Really?": [""],
-      "Is favorite": [""],
-      "The data source seems to have been deleted": [""],
-      "The user seems to have been deleted": [""],
-      "Access was requested": [""],
-      "The access requests seem to have been deleted": [""],
+      "json isn't valid": ["json geçerli değil"],
+      "Export to YAML": ["YAML'e aktar"],
+      "Export to YAML?": ["YAML'ye aktarılsın mı?"],
+      "Delete": ["Sil"],
+      "Delete all Really?": ["Tümü Silinsin mi?"],
+      "Is favorite": ["Favori mi?"],
+      "The data source seems to have been deleted": ["Veri kaynağı silinmiş görünüyor"],
+      "The user seems to have been deleted": ["Kullanıcı silinmiş görünüyor"],
+      "Access was requested": ["Erişim talep edildi"],
+      "The access requests seem to have been deleted": ["Erişim istekleri silinmiş görünüyor"],
       "%(user)s was granted the role %(role)s that gives access to the %(datasource)s": [
-        ""
+        "%(user)s'in %(datasource)s'a erişimi için %(role)s rolü verildi"
       ],
       "Role %(r)s was extended to provide the access to the datasource %(ds)s": [
-        ""
+        "%(r)s rolü, %(ds)s veri kaynağına erişim sağlamak için genişletildi"
       ],
-      "You have no permission to approve this request": [""],
+      "You have no permission to approve this request": ["Bu isteği onaylama izniniz yok"],
       "Cannot import dashboard: %(db_error)s.\nMake sure to create the database before importing the dashboard.": [
-        ""
+        "Panel içe aktarılamıyor: %(db_error)s.\nPaneli içe aktarmadan önce veritabanını oluşturduğunuzdan emin olun"
       ],
       "An unknown error occurred. Please contact your Superset administrator": [
-        ""
+        "Bilinmeyen bir hata oluştu. Lütfen Superset yöneticinizle iletişime geçin"
       ],
-      "Error occurred when opening the chart: %(error)s": [""],
-      "You don't have the rights to ": [""],
-      "alter this ": [""],
-      "chart": [""],
-      "create a ": [""],
-      "Explore - %(table)s": [""],
-      "Chart [{}] has been saved": [""],
-      "Chart [{}] has been overwritten": [""],
-      "dashboard": [""],
-      "Chart [{}] was added to dashboard [{}]": [""],
-      "Dashboard [{}] just got created and chart [{}] was added to it": [""],
+      "Error occurred when opening the chart: %(error)s": ["Görsel açılırken hata oluştu: %(error)s"],
+      "You don't have the rights to ": ["Bu haklara sahip değilsin"],
+      "alter this ": ["Bunu değiştir"],
+      "chart": ["Görsel"],
+      "create a ": ["oluştur"],
+      "Explore - %(table)s": ["Keşfet - %(table)s"],
+      "Chart [{}] has been saved": ["Görsel [{}] kaydedildi"],
+      "Chart [{}] has been overwritten": ["[{}] görselinin üzerine yazıldı"],
+      "dashboard": ["Panel"],
+      "Chart [{}] was added to dashboard [{}]": ["Görsel [{}], paneline [{}] eklendi"],
+      "Dashboard [{}] just got created and chart [{}] was added to it": ["Panel [{}] az önce oluşturuldu ve buna [{}] görseli eklendi"],
       "This dashboard was changed recently. Please reload dashboard to get latest version.": [
-        ""
+        "Bu panel yakın zamanda değiştirildi. En son sürümü almak için lütfen  paneli yeniden yükleyin"
       ],
-      "Could not load database driver: %(driver_name)s": [""],
+      "Could not load database driver: %(driver_name)s": ["Veritabanı sürücüsü yüklenemedi: %(driver_name)s"],
       "Invalid connection string, a valid string usually follows:\n'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'": [
-        ""
+        "Geçersiz bağlantı dizesi,genellikle aşağıdaki dizeyi takip eder:\n'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'"
       ],
       "Malformed request. slice_id or table_name and db_name arguments are expected": [
-        ""
+        "Yanlış biçimlendirilmiş istek. slice_id veya table_name ve db_name bağımsız değişkenleri bekleniyor"
       ],
-      "Chart %(id)s not found": [""],
-      "Table %(table)s wasn't found in the database %(db)s": [""],
-      "Can't find User '%(name)s', please ask your admin to create one.": [""],
-      "Can't find DruidCluster with cluster_name = '%(name)s'": [""],
-      "Data could not be deserialized. You may want to re-run the query.": [""],
+      "Chart %(id)s not found": ["%(id)s görseli bulunamadı"],
+      "Table %(table)s wasn't found in the database %(db)s": ["%(table)s tablosu %(db)s veritabanında bulunamadı"],
+      "Can't find User '%(name)s', please ask your admin to create one.": ["Kullanıcı '%(name)s' bulunamıyor, lütfen yöneticinizden bir tane oluşturmasını isteyin."],
+      "Can't find DruidCluster with cluster_name = '%(name)s'": ["cluster_name = '%(name)s' ile DruidCluster bulunamıyor"],
+      "Data could not be deserialized. You may want to re-run the query.": ["Veriler seri durumdan çıkarılamadı. Sorguyu yeniden çalıştırmak isteyebilirsiniz"],
       "%(validator)s was unable to check your query.\nPlease recheck your query.\nException: %(ex)s": [
-        ""
+        "%(validator)s sorgunuzu kontrol edemedi.\nLütfen sorgunuzu tekrar kontrol edin.\nİstisna: %(ex)s"
       ],
       "Failed to start remote query on a worker. Tell your administrator to verify the availability of the message queue.": [
-        ""
+        "Bir çalışan üzerinde uzaktan sorgu başlatılamadı. Yöneticinize mesaj kuyruğunun kullanılabilirliğini doğrulamasını söyleyin"
       ],
-      "Query record was not created as expected.": [""],
+      "Query record was not created as expected.": ["Sorgu kaydı beklendiği gibi oluşturulmadı"],
       "The parameter %(parameters)s in your query is undefined.": [
-        "",
+        "Sorgunuzdaki %(parameters)s parametresi tanımsız",
         "The following parameters in your query are undefined: %(parameters)s."
       ],
-      "%(user)s's profile": [""],
-      "Show CSS Template": [""],
-      "Add CSS Template": [""],
-      "Edit CSS Template": [""],
-      "Template Name": [""],
-      "A human-friendly name": [""],
+      "%(user)s's profile": ["%(user)s'nin profili"],
+      "Show CSS Template": ["CSS Şablonunu Göster"],
+      "Add CSS Template": ["CSS Şablonu ekle"],
+      "Edit CSS Template": ["CSS Şablonunu düzenle"],
+      "Template Name": ["Şablon Adı"],
+      "A human-friendly name": ["İnsan dostu bir isim"],
       "Used internally to identify the plugin. Should be set to the package name from the pluginʼs package.json": [
-        ""
+        "Eklentiyi tanımlamak için dahili olarak kullanılır. Eklenti package.json'daki paket adına ayarlanmalıdır"
       ],
       "A full URL pointing to the location of the built plugin (could be hosted on a CDN for example)": [
         ""
@@ -707,107 +756,107 @@
       "The CSS for individual dashboards can be altered here, or in the dashboard view where changes are immediately visible": [
         ""
       ],
-      "To get a readable URL for your dashboard": [""],
+      "To get a readable URL for your dashboard": ["Panel için okunabilir URL al"],
       "This JSON object is generated dynamically when clicking the save or overwrite button in the dashboard view. It is exposed here for reference and for power users who may want to alter specific parameters.": [
-        ""
+        "Bu JSON objesi panel üzerinde kaydet veya üzerine yaz butonuna basıldığında dinamik olarak oluşturulur. Burada referans olarak ve belirli parametreleri değiştirmek isteyebilecek uzman kullanıcılar için sunulmuştur."
       ],
-      "Owners is a list of users who can alter the dashboard.": [""],
+      "Owners is a list of users who can alter the dashboard.": ["Sahipler, paneli değiştirebilecek kullanıcılardır."],
       "Determines whether or not this dashboard is visible in the list of all dashboards": [
-        ""
+        "Bu panelin tüm paneller listesinde görünüp görünmeyeceğini belirler"
       ],
-      "Title": [""],
-      "Slug": [""],
-      "Published": [""],
-      "Position JSON": [""],
+      "Title": ["Başlık"],
+      "Slug": ["Kalıcı Bağlantı"],
+      "Published": ["Yayınlandı"],
+      "Position JSON": ["JSON pozisyonu"],
       "CSS": [""],
-      "Underlying Tables": [""],
-      "Export": [""],
-      "Export dashboards?": [""],
-      "Name of table to be created from csv data.": [""],
-      "CSV File": [""],
-      "Select a CSV file to be uploaded to a database.": [""],
+      "Underlying Tables": ["Temel Tablolar"],
+      "Export": ["Dışa aktar"],
+      "Export dashboards?": ["Panelleri dışa aktar?"],
+      "Name of table to be created from csv data.": ["CSV verilerinden oluşturulacak tablonun adı."],
+      "CSV File": ["CSV Dosyası"],
+      "Select a CSV file to be uploaded to a database.": ["Veritabanına yüklenecek CSV dosyasını seçin."],
       "Only the following file extensions are allowed: %(allowed_extensions)s": [
-        ""
+        "Yalnızca aşağıdaki dosya uzantılarına izin verilir: %(allowed_extensions)s"
       ],
-      "Specify a schema (if database flavor supports this).": [""],
-      "Delimiter": [""],
-      "Delimiter used by CSV file (for whitespace use \\s+).": [""],
-      "Table Exists": [""],
+      "Specify a schema (if database flavor supports this).": ["Bir şema belirtin (Eğer Flavor Database destekliyorsa). "],
+      "Delimiter": ["Sınırlayıcı"],
+      "Delimiter used by CSV file (for whitespace use \\s+).": ["CSV dosyası tarafından kullanılan sınırlayıcı (boşluk kullanımı için \\s+)."],
+      "Table Exists": ["Tablo Var"],
       "If table exists do one of the following: Fail (do nothing), Replace (drop and recreate table) or Append (insert data).": [
-        ""
+        "Tablo varsa, aşağıdakilerden birini yapın: Başarısız (hiçbir şey yapma), Değiştir (tabloyu düşür ve yeniden oluştur) veya Ekle (veri ekle)."
       ],
-      "Fail": [""],
-      "Replace": [""],
-      "Append": [""],
-      "Header Row": [""],
+      "Fail": ["Başarısız"],
+      "Replace": ["Değiştir"],
+      "Append": ["Ekle"],
+      "Header Row": ["Üst Bilgi Satırı"],
       "Row containing the headers to use as column names (0 is first line of data). Leave empty if there is no header row.": [
-        ""
+        "Sütun adları olarak kullanılacak başlıkları içeren satır (0, verilerin ilk satırıdır). Başlık satırı yoksa boş bırakın."
       ],
-      "Index Column": [""],
+      "Index Column": ["Dizin Sütunu"],
       "Column to use as the row labels of the dataframe. Leave empty if no index column.": [
-        ""
+        "Veri çerçevesinin satır etiketleri olarak kullanılacak sütun. Dizin sütunu yoksa boş bırakın."
       ],
-      "Mangle Duplicate Columns": [""],
-      "Specify duplicate columns as \"X.0, X.1\".": [""],
-      "Skip Initial Space": [""],
-      "Skip spaces after delimiter.": [""],
-      "Skip Rows": [""],
-      "Number of rows to skip at start of file.": [""],
-      "Rows to Read": [""],
-      "Number of rows of file to read.": [""],
-      "Skip Blank Lines": [""],
-      "Skip blank lines rather than interpreting them as NaN values.": [""],
-      "Parse Dates": [""],
-      "A comma separated list of columns that should be parsed as dates.": [""],
-      "Infer Datetime Format": [""],
-      "Use Pandas to interpret the datetime format automatically.": [""],
-      "Decimal Character": [""],
-      "Character to interpret as decimal point.": [""],
-      "Dataframe Index": [""],
-      "Write dataframe index as a column.": [""],
-      "Column Label(s)": [""],
+      "Mangle Duplicate Columns": ["Yinelenen Sütunları Yönet"],
+      "Specify duplicate columns as \"X.0, X.1\".": ["Yinelenen sütunları \"X.0, X.1\" olarak belirtin."],
+      "Skip Initial Space": ["İlk Boşluğu Atla"],
+      "Skip spaces after delimiter.": ["Sınırlayıcıdan sonra boşlukları atlayın."],
+      "Skip Rows": ["Satırları Atla"],
+      "Number of rows to skip at start of file.": ["Dosyanın başlangıcında atlanacak satır sayısı."],
+      "Rows to Read": ["Okunacak Satırlar"],
+      "Number of rows of file to read.": ["Okunacak dosya satır sayısı."],
+      "Skip Blank Lines": ["Boş Satırı Atla"],
+      "Skip blank lines rather than interpreting them as NaN values.": ["Boş satırları NaN değerleri olarak yorumlamak yerine atlayın."],
+      "Parse Dates": ["Ayrıştırma Tarihleri"],
+      "A comma separated list of columns that should be parsed as dates.": ["Tarih olarak ayrıştırılması gereken sütunların virgülle ayrılmış listesi"],
+      "Infer Datetime Format": ["Tarih Saat Biçimini Çıkar"],
+      "Use Pandas to interpret the datetime format automatically.": ["Tarih saat biçimini otomatik olarak yorumlamak için Pandas kullanın"],
+      "Decimal Character": ["Ondalık Karakter"],
+      "Character to interpret as decimal point.": ["Ondalık nokta olarak yorumlanacak karakter"],
+      "Dataframe Index": ["Veri Çerçevesi Dizini"],
+      "Write dataframe index as a column.": ["Veri çerçevesi dizinini sütun olarak yaz"],
+      "Column Label(s)": ["Sütun Etiketleri"],
       "Column label for index column(s). If None is given and Dataframe Index is True, Index Names are used.": [
-        ""
+        "Dizin sütunları için sütun etiketi. Boş verilir ve veri çerçevesi dizini doğru ise, Dizin Adları kullanılır"
       ],
-      "Null values": [""],
+      "Null values": ["boş değerler"],
       "Json list of the values that should be treated as null. Examples: [\"\"], [\"None\", \"N/A\"], [\"nan\", \"null\"]. Warning: Hive database supports only single value. Use [\"\"] for empty string.": [
-        ""
+        "Boş olarak ele alınması gereken değerlerin Json listesi. Örnekler: [\"\"], [\"None\", \"N/A\"], [\"nan\", \"null\"]. Uyarı: Hive veritabanı yalnızca tek bir değeri destekler. Boş dize için [\"\"] kullanın"
       ],
-      "Name of table to be created from excel data.": [""],
-      "Excel File": [""],
-      "Select a Excel file to be uploaded to a database.": [""],
-      "Sheet Name": [""],
-      "Strings used for sheet names (default is the first sheet).": [""],
-      "Show Database": [""],
-      "Add Database": [""],
-      "Edit Database": [""],
-      "Expose this DB in SQL Lab": [""],
+      "Name of table to be created from excel data.": ["Excel verilerinden oluşturulacak tablonun adı"],
+      "Excel File": ["Excel Dosyası"],
+      "Select a Excel file to be uploaded to a database.": ["Veritabanına yüklenecek bir Excel dosyası seçin"],
+      "Sheet Name": ["Sayfa Adı"],
+      "Strings used for sheet names (default is the first sheet).": ["Sayfa adları için kullanılan dizeler (varsayılan ilk sayfadır)"],
+      "Show Database": ["Veritabanını Göster"],
+      "Add Database": ["Veritabanı Ekle"],
+      "Edit Database": ["Veritabanını Düzenle"],
+      "Expose this DB in SQL Lab": ["Bu veritabanını SQL kütüphanesinde gösterin"],
       "Operate the database in asynchronous mode, meaning  that the queries are executed on remote workers as opposed to on the web server itself. This assumes that you have a Celery worker setup as well as a results backend. Refer to the installation docs for more information.": [
-        ""
+        "Veritabanını eşzamansız modda çalıştırın; bu, sorguların web sunucusunun kendisinde değil, uzak çalışanlar üzerinde yürütüldüğü anlamına gelir. Bu, bir Celery çalışanı kurulumunuzun yanı sıra bir sonuç arka ucuna sahip olduğunuzu varsayar. Daha fazla bilgi için kurulum belgelerine bakın"
       ],
-      "Allow CREATE TABLE AS option in SQL Lab": [""],
-      "Allow CREATE VIEW AS option in SQL Lab": [""],
+      "Allow CREATE TABLE AS option in SQL Lab": ["SQL kütüphanesinde CREATE TABLE AS seçeneğine izin ver"],
+      "Allow CREATE VIEW AS option in SQL Lab": ["SQL kütüphanesinde CREATE VIEW AS seçeneğine izin ver"],
       "Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...) in SQL Lab": [
-        ""
+        "Kullanıcıların SQL kütüphanesinde SELECT olmayan ifadeleri (UPDATE, DELETE, CREATE, ...) çalıştırmasına izin verin"
       ],
       "When allowing CREATE TABLE AS option in SQL Lab, this option forces the table to be created in this schema": [
-        ""
+        "SQL kütüphanesinde CREATE TABLE AS seçeneğine izin verilirken, bu seçenek tablonun bu şemada oluşturulmasını zorlar."
       ],
       "If Presto, Trino or Drill all the queries in SQL Lab are going to be executed as the currently logged on user who must have permission to run them.<br/>If Hive and hive.server2.enable.doAs is enabled, will run the queries as service account, but impersonate the currently logged on user via hive.server2.proxy.user property.": [
-        ""
+        "Presto, Trino veya Drill ise, SQL Lab'deki tüm sorgular, onları çalıştırma iznine sahip olması gereken şu anda oturum açmış kullanıcı olarak yürütülecekse.<br/>Hive ve hive.server2.enable.doAs etkinleştirilirse, çalışacaktır. sorguları hizmet hesabı olarak kullanın, ancak şu anda oturum açmış olan kullanıcının  özelliği aracılığıyla hive.server2.proxy.user kimliğine bürünün"
       ],
       "Allow SQL Lab to fetch a list of all tables and all views across all database schemas. For large data warehouse with thousands of tables, this can be expensive and put strain on the system.": [
-        ""
+        "SQL kütüphanesinin tüm veritabanı şemalarındaki tüm tabloların ve tüm görünümlerin bir listesini almasına izin verin. Binlerce tablo içeren büyük veri ambarı için bu pahalı olabilir ve sistemi zorlayabilir"
       ],
       "Duration (in seconds) of the caching timeout for charts of this database. A timeout of 0 indicates that the cache never expires. Note this defaults to the global timeout if undefined.": [
-        ""
+        "Bu veritabanının görselleri için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak küresel zaman aşımına uğradığını unutmayın."
       ],
       "If selected, please set the schemas allowed for csv upload in Extra.": [
-        ""
+        "Seçilirse, lütfen ekstra csv yüklemesi için izin verilen şemaları ayarlayın"
       ],
-      "Expose in SQL Lab": [""],
-      "Allow CREATE TABLE AS": [""],
-      "Allow CREATE VIEW AS": [""],
+      "Expose in SQL Lab": ["SQL kütüphanesinde ortaya çıkarın"],
+      "Allow CREATE TABLE AS": ["CREATE TABLE AS'e izin ver"],
+      "Allow CREATE VIEW AS": ["CREATE VIEW AS'e izin ver"],
       "Allow DML": [""],
       "CTAS Schema": [""],
       "SQLAlchemy URI": [""],
