@@ -13,7 +13,7 @@
       "Databases": ["Veri Kaynakları"],
       "Data": ["Veri"],
       "Datasets": ["Veri Toplulukları"],
-      "Charts": ["Grafikler"],
+      "Charts": ["Görseller"],
       "Dashboards": ["Paneller"],
       "Plugins": ["Eklentiler"],
       "CSS Templates": ["CSS Şablonları"],
@@ -28,7 +28,7 @@
       "Upload Excel": ["Excel Yükleme"],
       "Action Log": ["Olay Günlüğü"],
       "Dashboard Emails": ["Pano e-postaları"],
-      "Chart Email Schedules": ["Grafik E-Posta Takvimi"],
+      "Chart Email Schedules": ["Görsel E-Posta Takvimi"],
       "Alerts": ["Uyarılar"],
       "Alerts & Reports": ["Uyarılar ve Raporlar"],
       "Access requests": ["Erişim Talepleri"],
@@ -154,7 +154,7 @@
       "iFrame": [""],
       "Deleted %(num)d annotation layer": [
         "Açıklama Katmanının %(num)d Silindi",
-        "Deleted %(num)d annotation layers" 
+        "Deleted %(num)d annotation layers"
       ],
       "All Text": ["Metinin Tümü"],
       "Deleted %(num)d annotation": ["", "Deleted %(num)d annotations"],
@@ -250,13 +250,13 @@
       "Add Druid Datasource": ["Veri Kaynağı Sihirbazını Ekle"],
       "Edit Druid Datasource": ["Veri Kaynağı Sihirbazını Düzenle"],
       "The list of charts associated with this table. By altering this datasource, you may change how these associated charts behave. Also note that charts need to point to a datasource, so this form will fail at saving if removing charts from a datasource. If you want to change the datasource for a chart, overwrite the chart from the 'explore view'": [
-        "Bu tabloyla ilişkili grafiklerin listesi. Bu veri kaynağını değiştirerek, bu ilişkili çizelgelerin nasıl davranacağını değiştirebilirsiniz. Ayrıca, grafiklerin bir veri kaynağına işaret etmesi gerektiğini unutmayın; bu nedenle, bir veri kaynağından grafikler kaldırılırsa bu form kaydetmede başarısız olur. Bir grafiğin veri kaynağını değiştirmek istiyorsanız, 'keşif görünümünden grafiğin üzerine yazın."
+        "Bu tabloyla ilişkili grafiklerin listesi. Bu veri kaynağını değiştirerek, bu ilişkili çizelgelerin nasıl davranacağını değiştirebilirsiniz. Ayrıca, grafiklerin bir veri kaynağına işaret etmesi gerektiğini unutmayın; bu nedenle, bir veri kaynağından görseller kaldırılırsa bu form kaydetmede başarısız olur. Bir grafiğin veri kaynağını değiştirmek istiyorsanız, 'keşif görünümünden grafiğin üzerine yazın."
       ],
       "Timezone offset (in hours) for this datasource": ["Bu Veri Kaynağı İçin Saat Dilimi Ofseti (Saat Olarak)"],
       "Time expression to use as a predicate when retrieving distinct values to populate the filter component. Only applies when `Enable Filter Select` is on. If you enter `7 days ago`, the distinct list of values in the filter will be populated based on the distinct value over the past week": [
         "Filtre bileşenini doldurmak için farklı değerler alınırken yüklem olarak kullanılacak zaman ifadesi. Yalnızca 'Filtre Seçimini Etkinleştir' açık olduğunda geçerlidir. '7 gün önce' girerseniz, filtredeki farklı değerler listesi, geçen haftadaki farklı değere göre doldurulur"
       ],
-      "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [ 
+      "Whether to populate the filter's dropdown in the explore view's filter section with a list of distinct values fetched from the backend on the fly": [
         "Keşif görünümünün filtre bölümündeki filtrenin açılır menüsünün, arka uçtan anında alınan farklı değerlerin bir listesiyle doldurulup doldurulmayacağı"
       ],
       "Redirects to this endpoint when clicking on the datasource from the datasource list": [
@@ -612,7 +612,7 @@
       "An unknown error occurred. Please contact your Superset administrator": [
         "Bilinmeyen bir hata oluştu. Lütfen Superset yöneticinizle iletişime geçin"
       ],
-      "Error occurred when opening the chart: %(error)s": ["Grafik açılırken hata oluştu: %(error)s"],
+      "Error occurred when opening the chart: %(error)s": ["Görsel açılırken hata oluştu: %(error)s"],
       "You don't have the rights to ": ["Bu haklara sahip değilsin"],
       "alter this ": ["Bunu değiştir"],
       "chart": ["Görsel"],
