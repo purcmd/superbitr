@@ -607,7 +607,7 @@
       ],
       "You have no permission to approve this request": ["Bu isteği onaylama izniniz yok"],
       "Cannot import dashboard: %(db_error)s.\nMake sure to create the database before importing the dashboard.": [
-        "Gösterge tablosu içe aktarılamıyor: %(db_error)s.\nGösterge tablosunu içe aktarmadan önce veritabanını oluşturduğunuzdan emin olun"
+        "Panel içe aktarılamıyor: %(db_error)s.\nPaneli içe aktarmadan önce veritabanını oluşturduğunuzdan emin olun"
       ],
       "An unknown error occurred. Please contact your Superset administrator": [
         "Bilinmeyen bir hata oluştu. Lütfen Superset yöneticinizle iletişime geçin"
@@ -615,16 +615,16 @@
       "Error occurred when opening the chart: %(error)s": ["Grafik açılırken hata oluştu: %(error)s"],
       "You don't have the rights to ": ["Bu haklara sahip değilsin"],
       "alter this ": ["Bunu değiştir"],
-      "chart": ["Grafik"],
+      "chart": ["Görsel"],
       "create a ": ["oluştur"],
       "Explore - %(table)s": ["Keşfet - %(table)s"],
-      "Chart [{}] has been saved": ["Grafik [{}] kaydedildi"],
-      "Chart [{}] has been overwritten": ["[{}] grafiğinin üzerine yazıldı"],
-      "dashboard": ["Gösterge Paneli"],
-      "Chart [{}] was added to dashboard [{}]": ["Grafik [{}], gösterge paneline [{}] eklendi"],
-      "Dashboard [{}] just got created and chart [{}] was added to it": ["Gösterge tablosu [{}] az önce oluşturuldu ve buna [{}] grafiği eklendi"],
+      "Chart [{}] has been saved": ["Görsel [{}] kaydedildi"],
+      "Chart [{}] has been overwritten": ["[{}] görselinin üzerine yazıldı"],
+      "dashboard": ["Panel"],
+      "Chart [{}] was added to dashboard [{}]": ["Görsel [{}], paneline [{}] eklendi"],
+      "Dashboard [{}] just got created and chart [{}] was added to it": ["Panel [{}] az önce oluşturuldu ve buna [{}] görseli eklendi"],
       "This dashboard was changed recently. Please reload dashboard to get latest version.": [
-        "Bu gösterge paneli yakın zamanda değiştirildi. En son sürümü almak için lütfen gösterge panelini yeniden yükleyin"
+        "Bu panel yakın zamanda değiştirildi. En son sürümü almak için lütfen  paneli yeniden yükleyin"
       ],
       "Could not load database driver: %(driver_name)s": ["Veritabanı sürücüsü yüklenemedi: %(driver_name)s"],
       "Invalid connection string, a valid string usually follows:\n'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'": [
@@ -633,7 +633,7 @@
       "Malformed request. slice_id or table_name and db_name arguments are expected": [
         "Yanlış biçimlendirilmiş istek. slice_id veya table_name ve db_name bağımsız değişkenleri bekleniyor"
       ],
-      "Chart %(id)s not found": ["%(id)s grafiği bulunamadı"],
+      "Chart %(id)s not found": ["%(id)s görseli bulunamadı"],
       "Table %(table)s wasn't found in the database %(db)s": ["%(table)s tablosu %(db)s veritabanında bulunamadı"],
       "Can't find User '%(name)s', please ask your admin to create one.": ["Kullanıcı '%(name)s' bulunamıyor, lütfen yöneticinizden bir tane oluşturmasını isteyin."],
       "Can't find DruidCluster with cluster_name = '%(name)s'": ["cluster_name = '%(name)s' ile DruidCluster bulunamıyor"],
