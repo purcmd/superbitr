@@ -729,7 +729,7 @@
       "Only the following file extensions are allowed: %(allowed_extensions)s": [
         "Yalnızca aşağıdaki dosya uzantılarına izin verilir: %(allowed_extensions)s"
       ],
-      "Specify a schema (if database flavor supports this).": ["Bir şema belirtin (Eğer Flavor Database destekliyorsa). "],
+      "Specify a schema (if database flavor supports this).": ["Bir şema belirtin (Eğer veritabanı destekliyorsa). "],
       "Delimiter": ["Sınırlayıcı"],
       "Delimiter used by CSV file (for whitespace use \\s+).": ["CSV dosyası tarafından kullanılan sınırlayıcı (boşluk kullanımı için \\s+)."],
       "Table Exists": ["Tablo Var"],
@@ -910,54 +910,54 @@
         ""
       ],
       "An error occurred while setting the tab template parameters. Please contact your administrator.": [
-        ""
+        "Sekme şablonu parametreleri ayarlanırken bir hata oluştu. Lütfen yöneticinizle iletişime geçin."
       ],
-      "An error occurred while fetching table metadata": [""],
+      "An error occurred while fetching table metadata": ["Tablodaki meta verileri çekilirken bir hata oluştu"],
       "An error occurred while fetching table metadata. Please contact your administrator.": [
-        ""
+        "Tablodaki meta verileri çekilirken bir hata oluştu. Lütfen yöneticinizle iletişime geçin."
       ],
       "An error occurred while expanding the table schema. Please contact your administrator.": [
-        ""
+        "Tablo şeması genişletilirken bir hata oluştu. Lütfen yöneticinizle iletişime geçin."
       ],
       "An error occurred while collapsing the table schema. Please contact your administrator.": [
-        ""
+        "Tablo şeması daraltılarken bir hata oluştu. Lütfen yöneticinizle iletişime geçin."
       ],
       "An error occurred while removing the table schema. Please contact your administrator.": [
-        ""
+        "Tablo şeması kaldırılırken bir hata oluştu. Lütfen yöneticinizle iletişime geçin."
       ],
-      "Shared query": [""],
-      "The datasource couldn't be loaded": [""],
-      "An error occurred while creating the data source": [""],
+      "Shared query": ["Paylaşılan sorgu"],
+      "The datasource couldn't be loaded": ["Veri kaynağı yüklenemedi"],
+      "An error occurred while creating the data source": ["Veri kaynağı oluşturulurken bir hata oluştu"],
       "SQL Lab uses your browser's local storage to store queries and results.\n Currently, you are using ${currentUsage.toFixed(\n            2,\n          )} KB out of ${LOCALSTORAGE_MAX_USAGE_KB} KB. storage space.\n To keep SQL Lab from crashing, please delete some query tabs.\n You can re-access these queries by using the Save feature before you delete the tab. Note that you will need to close other SQL Lab windows before you do this.": [
-        ""
+        "SQL Lab, sorguları ve sonuçları depolamak için tarayıcınızın yerel deposunu kullanır.\n Şu anda, ${LOCALSTORAGE_MAX_USAGE_KB} KB'den ${currentUsage.toFixed(\n 2,\n )} KB kullanıyorsunuz. depolama alanı.\n SQL Lab'in çökmesini önlemek için lütfen bazı sorgu sekmelerini silin.\n Sekmeyi silmeden önce Kaydet özelliğini kullanarak bu sorgulara yeniden erişebilirsiniz. Bunu yapmadan önce diğer SQL Lab pencerelerini kapatmanız gerekeceğini unutmayın."
       ],
-      "Estimate selected query cost": [""],
-      "Estimate cost": [""],
-      "Cost estimate": [""],
-      "Creating a data source and creating a new tab": [""],
-      "An error occurred": [""],
-      "Explore the result set in the data exploration view": [""],
-      "Explore": [""],
-      "This query took %s seconds to run, ": [""],
-      "and the explore view times out at %s seconds ": [""],
+      "Estimate selected query cost": ["Seçilen sorgu maliyetini tahmin et"],
+      "Estimate cost": ["Tahmini maliyet"],
+      "Cost estimate": ["Maliyet tahmini"],
+      "Creating a data source and creating a new tab": ["Bir veri kaynağı oluşturma ve yeni bir sekme oluşturma"],
+      "An error occurred": ["Bir hata oluştu"],
+      "Explore the result set in the data exploration view": ["Veri keşif görünümünde sonuç kümesini keşfedin"],
+      "Explore": ["Keşfetmek"],
+      "This query took %s seconds to run, ": ["Bu sorgunun çalışması %s saniye sürdü, "],
+      "and the explore view times out at %s seconds ": ["Ve keşif görünümü %s saniyede zaman aşımına uğradı "],
       "following this flow will most likely lead to your query timing out. ": [
-        ""
+        "bu akışı takip etmek büyük olasılıkla sorgunuzun zaman aşımına uğramasına neden olacaktır."
       ],
       "We recommend your summarize your data further before following that flow. ": [
-        ""
+        "Bu akışı takip etmeden önce verilerinizi daha fazla özetlemenizi öneririz."
       ],
-      "If activated you can use the ": [""],
-      "feature to store a summarized data set that you can then explore.": [""],
-      "Column name(s) ": [""],
+      "If activated you can use the ": ["Etkinleştirilmişse, kullanabilirsiniz."],
+      "feature to store a summarized data set that you can then explore.": ["Daha sonra keşfedebileceğiniz özetlenmiş bir veri kümesini saklama özelliği."],
+      "Column name(s) ": ["Sütun adları(s) "],
       "cannot be used as a column name. The column name/alias \"__timestamp\"\n          is reserved for the main temporal expression, and column aliases ending with\n          double underscores followed by a numeric value (e.g. \"my_col__1\") are reserved\n          for deduplicating duplicate column names. Please use aliases to rename the\n          invalid column names.": [
-        ""
+        "Sütun adı olarak kullanılamaz. Sütun adı/takma adı \"__timestamp\"\n ana geçici ifade için ayrılmıştır\n ve çift altçizgi ve ardından sayısal bir değer (ör. \"my_col__1\") ile biten sütun takma adları, yinelenen sütun adlarının tekilleştirilmesi için ayrılmıştır.\n Geçersiz sütun adlarını yeniden adlandırmak için lütfen takma adlar kullanın."
       ],
-      "Raw SQL": [""],
-      "Source SQL": [""],
+      "Raw SQL": ["Ham SQL"],
+      "Source SQL": ["Kaynak SQL"],
       "SQL": [""],
-      "No query history yet...": [""],
-      "It seems you don't have access to any database": [""],
-      "An error occurred when refreshing queries": [""],
+      "No query history yet...": ["Henüz sorgu geçmişi yok..."],
+      "It seems you don't have access to any database": ["Herhangi bir veritabanına erişiminiz yok gibi görünüyor"],
+      "An error occurred when refreshing queries": ["Sorgular yenilenirken bir hata oluştu"],
       "Filter by user": [""],
       "Filter by database": [""],
       "Query search string": [""],
