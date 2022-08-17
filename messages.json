@@ -758,56 +758,56 @@
       "Skip Blank Lines": [""],
       "Skip blank lines rather than interpreting them as NaN values.": [""],
       "Parse Dates": [""],
-      "A comma separated list of columns that should be parsed as dates.": [""],
-      "Infer Datetime Format": [""],
-      "Use Pandas to interpret the datetime format automatically.": [""],
-      "Decimal Character": [""],
-      "Character to interpret as decimal point.": [""],
-      "Dataframe Index": [""],
-      "Write dataframe index as a column.": [""],
-      "Column Label(s)": [""],
+      "A comma separated list of columns that should be parsed as dates.": ["Tarih olarak ayrıştırılması gereken sütunların virgülle ayrılmış listesi"],
+      "Infer Datetime Format": ["Tarih Saat Biçimini Çıkar"],
+      "Use Pandas to interpret the datetime format automatically.": ["Tarih saat biçimini otomatik olarak yorumlamak için Pandas kullanın"],
+      "Decimal Character": ["Ondalık Karakter"],
+      "Character to interpret as decimal point.": ["Ondalık nokta olarak yorumlanacak karakter"],
+      "Dataframe Index": ["Veri Çerçevesi Dizini"],
+      "Write dataframe index as a column.": ["Veri çerçevesi dizinini sütun olarak yaz"],
+      "Column Label(s)": ["Sütun Etiketleri"],
       "Column label for index column(s). If None is given and Dataframe Index is True, Index Names are used.": [
-        ""
+        "Dizin sütunları için sütun etiketi. Boş verilir ve veri çerçevesi dizini doğru ise, Dizin Adları kullanılır"
       ],
-      "Null values": [""],
+      "Null values": ["boş değerler"],
       "Json list of the values that should be treated as null. Examples: [\"\"], [\"None\", \"N/A\"], [\"nan\", \"null\"]. Warning: Hive database supports only single value. Use [\"\"] for empty string.": [
-        ""
+        "Boş olarak ele alınması gereken değerlerin Json listesi. Örnekler: [\"\"], [\"None\", \"N/A\"], [\"nan\", \"null\"]. Uyarı: Hive veritabanı yalnızca tek bir değeri destekler. Boş dize için [\"\"] kullanın"
       ],
-      "Name of table to be created from excel data.": [""],
-      "Excel File": [""],
-      "Select a Excel file to be uploaded to a database.": [""],
-      "Sheet Name": [""],
-      "Strings used for sheet names (default is the first sheet).": [""],
-      "Show Database": [""],
-      "Add Database": [""],
-      "Edit Database": [""],
-      "Expose this DB in SQL Lab": [""],
+      "Name of table to be created from excel data.": ["Excel verilerinden oluşturulacak tablonun adı"],
+      "Excel File": ["Excel Dosyası"],
+      "Select a Excel file to be uploaded to a database.": ["Veritabanına yüklenecek bir Excel dosyası seçin"],
+      "Sheet Name": ["Sayfa Adı"],
+      "Strings used for sheet names (default is the first sheet).": ["Sayfa adları için kullanılan dizeler (varsayılan ilk sayfadır)"],
+      "Show Database": ["Veritabanını Göster"],
+      "Add Database": ["Veritabanı Ekle"],
+      "Edit Database": ["Veritabanını Düzenle"],
+      "Expose this DB in SQL Lab": ["Bu veritabanını SQL kütüphanesinde gösterin"],
       "Operate the database in asynchronous mode, meaning  that the queries are executed on remote workers as opposed to on the web server itself. This assumes that you have a Celery worker setup as well as a results backend. Refer to the installation docs for more information.": [
-        ""
+        "Veritabanını eşzamansız modda çalıştırın; bu, sorguların web sunucusunun kendisinde değil, uzak çalışanlar üzerinde yürütüldüğü anlamına gelir. Bu, bir Celery çalışanı kurulumunuzun yanı sıra bir sonuç arka ucuna sahip olduğunuzu varsayar. Daha fazla bilgi için kurulum belgelerine bakın"
       ],
-      "Allow CREATE TABLE AS option in SQL Lab": [""],
-      "Allow CREATE VIEW AS option in SQL Lab": [""],
+      "Allow CREATE TABLE AS option in SQL Lab": ["SQL kütüphanesinde CREATE TABLE AS seçeneğine izin ver"],
+      "Allow CREATE VIEW AS option in SQL Lab": ["SQL kütüphanesinde CREATE VIEW AS seçeneğine izin ver"],
       "Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...) in SQL Lab": [
-        ""
+        "Kullanıcıların SQL kütüphanesinde SELECT olmayan ifadeleri (UPDATE, DELETE, CREATE, ...) çalıştırmasına izin verin"
       ],
       "When allowing CREATE TABLE AS option in SQL Lab, this option forces the table to be created in this schema": [
-        ""
+        "SQL kütüphanesinde CREATE TABLE AS seçeneğine izin verilirken, bu seçenek tablonun bu şemada oluşturulmasını zorlar."
       ],
       "If Presto, Trino or Drill all the queries in SQL Lab are going to be executed as the currently logged on user who must have permission to run them.<br/>If Hive and hive.server2.enable.doAs is enabled, will run the queries as service account, but impersonate the currently logged on user via hive.server2.proxy.user property.": [
-        ""
+        "Presto, Trino veya Drill ise, SQL Lab'deki tüm sorgular, onları çalıştırma iznine sahip olması gereken şu anda oturum açmış kullanıcı olarak yürütülecekse.<br/>Hive ve hive.server2.enable.doAs etkinleştirilirse, çalışacaktır. sorguları hizmet hesabı olarak kullanın, ancak şu anda oturum açmış olan kullanıcının  özelliği aracılığıyla hive.server2.proxy.user kimliğine bürünün"
       ],
       "Allow SQL Lab to fetch a list of all tables and all views across all database schemas. For large data warehouse with thousands of tables, this can be expensive and put strain on the system.": [
-        ""
+        "SQL kütüphanesinin tüm veritabanı şemalarındaki tüm tabloların ve tüm görünümlerin bir listesini almasına izin verin. Binlerce tablo içeren büyük veri ambarı için bu pahalı olabilir ve sistemi zorlayabilir"
       ],
       "Duration (in seconds) of the caching timeout for charts of this database. A timeout of 0 indicates that the cache never expires. Note this defaults to the global timeout if undefined.": [
-        ""
+        "Bu veritabanının görselleri için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak küresel zaman aşımına uğradığını unutmayın."
       ],
       "If selected, please set the schemas allowed for csv upload in Extra.": [
-        ""
+        "Seçilirse, lütfen ekstra csv yüklemesi için izin verilen şemaları ayarlayın"
       ],
-      "Expose in SQL Lab": [""],
-      "Allow CREATE TABLE AS": [""],
-      "Allow CREATE VIEW AS": [""],
+      "Expose in SQL Lab": ["SQL kütüphanesinde ortaya çıkarın"],
+      "Allow CREATE TABLE AS": ["CREATE TABLE AS'e izin ver"],
+      "Allow CREATE VIEW AS": ["CREATE VIEW AS'e izin ver"],
       "Allow DML": [""],
       "CTAS Schema": [""],
       "SQLAlchemy URI": [""],
