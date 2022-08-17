@@ -858,56 +858,56 @@
       "Add item": [""],
       "The query couldn't be loaded": [""],
       "Your query has been scheduled. To see details of your query, navigate to Saved queries": [
-        ""
+        "Sorgunuz planlandı. Sorgunuzun ayrıntılarını görmek için Kayıtlı sorgular'a gidin"
       ],
-      "Your query could not be scheduled": [""],
-      "Failed at retrieving results": [""],
+      "Your query could not be scheduled": ["Sorgunuz planlanamadı"],
+      "Failed at retrieving results": ["Sonuçlar alınamadı"],
       "An error occurred while storing the latest query id in the backend. Please contact your administrator if this problem persists.": [
-        ""
+        "En son sorgu kimliği arka uçta depolanırken bir hata oluştu. Bu sorun devam ederse lütfen yöneticinize başvurun."
       ],
-      "Unknown error": [""],
-      "Query was stopped.": [""],
+      "Unknown error": ["Bilinmeyen hata"],
+      "Query was stopped.": ["Sorgu durduruldu"],
       "Unable to migrate table schema state to backend. Superset will retry later. Please contact your administrator if this problem persists.": [
-        ""
+        "Tablo şeması durumu arka uca taşınamıyor. Superset daha sonra yeniden denenecek. Bu sorun devam ederse lütfen yöneticinize başvurun."
       ],
       "Unable to migrate query state to backend. Superset will retry later. Please contact your administrator if this problem persists.": [
-        ""
+        "Sorgu durumu arka uca taşınamıyor. Superset daha sonra yeniden denenecek. Bu sorun devam ederse lütfen yöneticinize başvurun."
       ],
       "Unable to migrate query editor state to backend. Superset will retry later. Please contact your administrator if this problem persists.": [
-        ""
+        "Sorgu düzenleyici durumu arka uca taşınamıyor. Superset daha sonra yeniden denenecek. Bu sorun devam ederse lütfen yöneticinize başvurun."
       ],
       "Unable to add a new tab to the backend. Please contact your administrator.": [
-        ""
+        "Arka uca yeni bir sekme eklenemiyor. Lütfen yöneticinize başvurun."
       ],
-      "Copy of %s": [""],
+      "Copy of %s": ["%s kopyası"],
       "An error occurred while setting the active tab. Please contact your administrator.": [
-        ""
+        "Etkin sekme ayarlanırken bir hata oluştu. Lütfen yöneticinize başvurun."
       ],
-      "An error occurred while fetching tab state": [""],
+      "An error occurred while fetching tab state": ["Sekme durumu alınırken bir hata oluştu"],
       "An error occurred while removing tab. Please contact your administrator.": [
-        ""
+        "Sekme kaldırılırken bir hata oluştu. Lütfen yöneticinize başvurun."
       ],
       "An error occurred while removing query. Please contact your administrator.": [
-        ""
+        "Sorgu kaldırılırken bir hata oluştu. Lütfen yöneticinize başvurun."
       ],
       "An error occurred while setting the tab database ID. Please contact your administrator.": [
-        ""
+        "Sekme veritabanı kimliği ayarlanırken bir hata oluştu. Lütfen yöneticinize başvurun."
       ],
       "An error occurred while setting the tab schema. Please contact your administrator.": [
-        ""
+        "Sekme şeması ayarlanırken bir hata oluştu. Lütfen yöneticinize başvurun."
       ],
       "An error occurred while setting the tab autorun. Please contact your administrator.": [
-        ""
+        "Otomatik çalıştırma sekmesi ayarlanırken bir hata oluştu. Lütfen yöneticinize başvurun."
       ],
       "An error occurred while setting the tab title. Please contact your administrator.": [
-        ""
+        "Sekme başlığı ayarlanırken bir hata oluştu. Lütfen yöneticinize başvurun."
       ],
-      "Your query was saved": [""],
-      "Your query could not be saved": [""],
-      "Your query was updated": [""],
-      "Your query could not be updated": [""],
+      "Your query was saved": ["Sorgunuz kaydedildi"],
+      "Your query could not be saved": ["Sorgunuz kaydedilemedi"],
+      "Your query was updated": ["Sorgunuz güncellendi"],
+      "Your query could not be updated": ["Sorgunuz güncellenemedi"],
       "An error occurred while storing your query in the backend. To avoid losing your changes, please save your query using the \"Save Query\" button.": [
-        ""
+        "Sorgunuz arka uçta depolanırken bir hata oluştu. Değişikliklerinizi kaybetmemek için lütfen \"Sorguyu Kaydet\" düğmesini kullanarak sorgunuzu kaydedin."
       ],
       "An error occurred while setting the tab template parameters. Please contact your administrator.": [
         ""
@@ -1008,36 +1008,36 @@
       "Run a query to display results here": [""],
       "Preview: `%s`": [""],
       "Results": [""],
-      "Query history": [""],
-      "Run query": [""],
-      "New tab": [""],
-      "Untitled query": [""],
-      "Stop query": [""],
-      "Schedule the query periodically": [""],
-      "You must run the query successfully first": [""],
+      "Query history": ["Sorgu geçmişi"],
+      "Run query": ["Sorguyu çalıştır"],
+      "New tab": ["Yeni sekme"],
+      "Untitled query": ["Adsız sorgu"],
+      "Stop query": ["Sorguyu durdur"],
+      "Schedule the query periodically": ["Sorguyu periyodik olarak planlayın"],
+      "You must run the query successfully first": ["Önce sorguyu başarıyla çalıştırmalısınız"],
       "It appears that the number of rows in the query results displayed\n           was limited on the server side to\n           the %s limit.": [
-        ""
+        "Görüntülenen sorgu sonuçlarındaki satır sayısının\n sunucu tarafında %s sınırıyla\n sınırlı olduğu görülüyor."
       ],
-      "CREATE TABLE AS": [""],
-      "CREATE VIEW AS": [""],
-      "Estimate the cost before running a query": [""],
-      "Reset state": [""],
-      "Enter a new title for the tab": [""],
-      "Untitled Query %s": [""],
-      "Close tab": [""],
-      "Rename tab": [""],
-      "Expand tool bar": [""],
-      "Hide tool bar": [""],
-      "Close all other tabs": [""],
-      "Duplicate tab": [""],
-      "Copy partition query to clipboard": [""],
-      "latest partition:": [""],
-      "Keys for table": [""],
-      "View keys & indexes (%s)": [""],
-      "Sort columns alphabetically": [""],
-      "Original table column order": [""],
-      "Copy SELECT statement to the clipboard": [""],
-      "Show CREATE VIEW statement": [""],
+      "CREATE TABLE AS": ["TABLO OLARAK OLUŞTUR"],
+      "CREATE VIEW AS": ["GÖRÜNÜMÜ OLUŞTUR"],
+      "Estimate the cost before running a query": ["Bir sorgu çalıştırmadan önce maliyeti tahmin edin"],
+      "Reset state": ["Durumu sıfırla"],
+      "Enter a new title for the tab": ["Sekme için yeni bir başlık girin"],
+      "Untitled Query %s": ["Adsız Sorgu %s"],
+      "Close tab": ["Sekmeyi kapat"],
+      "Rename tab": ["Sekmeyi yeniden adlandır"],
+      "Expand tool bar": ["Araç çubuğunu genişlet"],
+      "Hide tool bar": ["Sekmeyi gizle"],
+      "Close all other tabs": ["Diğer tüm sekmeleri kapat"],
+      "Duplicate tab": ["Yinelenen sekme"],
+      "Copy partition query to clipboard": ["Bölüm sorgusunu panoya kopyala"],
+      "latest partition:": ["son bölüm:"],
+      "Keys for table": ["Tablo için tuşlar"],
+      "View keys & indexes (%s)": ["Anahtarları ve dizinleri görüntüleyin (%s)"],
+      "Sort columns alphabetically": ["Sütunları alfabetik olarak sırala"],
+      "Original table column order": ["Orijinal tablo sütun sırası"],
+      "Copy SELECT statement to the clipboard": ["SELECT ifadesini panoya kopyalayın"],
+      "Show CREATE VIEW statement": ["CREATE VIEW deyimini göster"],
       "CREATE VIEW statement": [""],
       "Remove table preview": [""],
       "Assign a set of parameters as": [""],
