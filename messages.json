@@ -707,57 +707,57 @@
       "The CSS for individual dashboards can be altered here, or in the dashboard view where changes are immediately visible": [
         ""
       ],
-      "To get a readable URL for your dashboard": [""],
+      "To get a readable URL for your dashboard": ["Panel için okunabilir URL al"],
       "This JSON object is generated dynamically when clicking the save or overwrite button in the dashboard view. It is exposed here for reference and for power users who may want to alter specific parameters.": [
-        ""
+        "Bu JSON objesi panel üzerinde kaydet veya üzerine yaz butonuna basıldığında dinamik olarak oluşturulur. Burada referans olarak ve belirli parametreleri değiştirmek isteyebilecek uzman kullanıcılar için sunulmuştur."
       ],
-      "Owners is a list of users who can alter the dashboard.": [""],
+      "Owners is a list of users who can alter the dashboard.": ["Sahipler, paneli değiştirebilecek kullanıcılardır."],
       "Determines whether or not this dashboard is visible in the list of all dashboards": [
-        ""
+        "Bu panelin tüm paneller listesinde görünüp görünmeyeceğini belirler"
       ],
-      "Title": [""],
-      "Slug": [""],
-      "Published": [""],
-      "Position JSON": [""],
+      "Title": ["Başlık"],
+      "Slug": ["Kalıcı Bağlantı"],
+      "Published": ["Yayınlandı"],
+      "Position JSON": ["JSON pozisyonu"],
       "CSS": [""],
-      "Underlying Tables": [""],
-      "Export": [""],
-      "Export dashboards?": [""],
-      "Name of table to be created from csv data.": [""],
-      "CSV File": [""],
-      "Select a CSV file to be uploaded to a database.": [""],
+      "Underlying Tables": ["Temel Tablolar"],
+      "Export": ["Dışa aktar"],
+      "Export dashboards?": ["Panelleri dışa aktar?"],
+      "Name of table to be created from csv data.": ["CSV verilerinden oluşturulacak tablonun adı."],
+      "CSV File": ["CSV Dosyası"],
+      "Select a CSV file to be uploaded to a database.": ["Veritabanına yüklenecek CSV dosyasını seçin."],
       "Only the following file extensions are allowed: %(allowed_extensions)s": [
-        ""
+        "Yalnızca aşağıdaki dosya uzantılarına izin verilir: %(allowed_extensions)s"
       ],
-      "Specify a schema (if database flavor supports this).": [""],
-      "Delimiter": [""],
-      "Delimiter used by CSV file (for whitespace use \\s+).": [""],
-      "Table Exists": [""],
+      "Specify a schema (if database flavor supports this).": ["Bir şema belirtin (Eğer Flavor Database destekliyorsa). "],
+      "Delimiter": ["Sınırlayıcı"],
+      "Delimiter used by CSV file (for whitespace use \\s+).": ["CSV dosyası tarafından kullanılan sınırlayıcı (boşluk kullanımı için \\s+)."],
+      "Table Exists": ["Tablo Var"],
       "If table exists do one of the following: Fail (do nothing), Replace (drop and recreate table) or Append (insert data).": [
-        ""
+        "Tablo varsa, aşağıdakilerden birini yapın: Başarısız (hiçbir şey yapma), Değiştir (tabloyu düşür ve yeniden oluştur) veya Ekle (veri ekle)."
       ],
-      "Fail": [""],
-      "Replace": [""],
-      "Append": [""],
-      "Header Row": [""],
+      "Fail": ["Başarısız"],
+      "Replace": ["Değiştir"],
+      "Append": ["Ekle"],
+      "Header Row": ["Üst Bilgi Satırı"],
       "Row containing the headers to use as column names (0 is first line of data). Leave empty if there is no header row.": [
-        ""
+        "Sütun adları olarak kullanılacak başlıkları içeren satır (0, verilerin ilk satırıdır). Başlık satırı yoksa boş bırakın."
       ],
-      "Index Column": [""],
+      "Index Column": ["Dizin Sütunu"],
       "Column to use as the row labels of the dataframe. Leave empty if no index column.": [
-        ""
+        "Veri çerçevesinin satır etiketleri olarak kullanılacak sütun. Dizin sütunu yoksa boş bırakın."
       ],
-      "Mangle Duplicate Columns": [""],
-      "Specify duplicate columns as \"X.0, X.1\".": [""],
-      "Skip Initial Space": [""],
-      "Skip spaces after delimiter.": [""],
-      "Skip Rows": [""],
-      "Number of rows to skip at start of file.": [""],
-      "Rows to Read": [""],
-      "Number of rows of file to read.": [""],
-      "Skip Blank Lines": [""],
-      "Skip blank lines rather than interpreting them as NaN values.": [""],
-      "Parse Dates": [""],
+      "Mangle Duplicate Columns": ["Yinelenen Sütunları Yönet"],
+      "Specify duplicate columns as \"X.0, X.1\".": ["Yinelenen sütunları \"X.0, X.1\" olarak belirtin."],
+      "Skip Initial Space": ["İlk Boşluğu Atla"],
+      "Skip spaces after delimiter.": ["Sınırlayıcıdan sonra boşlukları atlayın."],
+      "Skip Rows": ["Satırları Atla"],
+      "Number of rows to skip at start of file.": ["Dosyanın başlangıcında atlanacak satır sayısı."],
+      "Rows to Read": ["Okunacak Satırlar"],
+      "Number of rows of file to read.": ["Okunacak dosya satır sayısı."],
+      "Skip Blank Lines": ["Boş Satırı Atla"],
+      "Skip blank lines rather than interpreting them as NaN values.": ["Boş satırları NaN değerleri olarak yorumlamak yerine atlayın."],
+      "Parse Dates": ["Ayrıştırma Tarihleri"],
       "A comma separated list of columns that should be parsed as dates.": [""],
       "Infer Datetime Format": [""],
       "Use Pandas to interpret the datetime format automatically.": [""],
