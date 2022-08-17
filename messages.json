@@ -592,15 +592,15 @@
       "json isn't valid": ["json geçerli değil"],
       "Export to YAML": ["YAML'e aktar"],
       "Export to YAML?": ["YAML'ye aktarılsın mı?"],
-      "Delete": ["sil"],
+      "Delete": ["Sil"],
       "Delete all Really?": ["Tümü Silinsin mi?"],
-      "Is favorite": ["favori"],
+      "Is favorite": ["Favori mi?"],
       "The data source seems to have been deleted": ["Veri kaynağı silinmiş görünüyor"],
       "The user seems to have been deleted": ["Kullanıcı silinmiş görünüyor"],
-      "Access was requested": ["Erişim istendi"],
+      "Access was requested": ["Erişim talep edildi"],
       "The access requests seem to have been deleted": ["Erişim istekleri silinmiş görünüyor"],
       "%(user)s was granted the role %(role)s that gives access to the %(datasource)s": [
-        "%(user)s'e %(datasource)s'a erişim sağlayan %(role)s rolü verildi"
+        "%(user)s'in %(datasource)s'a erişimi için %(role)s rolü verildi"
       ],
       "Role %(r)s was extended to provide the access to the datasource %(ds)s": [
         "%(r)s rolü, %(ds)s veri kaynağına erişim sağlamak için genişletildi"
