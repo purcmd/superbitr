@@ -182,7 +182,6 @@
         "alt yüzdelik dilim 0'dan büyük ve 100'den küçük olmalıdır. Üst yüzdelik dilimden düşük olmalıdır"
       ],
       "upper percentile must be greater than 0 and less than 100. Must be higher than lower percentile.": [
-
         "üst yüzdelik dilim 0'dan büyük ve 100'den küçük olmalıdır. Alt yüzdelik dilimden yüksek olmalıdır."
       ],
       "`width` must be greater or equal to 0": ["genişlik' 0'dan büyük veya 0'a eşit olmalıdır"],
@@ -217,42 +216,6 @@
       "Datasource": ["Veri kaynağı"],
       "Groupable": ["Gruplanabilir"],
       "Filterable": ["Filtrelenebilir"],
-
-        ""
-      ],
-      "`width` must be greater or equal to 0": [""],
-      "`row_limit` must be greater than or equal to 1": [""],
-      "`row_offset` must be greater than or equal to 0": [""],
-      "There are associated alerts or reports: %s,": [""],
-      "Database does not exist": [""],
-      "Dashboards do not exist": [""],
-      "Datasource type is required when datasource_id is given": [""],
-      "Chart parameters are invalid.": [""],
-      "Chart could not be created.": [""],
-      "Chart could not be updated.": [""],
-      "Chart could not be deleted.": [""],
-      "There are associated alerts or reports": [""],
-      "Changing this chart is forbidden": [""],
-      "Charts could not be deleted.": [""],
-      "Import chart failed for an unknown reason": [""],
-      "Owners are invalid": [""],
-      "Dataset does not exist": [""],
-      "`operation` property of post processing object undefined": [""],
-      "Unsupported post processing operation: %(operation)s": [""],
-      "Adding new datasource [{}]": [""],
-      "Refreshing datasource [{}]": [""],
-      "Metric(s) {} must be aggregations.": [""],
-      "Unsupported extraction function: ": [""],
-      "Columns": ["Sütunlar"],
-      "Show Druid Column": ["Sütun Gösterme Sihirbazı"],
-      "Add Druid Column": ["Sütun Ekleme Sihirbazı"],
-      "Edit Druid Column": ["Sütun Düzenleme Sihirbazı"],
-      "Column": ["Sütun"],
-      "Type": [""],
-      "Datasource": ["Veri Kaynağı"],
-      "Groupable": ["Gruplanabilir"],
-      "Filterable": ["Filtrenebilir"],
-
       "Whether this column is exposed in the `Filters` section of the explore view.": [
         "Bu Sütunun, Keşif Görünümünün 'Filtreler' Bölümünde Gösterilip Gösterilemeyeceği "
       ],
@@ -396,7 +359,6 @@
       "Duration (in seconds) of the caching timeout for this table. A timeout of 0 indicates that the cache never expires. Note this defaults to the database timeout if undefined.": [
         "Bu tablo için önbelleğe alma zaman aşımı süresi (saniye cinsinden). 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir. Tanımlanmamışsa, bunun varsayılan olarak veritabanı zaman aşımına uğradığını unutmayın."
       ],
-
       "Database": ["Veri Tabanı"],
       "Last Changed": ["Son Değişiklik"],
       "Schema": ["Şema"],
@@ -406,17 +368,6 @@
       "Main Datetime Column": ["Ana Tarih Saat Sütunu"],
       "SQL Lab View": ["SQL Laboratuvar Görünümü"],
       "Template parameters": ["Şablon parametreleri"],
-=======
-      "Database": ["Veri Tabanı"],
-      "Last Changed": ["Son Değişiklik"],
-      "Schema": ["Şema"],
-      "Offset": [""],
-      "Table Name": [""],
-      "Fetch Values Predicate": [""],
-      "Main Datetime Column": [""],
-      "SQL Lab View": [""],
-      "Template parameters": [""],
-
       "The table was created. As part of this two-phase configuration process, you should now click the edit button by the new table to configure it.": [
         "Tablo oluşturuldu. Bu iki aşamalı yapılandırma sürecinin bir parçası olarak, şimdi yapılandırmak için yeni tablonun yanındaki düzenle düğmesine tıklamalısınız."
       ],
