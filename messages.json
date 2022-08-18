@@ -1986,7 +1986,7 @@
       "This action will permanently delete the saved query.": ["Bu eylem, kaydedilen sorguyu kalıcı olarak siler"],
       "Delete Query?": ["Sorgu Silinsin mi?"],
       "Are you sure you want to delete the selected queries?": ["Seçili sorguları silmek istediğinizden emin misiniz?"],
-      "Query name": ["sorgu adı"],
+      "Query name": ["Sorgu adı"],
       "Edited": ["Düzenlendi"],
       "Created": ["oluşturuldu"],
       "Viewed": ["görüntülendi"],
