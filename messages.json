@@ -1798,244 +1798,244 @@
       "Edit annotation layer properties": ["Açıklama katmanı özelliklerini düzenle"],
       "Annotation layer name": ["Ek açıklama katmanı adı"],
       "Annotation layers": ["Açıklama katmanları"],
-      "There was an issue deleting the selected layers: %s": [""],
-      "Last modified": [""],
-      "Created on": [""],
-      "Edit template": [""],
-      "Delete template": [""],
-      "Annotation layer": [""],
-      "An error occurred while fetching dataset datasource values: %s": [""],
-      "No annotation layers yet": [""],
-      "This action will permanently delete the layer.": [""],
-      "Delete Layer?": [""],
-      "Are you sure you want to delete the selected layers?": [""],
-      "Are you sure you want to delete": [""],
-      "Last modified %s": [""],
+      "There was an issue deleting the selected layers: %s": ["Seçilen katmanlar silinirken bir sorun oluştu: %s"],
+      "Last modified": ["Son düzenleme"],
+      "Created on": ["tarihinde oluşturuldu"],
+      "Edit template": ["Şablonu düzenle"],
+      "Delete template": ["Şablonu sil"],
+      "Annotation layer": ["Açıklama katmanı"],
+      "An error occurred while fetching dataset datasource values: %s": ["Veri kümesi veri kaynağı değerleri alınırken bir hata oluştu: %s"],
+      "No annotation layers yet": ["Henüz ek açıklama katmanı yok"],
+      "This action will permanently delete the layer.": ["Bu eylem katmanı kalıcı olarak silecektir"],
+      "Delete Layer?": ["Katman Silinsin mi?"],
+      "Are you sure you want to delete the selected layers?": ["Seçili katmanları silmek istediğinizden emin misiniz?"],
+      "Are you sure you want to delete": ["Silmek istediğine emin misin"],
+      "Last modified %s": ["Son düzenlenen %s"],
       "The passwords for the databases below are needed in order to import them together with the charts. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
-        ""
+        "Aşağıdaki veritabanlarının şifreleri, tablolarla birlikte içe aktarılabilmesi için gereklidir. Lütfen veritabanı yapılandırmasının \"Secure Extra\" and \"Certificate\" bölümlerinin dışa aktarma dosyalarında bulunmadığını ve gerektiğinde içe aktarma işleminden sonra manuel olarak eklenmesi gerektiğini unutmayın."
       ],
       "You are importing one or more charts that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
-        ""
+        "Halihazırda var olan bir veya daha fazla görseli içe aktarıyorsunuz. Üzerine yazmak, işinizin bir kısmını kaybetmenize neden olabilir. Üzerine yazmak istediğinizden emin misiniz?"
       ],
-      "There was an issue deleting the selected charts: %s": [""],
-      "Modified by": [""],
-      "Owner": [""],
-      "An error occurred while fetching chart owners values: %s": [""],
-      "An error occurred while fetching chart created by values: %s": [""],
-      "Viz type": [""],
-      "An error occurred while fetching chart dataset values: %s": [""],
-      "Favorite": [""],
-      "Yes": [""],
-      "No": [""],
-      "Are you sure you want to delete the selected charts?": [""],
-      "css_template": [""],
-      "Edit CSS template properties": [""],
-      "Add CSS template": [""],
-      "CSS template name": [""],
-      "css": [""],
-      "CSS templates": [""],
-      "There was an issue deleting the selected templates: %s": [""],
-      "Last modified by %s": [""],
-      "CSS template": [""],
-      "This action will permanently delete the template.": [""],
-      "Delete Template?": [""],
-      "Are you sure you want to delete the selected templates?": [""],
+      "There was an issue deleting the selected charts: %s": ["Seçilen görseller silinirken bir sorun oluştu: %s"],
+      "Modified by": ["Düzenleyen"],
+      "Owner": ["Sahip"],
+      "An error occurred while fetching chart owners values: %s": ["Görsel sahiplerinin değerleri alınırken bir hata oluştu: %s"],
+      "An error occurred while fetching chart created by values: %s": ["Değerler tarafından oluşturulan görsel alınırken bir hata oluştu: %s"],
+      "Viz type": ["Viz türü"],
+      "An error occurred while fetching chart dataset values: %s": ["Görsel veri kümesi değerleri alınırken bir hata oluştu: %s"],
+      "Favorite": ["Favori"],
+      "Yes": ["Evet"],
+      "No": ["Hayır"],
+      "Are you sure you want to delete the selected charts?": ["Seçili görselleri silmek istediğinizden emin misiniz?"],
+      "css_template": ["css_template"],
+      "Edit CSS template properties": ["CSS şablon özelliklerini düzenle"],
+      "Add CSS template": ["CSS şablonu ekle"],
+      "CSS template name": ["CSS şablon adı"],
+      "css": ["css"],
+      "CSS templates": ["CSS şablonları"],
+      "There was an issue deleting the selected templates: %s": ["Seçilen şablonlar silinirken bir sorun oluştu: %s"],
+      "Last modified by %s": ["Son düzenleme %s"],
+      "CSS template": ["CSS şablonu"],
+      "This action will permanently delete the template.": ["Bu işlem şablonu kalıcı olarak silecektir"],
+      "Delete Template?": ["Şablon Silinsin mi?"],
+      "Are you sure you want to delete the selected templates?": ["Seçili şablonları silmek istediğinizden emin misiniz?"],
       "The passwords for the databases below are needed in order to import them together with the dashboards. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
-        ""
+        "Paneller ile birlikte içe aktarmak için aşağıdaki veritabanlarının şifrelerine ihtiyaç vardır. Lütfen veritabanı yapılandırmasının \"Secure Extra\" and \"Certificate\" bölümlerinin dışa aktarma dosyalarında bulunmadığını ve gerektiğinde içe aktarma işleminden sonra manuel olarak eklenmesi gerektiğini unutmayın."
       ],
       "You are importing one or more dashboards that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
-        ""
+        "Halihazırda var olan bir veya daha fazla paneli içe aktarıyorsunuz. Üzerine yazmak, işinizin bir kısmını kaybetmenize neden olabilir. Üzerine yazmak istediğinizden emin misiniz?"
       ],
-      "An error occurred while fetching dashboards: %s": [""],
-      "There was an issue deleting the selected dashboards: ": [""],
-      "An error occurred while fetching dashboard owner values: %s": [""],
-      "An error occurred while fetching dashboard created by values: %s": [""],
-      "Unpublished": [""],
-      "Are you sure you want to delete the selected dashboards?": [""],
-      "Sorry, your browser does not support copying.": [""],
-      "SQL Copied!": [""],
+      "An error occurred while fetching dashboards: %s": ["Paneller getirilirken bir hata oluştu: %s"],
+      "There was an issue deleting the selected dashboards: ": ["Seçilen paneller silinirken bir sorun oluştu:"],
+      "An error occurred while fetching dashboard owner values: %s": ["Panel sahibi değerleri alınırken bir hata oluştu: %s:"],
+      "An error occurred while fetching dashboard created by values: %s": ["Değerler tarafından oluşturulan panel alınırken bir hata oluştu: %s"],
+      "Unpublished": ["yayınlanmamış"],
+      "Are you sure you want to delete the selected dashboards?": ["Seçili panelleri silmek istediğinizden emin misiniz?"],
+      "Sorry, your browser does not support copying.": ["Üzgünüz, tarayıcınız kopyalamayı desteklemiyor."],
+      "SQL Copied!": ["SQL Kopyalandı!"],
       "The passwords for the databases below are needed in order to import them. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
-        ""
+        "Aşağıdaki veritabanlarının şifrelerini içe aktarmak için gereklidir. Lütfen veritabanı yapılandırmasının \"Secure Extra\" and \"Certificate\" bölümlerinin dışa aktarma dosyalarında bulunmadığını ve gerektiğinde içe aktarma işleminden sonra manuel olarak eklenmesi gerektiğini unutmayın."
       ],
       "You are importing one or more databases that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
-        ""
+        "Halihazırda var olan bir veya daha fazla veritabanını içe aktarıyorsunuz. Üzerine yazmak, işinizin bir kısmını kaybetmenize neden olabilir. Üzerine yazmak istediğinizden emin misiniz?"
       ],
-      "database": [""],
-      "An error occurred while fetching database related data: %s": [""],
-      "Asynchronous query execution": [""],
-      "AQE": [""],
-      "Allow data manipulation language": [""],
-      "DML": [""],
-      "CSV upload": [""],
-      "Delete database": [""],
+      "database": ["veritabanı"],
+      "An error occurred while fetching database related data: %s": ["Veritabanıyla ilgili veriler alınırken bir hata oluştu: %s"],
+      "Asynchronous query execution": ["Eşzamansız sorgu yürütme"],
+      "AQE": ["AQE"],
+      "Allow data manipulation language": ["Veri işleme diline izin ver"],
+      "DML": ["DML"],
+      "CSV upload": ["CSV yüklemesi"],
+      "Delete database": ["Veritabanını sil"],
       "The database %s is linked to %s charts that appear on %s dashboards. Are you sure you want to continue? Deleting the database will break those objects.": [
-        ""
+        "%s veritabanı, %s panellerinde görünen %s görsellerine bağlıdır. Devam etmek istediğine emin misin? Veritabanını silmek, bu nesneleri kıracaktır."
       ],
-      "Delete Database?": [""],
-      "Please enter a SQLAlchemy URI to test": [""],
-      "Connection looks good!": [""],
-      "ERROR: Connection failed. ": [""],
-      "Sorry there was an error fetching database information: %s": [""],
-      "Edit database": [""],
-      "Add database": [""],
-      "Connection": [""],
-      "Database name": [""],
-      "Name your dataset": [""],
-      "dialect+driver://username:password@host:port/database": [""],
-      "Test connection": [""],
-      "Refer to the ": [""],
-      "SQLAlchemy docs": [""],
-      " for more information on how to structure your URI.": [""],
-      "Performance": [""],
-      "Chart cache timeout": [""],
+      "Delete Database?": ["Veritabanı Silinsin mi?"],
+      "Please enter a SQLAlchemy URI to test": ["Lütfen test etmek için bir SQLAlchemy URI'si girin"],
+      "Connection looks good!": ["Bağlantı iyi görünüyor!"],
+      "ERROR: Connection failed. ": ["HATA: Bağlantı başarısız"],
+      "Sorry there was an error fetching database information: %s": ["Üzgünüz veritabanı bilgileri alınırken bir hata oluştu: %s"],
+      "Edit database": ["Veritabanını düzenle"],
+      "Add database": ["Veritabanı ekle"],
+      "Connection": ["bağlantı"],
+      "Database name": ["Veri tabanı ismi"],
+      "Name your dataset": ["Veri kümenizi adlandırın"],
+      "dialect+driver://username:password@host:port/database": ["dialect+driver://username:password@host:port/database"],
+      "Test connection": ["Test bağlantısı"],
+      "Refer to the ": ["Başvurun"],
+      "SQLAlchemy docs": ["SQLAlchemy belgeleri"],
+      " for more information on how to structure your URI.": ["URI'nizi nasıl yapılandıracağınız hakkında daha fazla bilgi için"],
+      "Performance": ["performans"],
+      "Chart cache timeout": ["Görsel önbelleği zaman aşımı"],
       "Operate the database in asynchronous mode, meaning that the queries are executed on remote workers as opposed to on the web server itself. This assumes that you have a Celery worker setup as well as a results backend. Refer to the installation docs for more information.": [
-        ""
+        "Veritabanını eşzamansız modda çalıştırın, yani sorgular web sunucusunun kendisinde değil, uzak çalışanlar üzerinde yürütülür. Bu, bir Celery çalışanı kurulumunuzun yanı sıra bir sonuç arka ucuna sahip olduğunuzu varsayar. Daha fazla bilgi için kurulum belgelerine bakın."
       ],
-      "SQL Lab settings": [""],
+      "SQL Lab settings": ["SQL kütüphanesi ayarları"],
       "Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...)": [
-        ""
+        "Kullanıcıların SELECT olmayan ifadeleri çalıştırmasına izin ver (UPDATE, DELETE, CREATE, ...)"
       ],
-      "Allow multi schema metadata fetch": [""],
-      "CTAS schema": [""],
+      "Allow multi schema metadata fetch": ["Çoklu şema meta verisi getirmeye izin ver"],
+      "CTAS schema": ["CTAS şeması"],
       "When allowing CREATE TABLE AS option in SQL Lab, this option forces the table to be created in this schema.": [
-        ""
+        "SQL kütüphanesinde CREATE TABLE AS seçeneğine izin verilirken, bu seçenek tablonun bu şemada oluşturulmasını zorlar."
       ],
-      "Secure extra": [""],
-      "JSON string containing additional connection configuration.": [""],
+      "Secure extra": ["Ekstra Güvenli"],
+      "JSON string containing additional connection configuration.": ["Ek bağlantı yapılandırması içeren JSON dizesi"],
       "This is used to provide connection information for systems like Hive, Presto, and BigQuery, which do not conform to the username:password syntax normally used by SQLAlchemy.": [
-        ""
+        "Bu, normalde SQLAlchemy tarafından kullanılan username:password sözdizimine uymayan Hive, Presto ve BigQuery gibi sistemler için bağlantı bilgilerini sağlamak için kullanılır."
       ],
       "Optional CA_BUNDLE contents to validate HTTPS requests. Only available on certain database engines.": [
-        ""
+        "HTTPS isteklerini doğrulamak için isteğe bağlı CA_BUNDLE içeriği. Yalnızca belirli veritabanı motorlarında kullanılabilir"
       ],
-      "Impersonate Logged In User (Presto, Trino, Drill & Hive)": [""],
+      "Impersonate Logged In User (Presto, Trino, Drill & Hive)": ["Oturum Açmış Kullanıcıyı Taklit Et (Presto, Trino, Drill & Hive)"],
       "If Presto, Trino or Drill all the queries in SQL Lab are going to be executed as the currently logged on user who must have permission to run them. If Hive and hive.server2.enable.doAs is enabled, will run the queries as service account, but impersonate the currently logged on user via hive.server2.proxy.user property.": [
-        ""
+        "Presto, Trino veya Drill, SQL kütüphanesindeki tüm sorgular, bunları çalıştırma iznine sahip olması gereken şu anda oturum açmış olan kullanıcı olarak yürütülecekse. Hive ve hive.server2.enable.doAs etkinleştirilirse, sorguları hizmet hesabı olarak çalıştırır, ancak şu anda oturum açmış olan kullanıcının hive.server2.proxy.user özelliği aracılığıyla kimliğine bürünür"
       ],
-      "Allow data upload": [""],
+      "Allow data upload": ["Veri yüklemeye izin ver"],
       "If selected, please set the schemas allowed for data upload in Extra.": [
-        ""
+        "Seçilirse, lütfen Ekstra'da veri yüklemesi için izin verilen şemaları ayarlayın."
       ],
-      "JSON string containing extra configuration elements.": [""],
+      "JSON string containing extra configuration elements.": ["Ekstra yapılandırma öğeleri içeren JSON dizesi"],
       "1. The engine_params object gets unpacked into the sqlalchemy.create_engine call, while the metadata_params gets unpacked into the sqlalchemy.MetaData call.": [
-        ""
+        "1. Engine_params nesnesi, sqlalchemy.create_engine çağrısına açılırken metadata_params, sqlalchemy.MetaData çağrısına açılır"
       ],
       "2. The metadata_cache_timeout is a cache timeout setting in seconds for metadata fetch of this database. Specify it as \"metadata_cache_timeout\": {\"schema_cache_timeout\": 600, \"table_cache_timeout\": 600}. If unset, cache will not be enabled for the functionality. A timeout of 0 indicates that the cache never expires.": [
-        ""
+        "2. metadata_cache_timeout, bu veritabanının metadata alınması için saniye cinsinden bir önbellek zaman aşımı ayarıdır. \"metadata_cache_timeout\" olarak belirtin: {\"schema_cache_timeout\": 600, \"table_cache_timeout\": 600}. Ayarlanmazsa, işlevsellik için önbellek etkinleştirilmeyecektir. 0 zaman aşımı, önbelleğin süresinin hiçbir zaman dolmadığını gösterir."
       ],
       "3. The schemas_allowed_for_file_upload is a comma separated list of schemas that CSVs are allowed to upload to. Specify it as \"schemas_allowed_for_file_upload\": [\"public\", \"csv_upload\"]. If database flavor does not support schema or any schema is allowed to be accessed, just leave the list empty.": [
-        ""
+        "3. schemas_allowed_for_file_upload, CSV'lerin yüklenmesine izin verilen şemaların virgülle ayrılmış bir listesidir. \"schemas_allowed_for_file_upload\" olarak belirtin: [\"public\", \"csv_upload\"]. Veritabanı aroması şemayı desteklemiyorsa veya herhangi bir şemaya erişime izin veriliyorsa, listeyi boş bırakmanız yeterlidir."
       ],
       "4. The version field is a string specifying this db's version. This should be used with Presto DBs so that the syntax is correct.": [
-        ""
+        "4. Sürüm alanı, bu veritabanının sürümünü belirten bir dizedir. Bu, sözdiziminin doğru olması için Presto DB'ler ile kullanılmalıdır."
       ],
       "5. The allows_virtual_table_explore field is a boolean specifying whether or not the Explore button in SQL Lab results is shown.": [
-        ""
+        "5. allow_virtual_table_explore alanı, SQL kütüphanesi sonuçlarında Keşfet düğmesinin gösterilip gösterilmeyeceğini belirten bir boole değeridir."
       ],
-      "Error while saving dataset: %s": [""],
-      "Add dataset": [""],
+      "Error while saving dataset: %s": ["Veri kümesi kaydedilirken hata oluştu: %s"],
+      "Add dataset": ["Veri kümesi ekle"],
       "The passwords for the databases below are needed in order to import them together with the datasets. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
-        ""
+        "Aşağıdaki veritabanlarının şifreleri, veri setleri ile birlikte içe aktarılabilmesi için gereklidir. Lütfen veritabanı yapılandırmasının \"Secure Extra\" and \"Certificate\" bölümlerinin dışa aktarma dosyalarında bulunmadığını ve gerektiğinde içe aktarma işleminden sonra manuel olarak eklenmesi gerektiğini unutmayın."
       ],
       "You are importing one or more datasets that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
-        ""
+        "Halihazırda var olan bir veya daha fazla veri kümesini içe aktarıyorsunuz. Üzerine yazmak, işinizin bir kısmını kaybetmenize neden olabilir. Üzerine yazmak istediğinizden emin misiniz?"
       ],
-      "An error occurred while fetching dataset related data": [""],
-      "An error occurred while fetching dataset related data: %s": [""],
-      "Physical dataset": [""],
-      "Virtual dataset": [""],
-      "An error occurred while fetching dataset owner values: %s": [""],
-      "An error occurred while fetching datasets: %s": [""],
-      "An error occurred while fetching schema values: %s": [""],
-      "There was an issue deleting the selected datasets: %s": [""],
+      "An error occurred while fetching dataset related data": ["Veri kümesiyle ilgili veriler getirilirken bir hata oluştu"],
+      "An error occurred while fetching dataset related data: %s": ["Veri kümesiyle ilgili veriler alınırken bir hata oluştu: %s"],
+      "Physical dataset": ["Fiziksel veri kümesi"],
+      "Virtual dataset": ["Sanal veri kümesi"],
+      "An error occurred while fetching dataset owner values: %s": ["Veri kümesi sahibi değerleri alınırken bir hata oluştu: %s"],
+      "An error occurred while fetching datasets: %s": ["Veri kümeleri alınırken bir hata oluştu: %s"],
+      "An error occurred while fetching schema values: %s": ["Şema değerleri alınırken bir hata oluştu: %s"],
+      "There was an issue deleting the selected datasets: %s": ["Seçilen veri kümeleri silinirken bir sorun oluştu: %s"],
       "The dataset %s is linked to %s charts that appear on %s dashboards. Are you sure you want to continue? Deleting the dataset will break those objects.": [
-        ""
+        "%s veri kümesi, %s gösterge tablosunda görünen %s çizelgelerine bağlıdır. Devam etmek istediğine emin misin? Veri kümesinin silinmesi bu nesneleri kıracaktır"
       ],
-      "Delete Dataset?": [""],
-      "Are you sure you want to delete the selected datasets?": [""],
-      "0 Selected": [""],
-      "%s Selected (Virtual)": [""],
-      "%s Selected (Physical)": [""],
-      "%s Selected (%s Physical, %s Virtual)": [""],
-      "There was an issue previewing the selected query. %s": [""],
-      "Success": [""],
-      "Failed": [""],
-      "Running": [""],
-      "Offline": [""],
-      "Scheduled": [""],
-      "Duration: %s": [""],
-      "Tab name": [""],
-      "TABLES": [""],
-      "Rows": [""],
-      "Open query in SQL Lab": [""],
-      "An error occurred while fetching database values: %s": [""],
-      "Search by query text": [""],
-      "Query preview": [""],
-      "Previous": [""],
-      "Next": [""],
-      "Open in SQL Lab": [""],
-      "User query": [""],
-      "Executed query": [""],
-      "Saved queries": [""],
-      "There was an issue previewing the selected query %s": [""],
-      "Link Copied!": [""],
-      "There was an issue deleting the selected queries: %s": [""],
-      "Edit query": [""],
-      "Copy query URL": [""],
-      "Delete query": [""],
-      "This action will permanently delete the saved query.": [""],
-      "Delete Query?": [""],
-      "Are you sure you want to delete the selected queries?": [""],
-      "Query name": [""],
-      "Edited": [""],
-      "Created": [""],
-      "Viewed": [""],
-      "Examples": [""],
-      "Mine": [""],
+      "Delete Dataset?": ["Veri Kümesi Silinsin mi?"],
+      "Are you sure you want to delete the selected datasets?": ["Seçili veri kümelerini silmek istediğinizden emin misiniz?"],
+      "0 Selected": ["0 Seçildi"],
+      "%s Selected (Virtual)": ["%s Seçildi (Sanal)"],
+      "%s Selected (Physical)": ["%s Seçildi (Fiziksel)"],
+      "%s Selected (%s Physical, %s Virtual)": ["%s Seçildi (%s Fiziksel, %s Sanal)"],
+      "There was an issue previewing the selected query. %s": ["Seçilen sorgunun önizlemesi yapılırken bir sorun oluştu. %s"],
+      "Success": ["Başarılı"],
+      "Failed": ["Başarısız"],
+      "Running": ["Çalışıyor"],
+      "Offline": ["Çevrimdışı"],
+      "Scheduled": ["zamanlanmış"],
+      "Duration: %s": ["Süre: %s"],
+      "Tab name": ["Sekme adı"],
+      "TABLES": ["Tablolar"],
+      "Rows": ["satırlar"],
+      "Open query in SQL Lab": ["Sorguyu SQL kütüphanesinde aç"],
+      "An error occurred while fetching database values: %s": ["Veritabanı değerleri alınırken bir hata oluştu: %s"],
+      "Search by query text": ["Sorgu metnine göre ara"],
+      "Query preview": ["Sorgu önizlemesi"],
+      "Previous": ["önceki"],
+      "Next": ["Sonraki"],
+      "Open in SQL Lab": ["SQL kütüphanesinde aç"],
+      "User query": ["Kullanıcı sorgusu"],
+      "Executed query": ["Yürütülen sorgu"],
+      "Saved queries": ["Kayıtlı sorgular"],
+      "There was an issue previewing the selected query %s": ["Seçilen %s sorgusunun önizlemesi yapılırken bir sorun oluştu"],
+      "Link Copied!": ["Bağlantı Kopyalandı!"],
+      "There was an issue deleting the selected queries: %s": ["Seçilen sorgular silinirken bir sorun oluştu: %s"],
+      "Edit query": ["Sorguyu düzenle"],
+      "Copy query URL": ["Sorgu URL'sini kopyala"],
+      "Delete query": ["Sorguyu sil"],
+      "This action will permanently delete the saved query.": ["Bu eylem, kaydedilen sorguyu kalıcı olarak siler"],
+      "Delete Query?": ["Sorgu Silinsin mi?"],
+      "Are you sure you want to delete the selected queries?": ["Seçili sorguları silmek istediğinizden emin misiniz?"],
+      "Query name": ["Sorgu adı"],
+      "Edited": ["Düzenlendi"],
+      "Created": ["oluşturuldu"],
+      "Viewed": ["görüntülendi"],
+      "Examples": ["Örnekler"],
+      "Mine": ["Yaptıklarım"],
       "Recently viewed charts, dashboards, and saved queries will appear here": [
-        ""
+        "Son görüntülenen görseller, paneller ve kaydedilen sorgular burada görünecek"
       ],
       "Recently created charts, dashboards, and saved queries will appear here": [
-        ""
+        "En son oluşturulan görseller, paneller ve kaydedilen sorgular burada görünecek"
       ],
       "Recent example charts, dashboards, and saved queries will appear here": [
-        ""
+        "En son örnek görseller, paneller ve kaydedilmiş sorgular burada görünecek"
       ],
       "Recently edited charts, dashboards, and saved queries will appear here": [
-        ""
+        "En son düzenlenen görseller, paneller ve kaydedilmiş sorgular burada görünecek"
       ],
       "${tableName\n                        .split('')\n                        .slice(0, tableName.length - 1)\n                        .join('')}\n                    ": [
-        ""
+        "${tableName\n                        .split('')\n                        .slice(0, tableName.length - 1)\n "
       ],
-      "You don't have any favorites yet!": [""],
-      "SQL Lab queries": [""],
-      "${tableName}": [""],
-      "query": [""],
-      "Share": [""],
-      "Last run %s": [""],
-      "Recents": [""],
-      "Select start and end date": [""],
-      "Type or Select [%s]": [""],
-      "Filter box": [""],
-      "Filters configuration": [""],
-      "Filter configuration for the filter box": [""],
-      "Date filter": [""],
-      "Whether to include a time filter": [""],
-      "Instant filtering": [""],
+      "You don't have any favorites yet!": ["Henüz favoriniz yok!"],
+      "SQL Lab queries": ["SQL kütüphanesi sorguları"],
+      "${tableName}": ["${tableName}"],
+      "query": ["sorgu"],
+      "Share": ["paylaş"],
+      "Last run %s": ["Son çalıştırma %s"],
+      "Recents": ["son bilgiler"],
+      "Select start and end date": ["Başlangıç ve bitiş tarihini seçin"],
+      "Type or Select [%s]": ["[%s] yazın veya seçin"],
+      "Filter box": ["Filtre kutusu"],
+      "Filters configuration": ["Filtre yapılandırması"],
+      "Filter configuration for the filter box": ["Filtre kutusu için filtre yapılandırması"],
+      "Date filter": ["Tarih filtresi"],
+      "Whether to include a time filter": ["Bir zaman filtresinin dahil edilip edilmeyeceği"],
+      "Instant filtering": ["Anında filtreleme"],
       "Check to apply filters instantly as they change instead of displaying [Apply] button": [
-        ""
+        "[Uygula] düğmesini görüntülemek yerine filtreleri değiştikçe anında uygulamak için işaretleyin"
       ],
-      "Show SQL granularity dropdown": [""],
-      "Check to include SQL granularity dropdown": [""],
-      "Show SQL time column": [""],
-      "Check to include time column dropdown": [""],
-      "Show Druid granularity dropdown": [""],
-      "Check to include Druid granularity dropdown": [""],
-      "Show Druid time origin": [""],
-      "Check to include time origin dropdown": [""],
-      "Limit selector values": [""],
-      "These filters apply to the values available in the dropdowns": [""],
-      "Time-series Table": [""]
+      "Show SQL granularity dropdown": ["SQL ayrıntı düzeyi açılır listesini göster"],
+      "Check to include SQL granularity dropdown": ["SQL ayrıntı düzeyi açılır menüsünü dahil etmek için işaretleyin"],
+      "Show SQL time column": ["SQL zaman sütununu göster"],
+      "Check to include time column dropdown": ["Zaman sütunu açılır menüsünü dahil etmek için işaretleyin"],
+      "Show Druid granularity dropdown": ["Druid ayrıntı düzeyi açılır listesini göster"],
+      "Check to include Druid granularity dropdown": ["Druid ayrıntı düzeyi açılır menüsünü dahil etmek için işaretleyin"],
+      "Show Druid time origin": ["Druid zaman kaynağını göster"],
+      "Check to include time origin dropdown": ["Zaman kaynağı açılır menüsünü dahil etmek için işaretleyin"],
+      "Limit selector values": ["Sınır seçici değerleri"],
+      "These filters apply to the values available in the dropdowns": ["Bu filtreler, açılır menülerde bulunan değerler için geçerlidir."],
+      "Time-series Table": ["Zaman Serisi Tablosu"]
     }
   }
 }
