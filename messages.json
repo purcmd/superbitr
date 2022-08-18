@@ -27,7 +27,7 @@
       "Upload a CSV": ["CSV yükleme"],
       "Upload Excel": ["Excel Yükleme"],
       "Action Log": ["Olay Günlüğü"],
-      "Dashboard Emails": ["Pano e-postaları"],
+      "Dashboard Emails": ["Panel e-postaları"],
       "Chart Email Schedules": ["Görsel E-Posta Takvimi"],
       "Alerts": ["Uyarılar"],
       "Alerts & Reports": ["Uyarılar ve Raporlar"],
@@ -702,7 +702,7 @@
       "Add Dashboard": ["Panel Ekle"],
       "Edit Dashboard": ["Paneli Düzenle"],
       "This json object describes the positioning of the widgets in the dashboard. It is dynamically generated when adjusting the widgets size and positions by using drag & drop in the dashboard view": [
-        "Json nesnesi, paneldei widget'ların konumunu tanımlar. Panel görünümünde sürükle ve bırak kullanılarak widget boyutu ve konumları ayarlanırken dinamik olarak oluşturulur."
+        "Json nesnesi, paneldeki widget'ların konumunu tanımlar. Panel görünümünde sürükle ve bırak kullanılarak widget boyutu ve konumları ayarlanırken dinamik olarak oluşturulur."
       ],
       "The CSS for individual dashboards can be altered here, or in the dashboard view where changes are immediately visible": [
         "Bireysel panellerin CSS'si burada veya değişikliklerin hemen görülebildiği panel görünümünde değiştirilebilir."
@@ -1350,154 +1350,154 @@
       "Changing the dataset may break the chart if the chart relies on columns or metadata that does not exist in the target dataset": [
         "Görsel, hedef veri kümesinde bulunmayan sütunlara veya meta verilere dayanıyorsa, veri kümesini değiştirmek görseli bozabilir."
       ],
-      "dataset": [""],
-      "Change dataset": [""],
-      "Warning!": [""],
-      "Search / Filter": [""],
-      "Physical (table or view)": [""],
-      "Virtual (SQL)": [""],
-      "SQL expression": [""],
-      "Data type": [""],
-      "Datetime format": [""],
-      "The pattern of timestamp format. For strings use ": [""],
-      "Python datetime string pattern": [""],
-      " expression which needs to adhere to the ": [""],
+      "dataset": ["Veri kümesi"],
+      "Change dataset": ["Veri kümesini değiştir"],
+      "Warning!": ["Uyarı"],
+      "Search / Filter": ["Ara / Filtrele"],
+      "Physical (table or view)": ["Fiziksel (tablo veya görünüm)"],
+      "Virtual (SQL)": ["Sanal (SQL)"],
+      "SQL expression": ["SQL ifadesi"],
+      "Data type": ["Veri tipi"],
+      "Datetime format": ["Tarih saat biçimi"],
+      "The pattern of timestamp format. For strings use ": ["Zaman damgası biçiminin kalıbı. Dize kullanımı için "],
+      "Python datetime string pattern": ["Python tarih dizesi deseni"],
+      " expression which needs to adhere to the ": ["uyulması gereken ifade"],
       "ISO 8601": [""],
       " standard to ensure that the lexicographical ordering\n                      coincides with the chronological ordering. If the\n                      timestamp format does not adhere to the ISO 8601 standard\n                      you will need to define an expression and type for\n                      transforming the string into a date or timestamp. Note\n                      currently time zones are not supported. If time is stored\n                      in epoch format, put `epoch_s` or `epoch_ms`. If no pattern\n                      is specified we fall back to using the optional defaults on a per\n                      database/column name level via the extra parameter.": [
-        ""
+        "Lexicografik siparişin kronolojik siparişle çakışmasını sağlamak için ölçü\n. Zaman damgası biçimi ISO 8601 standardına uymuyorsa, dizeyi bir tarih veya zaman damgasına dönüştürmek için bir ifade ve tür tanımlamanız gerekir.\n                       Şu anda saat dilimlerinin desteklenmediğini unutmayın.\n                       Zaman, çağ biçiminde saklanıyorsa, 'epoch_s' veya 'epoch_ms' koyun.\n                       Herhangi bir kalıp belirtilmezse, ekstra parametre aracılığıyla veritabanı/sütun adı düzeyinde isteğe bağlı varsayılanları kullanmaya geri döneriz.\n "
       ],
-      "Is dimension": [""],
-      "Is filterable": [""],
-      "Modified columns: %s": [""],
-      "Removed columns: %s": [""],
-      "New columns added: %s": [""],
-      "Metadata has been synced": [""],
-      "Column name [%s] is duplicated": [""],
-      "Metric name [%s] is duplicated": [""],
-      "Calculated column [%s] requires an expression": [""],
-      "Basic": [""],
-      "Default URL": [""],
+      "Is dimension": ["Boyut"],
+      "Is filterable": ["Filtrelenebilir"],
+      "Modified columns: %s": ["Değiştirilmiş sütunlar: %s"],
+      "Removed columns: %s": ["Kaldırılan sütunlar: %s"],
+      "New columns added: %s": ["Yeni sütunlar eklendi: %s"],
+      "Metadata has been synced": ["Meta veriler eşitlendi"],
+      "Column name [%s] is duplicated": ["Sütun adı [%s] yineleniyor"],
+      "Metric name [%s] is duplicated": ["Metrik adı [%s] yineleniyor"],
+      "Calculated column [%s] requires an expression": ["Hesaplanan sütun [%s] bir ifade gerektiriyor"],
+      "Basic": ["Temel"],
+      "Default URL": ["Varsayılan URL"],
       "Default URL to redirect to when accessing from the dataset list page": [
-        ""
+        "Veri kümesi listesi erişilirken yönlendirilecek varsayılan URL"
       ],
-      "Autocomplete filters": [""],
-      "Whether to populate autocomplete filters options": [""],
-      "Autocomplete query predicate": [""],
+      "Autocomplete filters": ["Otomatik tamamlama filtreleri"],
+      "Whether to populate autocomplete filters options": ["Otomatik tamamlama filtre seçeneklerinin doldurulup doldurulmayacağı"],
+      "Autocomplete query predicate": ["Otomatik tamamlama sorgu yüklemi"],
       "When using \"Autocomplete filters\", this can be used to improve performance of the query fetching the values. Use this option to apply a predicate (WHERE clause) to the query selecting the distinct values from the table. Typically the intent would be to limit the scan by applying a relative time filter on a partitioned or indexed time-related field.": [
-        ""
+        "\"Otomatik tamamlama filtreleri\" kullanılırken, bu, değerleri getiren sorgunun performansını artırmak için kullanılabilir.Tablodan farklı değerleri seçerek sorguya bir yüklem (WHERE yan tümcesi) uygulamak için bu seçeneği kullanın. Tipik olarak amaç, bölümlenmiş veya dizinlenmiş zamanla ilgili bir alana göreli bir zaman filtresi uygulayarak taramayı sınırlamak olacaktır."
       ],
       "Extra data to specify table metadata. Currently supports certification data of the format: `{ \"certification\": { \"certified_by\": \"Data Platform Team\", \"details\": \"This table is the source of truth.\" } }`.": [
-        ""
+        "Tablo meta verilerini belirtmek için ek veriler. Şu anda şu biçimde sertifika verilerini desteklemektedir: `{ \"certification\": { \"certified_by\": \"Data Platform Team\", \"details\": \"This table is the source of truth.\" } }`."
       ],
-      "Owners of the dataset": [""],
-      "Cache timeout": [""],
-      "The duration of time in seconds before the cache is invalidated": [""],
-      "Hours offset": [""],
-      "Spatial": [""],
-      "virtual": [""],
-      "Dataset name": [""],
+      "Owners of the dataset": ["Veri kümesi sahipleri"],
+      "Cache timeout": ["Önbellek zaman aşımı"],
+      "The duration of time in seconds before the cache is invalidated": ["Önbelleğin geçersiz kılınmasından önceki saniye cinsinden süre"],
+      "Hours offset": ["Saat farkı"],
+      "Spatial": ["Uzamsal"],
+      "virtual": ["Sanal"],
+      "Dataset name": ["Veri kümesi adı"],
       "When specifying SQL, the datasource acts as a view. Superset will use this statement as a subquery while grouping and filtering on the generated parent queries.": [
-        ""
+        "SQL belirtirken veri kaynağı görünüm olarak işlev görür. Süperset bu ifadeyi, oluşturulan üzerinde gruplama ve filtreleme yaparken bir alt sorgu olarak kullanır"
       ],
-      "The JSON metric or post aggregation definition.": [""],
-      "Physical": [""],
+      "The JSON metric or post aggregation definition.": ["JSON metrik veya son toplama tanımı."],
+      "Physical": ["Fiziksel"],
       "The pointer to a physical table (or view). Keep in mind that the chart is associated to this Superset logical table, and this logical table points the physical table referenced here.": [
-        ""
+        "Fiziksel bir tablonun (veya görünümün) işaretçisi. Grafiğin bu Superset mantıksal tablosuyla ilişkili olduğunu ve bu mantıksal tablonun burada başvurulan fiziksel tabloyu işaret ettiğini unutmayın."
       ],
-      "Click the lock to make changes.": [""],
-      "Click the lock to prevent further changes.": [""],
-      "D3 format": [""],
-      "Warning message": [""],
-      "Warning message to display in the metric selector": [""],
-      "Certified by": [""],
-      "Person or group that has certified this metric": [""],
-      "Certification details": [""],
-      "Details of the certification": [""],
-      "Be careful.": [""],
+      "Click the lock to make changes.": ["Değişiklik yapmak için kilide tıklayın."],
+      "Click the lock to prevent further changes.": ["Daha fazla değişiklik yapılmasını önlemek için kilide tıklayın."],
+      "D3 format": ["D3 formatı"],
+      "Warning message": ["Uyarı mesajı"],
+      "Warning message to display in the metric selector": ["Metrik seçicide görüntülenecek uyarı mesajı"],
+      "Certified by": ["Tarafından onaylanmış"],
+      "Person or group that has certified this metric": ["Bu metriği onaylayan kişi veya grup"],
+      "Certification details": ["Sertifika ayrıntıları"],
+      "Details of the certification": ["Sertifikasyon detayları"],
+      "Be careful.": ["Dikkat ol."],
       "Changing these settings will affect all charts using this dataset, including charts owned by other people.": [
-        ""
+        "Bu ayarların değiştirilmesi, diğer kişilerin sahip olduğu görseller de dahil olmak üzere bu veri kümesini kullanan tüm görselleri etkiler."
       ],
-      "Source": [""],
-      "Sync columns from source": [""],
-      "Calculated columns": [""],
-      "The dataset has been saved": [""],
+      "Source": ["Kaynak"],
+      "Sync columns from source": ["Sütunları kaynaktan eşitle"],
+      "Calculated columns": ["Hesaplanan sütunlar"],
+      "The dataset has been saved": ["Veri kümesi kaydedildi"],
       "The dataset configuration exposed here\n                affects all the charts using this dataset.\n                Be mindful that changing settings\n                here may affect other charts\n                in undesirable ways.": [
-        ""
+        "Burada gösterilen veri kümesi yapılandırması, bu veri kümesini kullanan tüm görselleri etkiler.\n Buradaki ayarların değiştirilmesinin diğer görselleri istenmeyen şekillerde etkileyebileceğini unutmayın. "
       ],
-      "Are you sure you want to save and apply changes?": [""],
-      "Confirm save": [""],
-      "Edit Dataset ": [""],
-      "Use legacy datasource editor": [""],
-      "Time range": [""],
-      "Time column": [""],
-      "Time grain": [""],
-      "Origin": [""],
-      "Time granularity": [""],
+      "Are you sure you want to save and apply changes?": ["Değişiklikleri kaydetmek ve uygulamak istediğinizden emin misiniz?"],
+      "Confirm save": ["Kaydetmeyi Onayla"],
+      "Edit Dataset ": ["Veri kümesini düzenle"],
+      "Use legacy datasource editor": ["Eski veri kaynağı düzenleyicisini kullan"],
+      "Time range": ["Zaman aralığı"],
+      "Time column": ["Zaman sütunu"],
+      "Time grain": ["Zaman birimi"],
+      "Origin": ["Kaynak"],
+      "Time granularity": ["Zaman ayrıntı düzeyi"],
       "A reference to the [Time] configuration, taking granularity into account": [
-        ""
+        "Ayrıntı düzeyi dikkate alınarak [Time] yapılandırmasına bir referans"
       ],
-      "Group by": [""],
-      "One or many controls to group by": [""],
-      "One or many metrics to display": [""],
-      "Dataset": [""],
-      "Visualization type": [""],
-      "The type of visualization to display": [""],
-      "Fixed color": [""],
-      "Use this to define a static color for all circles": [""],
-      "Right axis metric": [""],
-      "Choose a metric for right axis": [""],
-      "Linear color scheme": [""],
-      "Color metric": [""],
-      "A metric to use for color": [""],
-      "One or many controls to pivot as columns": [""],
+      "Group by": ["Grupla"],
+      "One or many controls to group by": ["Gruplandırılacak bir veya daha fazla kontrol"],
+      "One or many metrics to display": ["Görüntülenecek bir veya daha fazla metrik"],
+      "Dataset": ["Veri kümesi"],
+      "Visualization type": ["Görselleştirme türü"],
+      "The type of visualization to display": ["Görüntülenecek görselleştirme türü"],
+      "Fixed color": ["Sabit renk"],
+      "Use this to define a static color for all circles": ["Tüm daireler için bir statik renk tanımlamak üzere bunu kullanın"],
+      "Right axis metric": ["Sağ eksen metriği"],
+      "Choose a metric for right axis": ["Sağ eksen için bir metrik seçin"],
+      "Linear color scheme": ["Doğrusal renk şeması"],
+      "Color metric": ["Renk metriği"],
+      "A metric to use for color": ["Renk için kullanılacak bir metrik"],
+      "One or many controls to pivot as columns": ["Sütunları döndürmek için bir veya daha fazla kontrol"],
       "Defines the origin where time buckets start, accepts natural dates as in `now`, `sunday` or `1970-01-01`": [
-        ""
+        "Zaman dilimlerinin başladığı kaynağı tanımlar, 'now', 'sunday' veya '1970-01-01' gibi doğal tarihleri ​​kabul eder"
       ],
       "The time granularity for the visualization. Note that you can type and use simple natural language as in `10 seconds`, `1 day` or `56 weeks`": [
-        ""
+        "Görselleştirme için zaman ayrıntı düzeyi. '10 seconds', '1 day' veya '56 week' gibi basit doğal dili yazıp kullanabileceğinizi unutmayın."
       ],
       "The time column for the visualization. Note that you can define arbitrary expression that return a DATETIME column in the table. Also note that the filter below is applied against this column or expression": [
-        ""
+        "Görselleştirme için zaman sütunu. Tabloda bir DATETIME sütunu döndüren rastgele ifade tanımlayabileceğinizi unutmayın. Ayrıca aşağıdaki filtrenin bu sütuna veya ifadeye uygulandığını unutmayın."
       ],
       "The time granularity for the visualization. This applies a date transformation to alter your time column and defines a new time granularity. The options here are defined on a per database engine basis in the Superset source code.": [
-        ""
+        "Görselleştirme için zaman ayrıntı düzeyi. Bu, zaman sütununuzu değiştirmek için bir tarih dönüşümü uygular ve yeni bir zaman ayrıntı düzeyi tanımlar. Buradaki seçenekler, Superset kaynak kodunda veritabanı motoru bazında tanımlanır."
       ],
-      "Last week": [""],
+      "Last week": ["Geçen hafta"],
       "The time range for the visualization. All relative times, e.g. \"Last month\", \"Last 7 days\", \"now\", etc. are evaluated on the server using the server's local time (sans timezone). All tooltips and placeholder times are expressed in UTC (sans timezone). The timestamps are then evaluated by the database using the engine's local timezone. Note one can explicitly set the timezone per the ISO 8601 format if specifying either the start and/or end time.": [
-        ""
+        "Görselleştirme için zaman aralığı. Tüm göreceli zamanlar, örneğin \"Geçen ay\", \"Son 7 gün\", \"şimdi\" vb. sunucuda, sunucunun yerel saati (zaman dilimi hariç) kullanılarak değerlendirilir. Tüm araç ipuçları ve yer tutucu saatler UTC (saat dilimi hariç) olarak ifade edilir. Zaman damgaları daha sonra, motorun yerel saat dilimi kullanılarak veritabanı tarafından değerlendirilir. Başlangıç ​​ve/veya bitiş zamanı belirtilirse, saat diliminin ISO 8601 formatına göre açıkça ayarlanabileceğini unutmayın."
       ],
-      "Row limit": [""],
-      "Series limit": [""],
+      "Row limit": ["Satır sınırı"],
+      "Series limit": ["Seri sınırı"],
       "Limits the number of time series that get displayed. A sub query (or an extra phase where sub queries are not supported) is applied to limit the number of time series that get fetched and displayed. This feature is useful when grouping by high cardinality dimension(s).": [
-        ""
+        "Görüntülenen zaman serisinin sayısını sınırlar. Getirilen ve görüntülenen zaman serilerinin sayısını sınırlamak için bir alt sorgu (veya alt sorguların desteklenmediği ekstra bir aşama) uygulanır. Bu özellik, yüksek önem seviyesi boyutuna/boyutlarına göre gruplama yaparken kullanışlıdır."
       ],
-      "Sort by": [""],
-      "Metric used to define the top series": [""],
-      "Series": [""],
+      "Sort by": ["Göre sırala"],
+      "Metric used to define the top series": ["Üst seriyi tanımlamak için kullanılan metrik"],
+      "Series": ["Seri"],
       "Defines the grouping of entities. Each series is shown as a specific color on the chart and has a legend toggle": [
-        ""
+        "Varlıkların gruplandırılmasını tanımlar. Her seri, görselde belirli bir renk olarak gösterilir ve bir gösterge geçişine sahiptir."
       ],
-      "Entity": [""],
-      "This defines the element to be plotted on the chart": [""],
-      "X Axis": [""],
-      "Metric assigned to the [X] axis": [""],
-      "Y Axis": [""],
-      "Metric assigned to the [Y] axis": [""],
-      "Bubble size": [""],
-      "Y Axis Format": [""],
+      "Entity": ["Varlık"],
+      "This defines the element to be plotted on the chart": ["Bu, görselde çizilecek öğeyi tanımlar"],
+      "X Axis": ["X ekseni"],
+      "Metric assigned to the [X] axis": ["[X] eksenine atanan metrik"],
+      "Y Axis": ["Y ekseni"],
+      "Metric assigned to the [Y] axis": ["[Y] eksenine atanan metrik"],
+      "Bubble size": ["Kabarcık boyutu"],
+      "Y Axis Format": ["Y Ekseni Formatı"],
       "When `Calculation type` is set to \"Percentage change\", the Y Axis Format is forced to `.1%`": [
-        ""
+        "`Hesaplama türü` \"Yüzde değişim\" olarak ayarlandığında, Y Ekseni Formatı `%0,1` değerine zorlanır"
       ],
-      "The color scheme for rendering chart": [""],
-      "Color map": [""],
-      "description": [""],
+      "The color scheme for rendering chart": ["Görsel oluşturma için renk şeması"],
+      "Color map": ["Renk haritası"],
+      "description": ["Açıklama"],
       "bolt": [""],
-      "Changing this control takes effect instantly": [""],
-      "Customize": [""],
-      "rows retrieved": [""],
-      "Sorry, An error occurred": [""],
-      "No data": [""],
-      "View samples": [""],
+      "Changing this control takes effect instantly": ["Bu kontrolün değiştirilmesi anında gerçekleşir"],
+      "Customize": ["Özelleştirme"],
+      "rows retrieved": ["satırlar alındı"],
+      "Sorry, An error occurred": ["Üzgünüz, bir hata oluştu"],
+      "No data": ["Veri yok"],
+      "View samples": ["Örnekleri görüntüle"],
       "Search Metrics & Columns": [""],
       "Showing %s of %s": [""],
       "New chart": [""],
